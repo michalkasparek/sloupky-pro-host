@@ -1,0 +1,5 @@
+<figure>
+    <a href="https://data.irozhlas.cz/grafy/mapa_knihoven.svg" target="_blank">
+    <img src="https://data.irozhlas.cz/grafy/mapa_knihoven.svg" width="100%" alt="Graf s titulkem „5 960 českých veřejných knihoven“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    </a>
+    </figure>
