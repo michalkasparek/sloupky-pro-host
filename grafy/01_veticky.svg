@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 418 331" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+    @font-face {font-family: "Asap"; src: url("https://data.irozhlas.cz/fonty/Asap-VariableFont_wdth,wght.ttf") format("truetype-variations");} 
+    @font-face {font-family: "Noticia Text"; src: url("https://data.irozhlas.cz/fonty/NoticiaText-Regular.ttf") format("truetype-variations"); font-weight: normal; font-style: normal;}
+    @font-face {font-family: "Noticia Text"; src: url("https://data.irozhlas.cz/fonty/NoticiaText-Bold.ttf") format("truetype-variations"); font-weight: bold; font-style: normal;}
+    .role-axis, .role-mark, .role-axis-label, .role-legend {font-family: "Asap", sans-serif} 
+    .mark-group.role-title { font-family: "'Noticia Text'", "Noticia", serif}
+    </style>
+ <g transform="translate(0)">
+  <ns0:rect width="418" height="311" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(178,110)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0.5,0.5h230v180h-230Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-group role-axis" aria-hidden="true">
+       <ns1:g transform="translate(.5 180)">
+        <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#E5E5E5">
+          <ns1:line transform="translate(0)" x2="0" y2="-180"/>
+          <ns1:line transform="translate(46)" x2="0" y2="-180"/>
+          <ns1:line transform="translate(92)" x2="0" y2="-180"/>
+          <ns1:line transform="translate(138)" x2="0" y2="-180"/>
+          <ns1:line transform="translate(184)" x2="0" y2="-180"/>
+          <ns1:line transform="translate(230)" x2="0" y2="-180"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from 0 to 10" aria-roledescription="axis" role="graphics-symbol">
+       <ns1:g transform="translate(.5 180)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-tick" stroke="#E5E5E5">
+          <ns1:line transform="translate(0)" x2="0" y2="5"/>
+          <ns1:line transform="translate(46)" x2="0" y2="5"/>
+          <ns1:line transform="translate(92)" x2="0" y2="5"/>
+          <ns1:line transform="translate(138)" x2="0" y2="5"/>
+          <ns1:line transform="translate(184)" x2="0" y2="5"/>
+          <ns1:line transform="translate(230)" x2="0" y2="5"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
+          <ns1:text transform="translate(0,14)">0</ns1:text>
+          <ns1:text transform="translate(46,14)">2</ns1:text>
+          <ns1:text transform="translate(92,14)">4</ns1:text>
+          <ns1:text transform="translate(138,14)">6</ns1:text>
+          <ns1:text transform="translate(184,14)">8</ns1:text>
+          <ns1:text transform="translate(230,14)">10</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-rule role-axis-domain">
+          <ns1:line transform="translate(0)" x2="230" y2="0" stroke="#888" stroke-opacity="0"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-axis" aria-label="Y-axis for a discrete scale with 9 values: Hašek: Osudy dobrého vojáka Švejka, Mácha: Máj, Němcová: Babička, Hrabal: Obsluhoval jsem anglického krále, Čapek: Válka s mloky, ending with Poláček: Bylo nás pět" aria-roledescription="axis" role="graphics-symbol">
+       <ns1:g transform="translate(.5 .5)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-tick" stroke="#E5E5E5">
+          <ns1:line transform="translate(0,10)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,30)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,50)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,70)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,90)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,110)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,130)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,150)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,170)" x2="-5" y2="0"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+          <ns1:text transform="translate(-7 12)">Hašek: Osudy dobrého vojáka Švejka</ns1:text>
+          <ns1:text transform="translate(-7 32)">Mácha: Máj</ns1:text>
+          <ns1:text transform="translate(-7 52)">Němcová: Babička</ns1:text>
+          <ns1:text transform="translate(-7 72)">Hrabal: Obsluhoval jsem anglického krále</ns1:text>
+          <ns1:text transform="translate(-7 92)">Čapek: Válka s mloky</ns1:text>
+          <ns1:text transform="translate(-7 112)">Fuks: Spalovač mrtvol</ns1:text>
+          <ns1:text transform="translate(-7 132)">Erben: Kytice</ns1:text>
+          <ns1:text transform="translate(-7 152)">Vančura: Rozmarné léto</ns1:text>
+          <ns1:text transform="translate(-7 172)">Poláček: Bylo nás pět</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-rule role-axis-domain">
+          <ns1:line transform="translate(0)" x2="0" y2="180" stroke="#888" stroke-opacity="0"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-rect role-mark marks" aria-roledescription="rect mark container" role="graphics-object">
+       <ns1:path d="M0,1h46v18h-46Z" fill="#444" aria-label="value: 2; polozka: Hašek: Osudy dobrého vojáka Švejka; kolik: skutečné" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M0,21h161v18h-161Z" fill="#444" aria-label="value: 7; polozka: Mácha: Máj; kolik: skutečné" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M0,41h23v18h-23Z" fill="#444" aria-label="value: 1; polozka: Němcová: Babička; kolik: skutečné" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M0,61h46v18h-46Z" fill="#444" aria-label="value: 2; polozka: Hrabal: Obsluhoval jsem anglického krále; kolik: skutečné" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M0,81h46v18h-46Z" fill="#444" aria-label="value: 2; polozka: Čapek: Válka s mloky; kolik: skutečné" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M0,101h23v18h-23Z" fill="#444" aria-label="value: 1; polozka: Fuks: Spalovač mrtvol; kolik: skutečné" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M0,121h46v18h-46Z" fill="#444" aria-label="value: 2; polozka: Erben: Kytice; kolik: skutečné" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M0,141h23v18h-23Z" fill="#444" aria-label="value: 1; polozka: Vančura: Rozmarné léto; kolik: skutečné" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M0,161h23v18h-23Z" fill="#444" aria-label="value: 1; polozka: Poláček: Bylo nás pět; kolik: skutečné" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M46,1h184v18h-184Z" fill="#ccc" aria-label="value: 8; polozka: Hašek: Osudy dobrého vojáka Švejka; kolik: vyhalucinované" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M161,21h46v18h-46Z" fill="#ccc" aria-label="value: 2; polozka: Mácha: Máj; kolik: vyhalucinované" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M23,41h138v18h-138Z" fill="#ccc" aria-label="value: 6; polozka: Němcová: Babička; kolik: vyhalucinované" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M46,61h69v18h-69Z" fill="#ccc" aria-label="value: 3; polozka: Hrabal: Obsluhoval jsem anglického krále; kolik: vyhalucinované" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M46,81h69v18h-69Z" fill="#ccc" aria-label="value: 3; polozka: Čapek: Válka s mloky; kolik: vyhalucinované" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M23,101h69v18h-69Z" fill="#ccc" aria-label="value: 3; polozka: Fuks: Spalovač mrtvol; kolik: vyhalucinované" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M46,121h0v18h0Z" fill="#ccc" aria-label="value: 0; polozka: Erben: Kytice; kolik: vyhalucinované" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M23,141h23v18h-23Z" fill="#ccc" aria-label="value: 1; polozka: Vančura: Rozmarné léto; kolik: vyhalucinované" aria-roledescription="bar" role="graphics-symbol"/>
+       <ns1:path d="M23,161h23v18h-23Z" fill="#ccc" aria-label="value: 1; polozka: Poláček: Bylo nás pět; kolik: vyhalucinované" aria-roledescription="bar" role="graphics-symbol"/>
+      </ns1:g>
+      <ns1:g class="mark-group role-legend" aria-label="Symbol legend for fill color with 2 values: skutečné, vyhalucinované" aria-roledescription="legend" role="graphics-symbol">
+       <ns1:g transform="translate(0,-29)">
+        <ns1:path class="background" d="M0,0h141v11h-141Z" pointer-events="none" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-legend-entry">
+          <ns1:g transform="translate(0)">
+           <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-group role-scope" pointer-events="none" aria-roledescription="group mark container" role="graphics-object">
+             <ns1:g transform="translate(0)">
+              <ns1:path class="background" d="M0,0h51.396995544433594v11h-51.396995544433594Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-symbol role-legend-symbol">
+                <ns1:path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#444" stroke-width="1.5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-legend-label">
+                <ns1:text transform="translate(16,9)" fill="#292829" font-family="Asap" font-size="9px">skutečné</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+             <ns1:g transform="translate(62)">
+              <ns1:path class="background" d="M0,0h78.20799255371094v11h-78.20799255371094Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-symbol role-legend-symbol">
+                <ns1:path transform="translate(6,6)" d="M-5,-5h10v10h-10Z" fill="#ccc" stroke-width="1.5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-legend-label">
+                <ns1:text transform="translate(16,9)" fill="#292829" font-family="Asap" font-size="9px">vyhalucinované</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-title">
+       <ns1:g transform="translate(-172 -94)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-text role-title-text" aria-label="Title text 'Kam chodí velké jazykové modely pro větičky'" aria-roledescription="title" role="graphics-symbol">
+          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="12px" font-weight="bold">Kam chodí velké jazykové modely pro větičky</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Na prompty „Chci po tobě seznam 10 slavných vět z české beletrie, u každé uveď autora a dílo“ a „Která věta z české literatury je největší banger?“ odpovídaly bezplatné verze modelů ChatGPT, Claude, DeepSeek, Gemini, Grok, Kimmi a Mistral v prosinci 2025.'" aria-roledescription="subtitle" role="graphics-symbol">
+          <ns1:text transform="translate(0 20)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="10px">
+           <ns1:tspan>Na prompty „Chci po tobě seznam 10 slavných vět z české beletrie, u každé uveď autora</ns1:tspan>
+           <ns1:tspan x="0" dy="15">a dílo“ a „Která věta z české literatury je největší banger?“ odpovídaly bezplatné verze</ns1:tspan>
+           <ns1:tspan x="0" dy="15">modelů ChatGPT, Claude, DeepSeek, Gemini, Grok, Kimmi a Mistral v prosinci 2025.</ns1:tspan>
+          </ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+ <g transform="translate(218,314)">
+  <ns0:rect width="200" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(0)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
+       <ns1:text transform="translate(195 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: " aria-roledescription="text mark" role="graphics-symbol"/>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+</svg>

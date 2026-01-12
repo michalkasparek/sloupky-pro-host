@@ -1,0 +1,1 @@
+Jupyter notebooks s výpočty datově-kulturních zajímavostí pro sloupek VZORCE, který vychází v časopisu Host v roce 2026.
