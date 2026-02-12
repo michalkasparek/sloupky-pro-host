@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="580px" height="597px">
+  <rect width="580" height="597" fill="white"/>
+  <g transform="translate(0,0)">
+    <ns0:rect xmlns:ns0="http://www.w3.org/2000/svg" width="580" height="577" fill="white"/>
+    <ns1:g xmlns:ns1="http://www.w3.org/2000/svg" fill="none" stroke-miterlimit="10" transform="translate(61,152)">
+      <ns1:g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
+        <ns1:g transform="translate(0,0)">
+          <ns1:path class="background" aria-hidden="true" d="M0.5,0.5h500v420h-500Z" stroke="#ddd"/>
+          <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+              <ns1:g transform="translate(0.5,0.5)">
+                <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+                <ns1:g>
+                  <ns1:g class="mark-rule role-axis-grid" pointer-events="none">
+                    <ns1:line transform="translate(10,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(31,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(52,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(73,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(94,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(115,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(135,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(156,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(177,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(198,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(219,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(240,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(260,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(281,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(302,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(323,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(344,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(365,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(385,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(406,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(427,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(448,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(469,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(490,0)" x2="0" y2="420" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                  </ns1:g>
+                </ns1:g>
+                <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+              </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+              <ns1:g transform="translate(0.5,0.5)">
+                <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+                <ns1:g>
+                  <ns1:g class="mark-rule role-axis-grid" pointer-events="none">
+                    <ns1:line transform="translate(0,10)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,30)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,50)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,70)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,90)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,110)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,130)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,150)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,170)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,190)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,210)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,230)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,250)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,270)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,290)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,310)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,330)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,350)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,370)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,390)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,410)" x2="500" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                  </ns1:g>
+                </ns1:g>
+                <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+              </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="X-axis for a discrete scale with 24 values: z Brna, z Prahy, z Ostravy, z Olomouce, z Plzně, ending with z Krnova">
+              <ns1:g transform="translate(0.5,0.5)">
+                <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+                <ns1:g>
+                  <ns1:g class="mark-rule role-axis-tick" pointer-events="none">
+                    <ns1:line transform="translate(10,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(31,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(52,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(73,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(94,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(115,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(135,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(156,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(177,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(198,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(219,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(240,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(260,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(281,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(302,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(323,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(344,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(365,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(385,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(406,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(427,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(448,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(469,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(490,0)" x2="0" y2="-5" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                  </ns1:g>
+                  <ns1:g class="mark-text role-axis-label" pointer-events="none">
+                    <ns1:text text-anchor="start" transform="translate(10.416666666666666,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Brna</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(31.25,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Prahy</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(52.08333333333333,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Ostravy</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(72.91666666666667,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Olomouce</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(93.75,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Plzně</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(114.58333333333333,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Vysočiny</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(135.41666666666666,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Plzeňska</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(156.24999999999997,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Přerovska</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(177.08333333333331,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">ze Šumperska</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(197.91666666666666,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Hradce</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(218.74999999999997,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">ze Zlínska</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(239.58333333333331,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Olomoucka</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(260.4166666666667,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Karlovarska</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(281.25,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Karvinska</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(302.0833333333333,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Brněnska</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(322.9166666666667,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Klatovska</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(343.75,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Aše</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(364.5833333333333,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Prostějova</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(385.4166666666667,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Liberce</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(406.25,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Prostějovska</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(427.0833333333333,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Náchodska</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(447.9166666666667,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Liberecka</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(468.75,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Mostu</ns1:text>
+                    <ns1:text text-anchor="start" transform="translate(489.5833333333333,-7) rotate(305) translate(0,3)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">z Krnova</ns1:text>
+                  </ns1:g>
+                  <ns1:g class="mark-rule role-axis-domain" pointer-events="none">
+                    <ns1:line transform="translate(0,0)" x2="500" y2="0" stroke="white" stroke-opacity="0" stroke-width="1" opacity="1"/>
+                  </ns1:g>
+                </ns1:g>
+                <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+              </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" role="graphics-symbol" aria-roledescription="axis" aria-label="Y-axis for a discrete scale with 21 values: muž, žena, mladík, rodák, vědec, ending with řidič">
+              <ns1:g transform="translate(0.5,0.5)">
+                <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+                <ns1:g>
+                  <ns1:g class="mark-rule role-axis-tick" pointer-events="none">
+                    <ns1:line transform="translate(0,10)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,30)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,50)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,70)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,90)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,110)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,130)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,150)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,170)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,190)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,210)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,230)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,250)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,270)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,290)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,310)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,330)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,350)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,370)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,390)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                    <ns1:line transform="translate(0,410)" x2="-5" y2="0" stroke="lightgray" stroke-width="0.5" opacity="1"/>
+                  </ns1:g>
+                  <ns1:g class="mark-text role-axis-label" pointer-events="none">
+                    <ns1:text text-anchor="end" transform="translate(-7,13)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">muž</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,33)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">žena</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,53)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">mladík</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,73)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">rodák</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,93)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">vědec</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,113)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">dívka</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,133)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">chlapec</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,153)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">senior</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,173)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">seniorka</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,193)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">student</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,213)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">lékař</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,233)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">manželé</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,253)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">dítě</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,273)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">studentka</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,293)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">školák</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,313)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">důchodce</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,333)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">rodačka</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,353)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">důchodkyně</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,373)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">lidé</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,393)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">lékařka</ns1:text>
+                    <ns1:text text-anchor="end" transform="translate(-7,413)" font-family="Asap" font-size="9px" fill="#292829" opacity="1">řidič</ns1:text>
+                  </ns1:g>
+                  <ns1:g class="mark-rule role-axis-domain" pointer-events="none">
+                    <ns1:line transform="translate(0,0)" x2="0" y2="420" stroke="white" stroke-opacity="0" stroke-width="1" opacity="1"/>
+                  </ns1:g>
+                </ns1:g>
+                <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+              </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-rect role-mark layer_0_marks" role="graphics-object" aria-roledescription="rect mark container">
+              <ns1:path aria-label="mesto: z Brna; co: muž; den: 29" role="graphics-symbol" aria-roledescription="rect mark" d="M0,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(214, 83, 75)"/>
+              <ns1:path aria-label="mesto: z Vysočiny; co: rodák; den: 19" role="graphics-symbol" aria-roledescription="rect mark" d="M104.16666666666666,60h20.833333333333332v20h-20.833333333333332Z" fill="rgb(225, 154, 103)"/>
+              <ns1:path aria-label="mesto: z Brna; co: vědec; den: 15" role="graphics-symbol" aria-roledescription="rect mark" d="M0,80h20.833333333333332v20h-20.833333333333332Z" fill="rgb(229, 179, 125)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: muž; den: 11" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(233, 202, 150)"/>
+              <ns1:path aria-label="mesto: z Plzeňska; co: muž; den: 11" role="graphics-symbol" aria-roledescription="rect mark" d="M125,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(233, 202, 150)"/>
+              <ns1:path aria-label="mesto: z Karlovarska; co: muž; den: 9" role="graphics-symbol" aria-roledescription="rect mark" d="M250,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(236, 213, 165)"/>
+              <ns1:path aria-label="mesto: ze Šumperska; co: žena; den: 9" role="graphics-symbol" aria-roledescription="rect mark" d="M166.66666666666666,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(236, 213, 165)"/>
+              <ns1:path aria-label="mesto: z Brna; co: lékař; den: 9" role="graphics-symbol" aria-roledescription="rect mark" d="M0,200h20.833333333333332v20h-20.833333333333332Z" fill="rgb(236, 213, 165)"/>
+              <ns1:path aria-label="mesto: z Olomouce; co: muž; den: 8" role="graphics-symbol" aria-roledescription="rect mark" d="M62.5,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(238, 219, 172)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: žena; den: 8" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(238, 219, 172)"/>
+              <ns1:path aria-label="mesto: z Olomouce; co: žena; den: 8" role="graphics-symbol" aria-roledescription="rect mark" d="M62.5,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(238, 219, 172)"/>
+              <ns1:path aria-label="mesto: z Přerovska; co: muž; den: 7" role="graphics-symbol" aria-roledescription="rect mark" d="M145.83333333333331,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(239, 224, 180)"/>
+              <ns1:path aria-label="mesto: z Brněnska; co: žena; den: 7" role="graphics-symbol" aria-roledescription="rect mark" d="M291.66666666666663,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(239, 224, 180)"/>
+              <ns1:path aria-label="mesto: z Přerovska; co: žena; den: 7" role="graphics-symbol" aria-roledescription="rect mark" d="M145.83333333333331,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(239, 224, 180)"/>
+              <ns1:path aria-label="mesto: z Plzně; co: muž; den: 6" role="graphics-symbol" aria-roledescription="rect mark" d="M83.33333333333333,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(241, 229, 188)"/>
+              <ns1:path aria-label="mesto: z Hradce; co: muž; den: 6" role="graphics-symbol" aria-roledescription="rect mark" d="M187.5,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(241, 229, 188)"/>
+              <ns1:path aria-label="mesto: z Olomoucka; co: muž; den: 6" role="graphics-symbol" aria-roledescription="rect mark" d="M229.16666666666666,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(241, 229, 188)"/>
+              <ns1:path aria-label="mesto: ze Šumperska; co: muž; den: 6" role="graphics-symbol" aria-roledescription="rect mark" d="M166.66666666666666,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(241, 229, 188)"/>
+              <ns1:path aria-label="mesto: z Plzeňska; co: žena; den: 6" role="graphics-symbol" aria-roledescription="rect mark" d="M125,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(241, 229, 188)"/>
+              <ns1:path aria-label="mesto: z Brna; co: žena; den: 6" role="graphics-symbol" aria-roledescription="rect mark" d="M0,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(241, 229, 188)"/>
+              <ns1:path aria-label="mesto: z Olomouce; co: mladík; den: 5" role="graphics-symbol" aria-roledescription="rect mark" d="M62.5,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(244, 235, 196)"/>
+              <ns1:path aria-label="mesto: z Prostějovska; co: žena; den: 5" role="graphics-symbol" aria-roledescription="rect mark" d="M395.8333333333333,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(244, 235, 196)"/>
+              <ns1:path aria-label="mesto: z Plzně; co: žena; den: 5" role="graphics-symbol" aria-roledescription="rect mark" d="M83.33333333333333,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(244, 235, 196)"/>
+              <ns1:path aria-label="mesto: z Přerovska; co: senior; den: 5" role="graphics-symbol" aria-roledescription="rect mark" d="M145.83333333333331,140h20.833333333333332v20h-20.833333333333332Z" fill="rgb(244, 235, 196)"/>
+              <ns1:path aria-label="mesto: z Klatovska; co: muž; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M312.5,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: z Liberecka; co: muž; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M437.5,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: z Prostějova; co: muž; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M354.16666666666663,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: z Karvinska; co: muž; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M270.8333333333333,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: muž; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: z Prostějova; co: žena; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M354.16666666666663,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: dívka; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: z Brna; co: student; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M0,180h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: z Plzně; co: student; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M83.33333333333333,180h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: z Plzně; co: vědec; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M83.33333333333333,80h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: ze Zlínska; co: školák; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M208.33333333333331,280h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: z Aše; co: chlapec; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M333.3333333333333,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: ze Zlínska; co: chlapec; den: 4" role="graphics-symbol" aria-roledescription="rect mark" d="M208.33333333333331,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(246, 240, 204)"/>
+              <ns1:path aria-label="mesto: ze Zlínska; co: muž; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M208.33333333333331,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Vysočiny; co: muž; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M104.16666666666666,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Liberce; co: muž; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M375,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Brna; co: mladík; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M0,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Krnova; co: dítě; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M479.16666666666663,240h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Olomoucka; co: žena; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M229.16666666666666,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Aše; co: dívka; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M333.3333333333333,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Plzeňska; co: dívka; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M125,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: studentka; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,260h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: manželé; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,220h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Olomouce; co: seniorka; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M62.5,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Klatovska; co: důchodkyně; den: 3" role="graphics-symbol" aria-roledescription="rect mark" d="M312.5,340h20.833333333333332v20h-20.833333333333332Z" fill="rgb(249, 245, 212)"/>
+              <ns1:path aria-label="mesto: z Mostu; co: muž; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M458.3333333333333,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Aše; co: muž; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M333.3333333333333,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: mladík; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: mladík; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Mostu; co: mladík; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M458.3333333333333,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Aše; co: mladík; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M333.3333333333333,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Náchodska; co: mladík; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M416.66666666666663,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: lidé; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,360h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Plzně; co: dítě; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M83.33333333333333,240h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: ze Zlínska; co: žena; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M208.33333333333331,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Vysočiny; co: žena; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M104.16666666666666,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Hradce; co: žena; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M187.5,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Karvinska; co: žena; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M270.8333333333333,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: žena; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Liberce; co: dívka; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M375,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: rodačka; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,320h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Hradce; co: rodačka; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M187.5,320h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Karvinska; co: důchodce; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M270.8333333333333,300h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: důchodce; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,300h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Karvinska; co: senior; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M270.8333333333333,140h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Brna; co: senior; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M0,140h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: senior; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,140h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Prostějovska; co: senior; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M395.8333333333333,140h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Hradce; co: studentka; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M187.5,260h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Brna; co: studentka; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M0,260h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: manželé; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,220h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Olomouce; co: vědec; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M62.5,80h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: vědec; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,80h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Náchodska; co: seniorka; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M416.66666666666663,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Plzně; co: školák; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M83.33333333333333,280h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Plzeňska; co: chlapec; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M125,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: rodák; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,60h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Brna; co: rodák; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M0,60h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Prostějova; co: rodák; den: 2" role="graphics-symbol" aria-roledescription="rect mark" d="M354.16666666666663,60h20.833333333333332v20h-20.833333333333332Z" fill="rgb(252, 250, 220)"/>
+              <ns1:path aria-label="mesto: z Krnova; co: muž; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M479.16666666666663,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Brněnska; co: muž; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M291.66666666666663,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Náchodska; co: muž; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M416.66666666666663,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Prostějovska; co: muž; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M395.8333333333333,0h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Olomoucka; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M229.16666666666666,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Hradce; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M187.5,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Plzně; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M83.33333333333333,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Plzeňska; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M125,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Karlovarska; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M250,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Karvinska; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M270.8333333333333,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Přerovska; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M145.83333333333331,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Krnova; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M479.16666666666663,40h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Mostu; co: lidé; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M458.3333333333333,360h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Olomoucka; co: lidé; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M229.16666666666666,360h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Brna; co: lidé; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M0,360h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: dítě; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,240h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Náchodska; co: dítě; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M416.66666666666663,240h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Liberecka; co: dítě; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M437.5,240h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Hradce; co: dítě; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M187.5,240h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Karvinska; co: dítě; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M270.8333333333333,240h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Mostu; co: žena; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M458.3333333333333,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Liberecka; co: žena; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M437.5,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Klatovska; co: žena; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M312.5,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Krnova; co: žena; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M479.16666666666663,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Aše; co: žena; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M333.3333333333333,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Liberce; co: žena; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M375,20h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Liberecka; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M437.5,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Olomouce; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M62.5,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: ze Zlínska; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M208.33333333333331,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Karlovarska; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M250,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Klatovska; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M312.5,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Brněnska; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M291.66666666666663,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Vysočiny; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M104.16666666666666,100h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: rodačka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,320h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Olomoucka; co: důchodce; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M229.16666666666666,300h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Brna; co: důchodce; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M0,300h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: ze Šumperska; co: důchodce; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M166.66666666666666,300h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: ze Šumperska; co: senior; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M166.66666666666666,140h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Liberce; co: senior; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M375,140h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Vysočiny; co: senior; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M104.16666666666666,140h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Plzeňska; co: senior; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M125,140h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: senior; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,140h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: studentka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,260h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Karvinska; co: manželé; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M270.8333333333333,220h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Liberce; co: manželé; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M375,220h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Brna; co: manželé; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M0,220h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Mostu; co: manželé; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M458.3333333333333,220h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Plzně; co: manželé; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M83.33333333333333,220h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Vysočiny; co: student; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M104.16666666666666,180h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Liberce; co: student; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M375,180h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Olomouce; co: student; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M62.5,180h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Mostu; co: student; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M458.3333333333333,180h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Liberce; co: vědec; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M375,80h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: ze Šumperska; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M166.66666666666666,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Klatovska; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M312.5,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Přerovska; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M145.83333333333331,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Plzně; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M83.33333333333333,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Brněnska; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M291.66666666666663,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Prostějova; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M354.16666666666663,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Olomoucka; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M229.16666666666666,160h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Náchodska; co: důchodkyně; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M416.66666666666663,340h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: důchodkyně; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,340h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Klatovska; co: školák; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M312.5,280h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Brna; co: školák; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M0,280h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Klatovska; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M312.5,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Brněnska; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M291.66666666666663,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Karlovarska; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M250,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Přerovska; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M145.83333333333331,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Olomoucka; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M229.16666666666666,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Prahy; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M20.833333333333332,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Liberecka; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M437.5,120h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Olomouce; co: řidič; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M62.5,400h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: ze Zlínska; co: řidič; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M208.33333333333331,400h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Liberecka; co: řidič; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M437.5,400h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Ostravy; co: řidič; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M41.666666666666664,400h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Krnova; co: lékař; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M479.16666666666663,200h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Náchodska; co: lékař; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M416.66666666666663,200h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Plzně; co: lékařka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M83.33333333333333,380h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Plzeňska; co: lékařka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M125,380h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Krnova; co: lékařka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M479.16666666666663,380h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+              <ns1:path aria-label="mesto: z Náchodska; co: lékařka; den: 1" role="graphics-symbol" aria-roledescription="rect mark" d="M416.66666666666663,380h20.833333333333332v20h-20.833333333333332Z" fill="rgb(255, 255, 228)"/>
+            </ns1:g>
+            <ns1:g class="mark-text role-mark layer_1_marks" role="graphics-object" aria-roledescription="text mark container">
+              <ns1:text aria-label="mesto: z Brna; co: muž; den: 29" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,13)" font-family="sans-serif" font-size="11px" fill="black">29</ns1:text>
+              <ns1:text aria-label="mesto: z Vysočiny; co: rodák; den: 19" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(114.58333333333333,73)" font-family="sans-serif" font-size="11px" fill="black">19</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: vědec; den: 15" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,93)" font-family="sans-serif" font-size="11px" fill="black">15</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: muž; den: 11" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,13)" font-family="sans-serif" font-size="11px" fill="black">11</ns1:text>
+              <ns1:text aria-label="mesto: z Plzeňska; co: muž; den: 11" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(135.41666666666666,13)" font-family="sans-serif" font-size="11px" fill="black">11</ns1:text>
+              <ns1:text aria-label="mesto: z Karlovarska; co: muž; den: 9" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(260.4166666666667,13)" font-family="sans-serif" font-size="11px" fill="black">9</ns1:text>
+              <ns1:text aria-label="mesto: ze Šumperska; co: žena; den: 9" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(177.08333333333331,33)" font-family="sans-serif" font-size="11px" fill="black">9</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: lékař; den: 9" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,213)" font-family="sans-serif" font-size="11px" fill="black">9</ns1:text>
+              <ns1:text aria-label="mesto: z Olomouce; co: muž; den: 8" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(72.91666666666667,13)" font-family="sans-serif" font-size="11px" fill="black">8</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: žena; den: 8" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,33)" font-family="sans-serif" font-size="11px" fill="black">8</ns1:text>
+              <ns1:text aria-label="mesto: z Olomouce; co: žena; den: 8" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(72.91666666666667,33)" font-family="sans-serif" font-size="11px" fill="black">8</ns1:text>
+              <ns1:text aria-label="mesto: z Přerovska; co: muž; den: 7" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(156.24999999999997,13)" font-family="sans-serif" font-size="11px" fill="black">7</ns1:text>
+              <ns1:text aria-label="mesto: z Brněnska; co: žena; den: 7" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(302.0833333333333,33)" font-family="sans-serif" font-size="11px" fill="black">7</ns1:text>
+              <ns1:text aria-label="mesto: z Přerovska; co: žena; den: 7" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(156.24999999999997,33)" font-family="sans-serif" font-size="11px" fill="black">7</ns1:text>
+              <ns1:text aria-label="mesto: z Plzně; co: muž; den: 6" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(93.75,13)" font-family="sans-serif" font-size="11px" fill="black">6</ns1:text>
+              <ns1:text aria-label="mesto: z Hradce; co: muž; den: 6" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(197.91666666666666,13)" font-family="sans-serif" font-size="11px" fill="black">6</ns1:text>
+              <ns1:text aria-label="mesto: z Olomoucka; co: muž; den: 6" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(239.58333333333331,13)" font-family="sans-serif" font-size="11px" fill="black">6</ns1:text>
+              <ns1:text aria-label="mesto: ze Šumperska; co: muž; den: 6" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(177.08333333333331,13)" font-family="sans-serif" font-size="11px" fill="black">6</ns1:text>
+              <ns1:text aria-label="mesto: z Plzeňska; co: žena; den: 6" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(135.41666666666666,33)" font-family="sans-serif" font-size="11px" fill="black">6</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: žena; den: 6" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,33)" font-family="sans-serif" font-size="11px" fill="black">6</ns1:text>
+              <ns1:text aria-label="mesto: z Olomouce; co: mladík; den: 5" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(72.91666666666667,53)" font-family="sans-serif" font-size="11px" fill="black">5</ns1:text>
+              <ns1:text aria-label="mesto: z Prostějovska; co: žena; den: 5" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(406.25,33)" font-family="sans-serif" font-size="11px" fill="black">5</ns1:text>
+              <ns1:text aria-label="mesto: z Plzně; co: žena; den: 5" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(93.75,33)" font-family="sans-serif" font-size="11px" fill="black">5</ns1:text>
+              <ns1:text aria-label="mesto: z Přerovska; co: senior; den: 5" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(156.24999999999997,153)" font-family="sans-serif" font-size="11px" fill="black">5</ns1:text>
+              <ns1:text aria-label="mesto: z Klatovska; co: muž; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(322.9166666666667,13)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: z Liberecka; co: muž; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(447.9166666666667,13)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: z Prostějova; co: muž; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(364.5833333333333,13)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: z Karvinska; co: muž; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(281.25,13)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: muž; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,13)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: z Prostějova; co: žena; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(364.5833333333333,33)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: dívka; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,113)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: student; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,193)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: z Plzně; co: student; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(93.75,193)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: z Plzně; co: vědec; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(93.75,93)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: ze Zlínska; co: školák; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(218.74999999999997,293)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: z Aše; co: chlapec; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(343.75,133)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: ze Zlínska; co: chlapec; den: 4" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(218.74999999999997,133)" font-family="sans-serif" font-size="11px" fill="black">4</ns1:text>
+              <ns1:text aria-label="mesto: ze Zlínska; co: muž; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(218.74999999999997,13)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Vysočiny; co: muž; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(114.58333333333333,13)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Liberce; co: muž; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(385.4166666666667,13)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: mladík; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,53)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Krnova; co: dítě; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(489.5833333333333,253)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Olomoucka; co: žena; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(239.58333333333331,33)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Aše; co: dívka; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(343.75,113)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Plzeňska; co: dívka; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(135.41666666666666,113)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: studentka; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,273)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: manželé; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,233)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Olomouce; co: seniorka; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(72.91666666666667,173)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Klatovska; co: důchodkyně; den: 3" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(322.9166666666667,353)" font-family="sans-serif" font-size="11px" fill="black">3</ns1:text>
+              <ns1:text aria-label="mesto: z Mostu; co: muž; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(468.75,13)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Aše; co: muž; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(343.75,13)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: mladík; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,53)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: mladík; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,53)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Mostu; co: mladík; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(468.75,53)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Aše; co: mladík; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(343.75,53)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Náchodska; co: mladík; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(427.0833333333333,53)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: lidé; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,373)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Plzně; co: dítě; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(93.75,253)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: ze Zlínska; co: žena; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(218.74999999999997,33)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Vysočiny; co: žena; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(114.58333333333333,33)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Hradce; co: žena; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(197.91666666666666,33)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Karvinska; co: žena; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(281.25,33)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: žena; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,33)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Liberce; co: dívka; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(385.4166666666667,113)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: rodačka; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,333)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Hradce; co: rodačka; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(197.91666666666666,333)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Karvinska; co: důchodce; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(281.25,313)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: důchodce; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,313)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Karvinska; co: senior; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(281.25,153)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: senior; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,153)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: senior; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,153)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Prostějovska; co: senior; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(406.25,153)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Hradce; co: studentka; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(197.91666666666666,273)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: studentka; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,273)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: manželé; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,233)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Olomouce; co: vědec; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(72.91666666666667,93)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: vědec; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,93)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Náchodska; co: seniorka; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(427.0833333333333,173)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Plzně; co: školák; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(93.75,293)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Plzeňska; co: chlapec; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(135.41666666666666,133)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: rodák; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,73)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: rodák; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,73)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Prostějova; co: rodák; den: 2" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(364.5833333333333,73)" font-family="sans-serif" font-size="11px" fill="black">2</ns1:text>
+              <ns1:text aria-label="mesto: z Krnova; co: muž; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(489.5833333333333,13)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Brněnska; co: muž; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(302.0833333333333,13)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Náchodska; co: muž; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(427.0833333333333,13)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Prostějovska; co: muž; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(406.25,13)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Olomoucka; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(239.58333333333331,53)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Hradce; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(197.91666666666666,53)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Plzně; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(93.75,53)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Plzeňska; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(135.41666666666666,53)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Karlovarska; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(260.4166666666667,53)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Karvinska; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(281.25,53)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Přerovska; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(156.24999999999997,53)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Krnova; co: mladík; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(489.5833333333333,53)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Mostu; co: lidé; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(468.75,373)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Olomoucka; co: lidé; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(239.58333333333331,373)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: lidé; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,373)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: dítě; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,253)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Náchodska; co: dítě; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(427.0833333333333,253)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Liberecka; co: dítě; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(447.9166666666667,253)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Hradce; co: dítě; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(197.91666666666666,253)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Karvinska; co: dítě; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(281.25,253)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Mostu; co: žena; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(468.75,33)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Liberecka; co: žena; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(447.9166666666667,33)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Klatovska; co: žena; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(322.9166666666667,33)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Krnova; co: žena; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(489.5833333333333,33)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Aše; co: žena; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(343.75,33)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Liberce; co: žena; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(385.4166666666667,33)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Liberecka; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(447.9166666666667,113)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Olomouce; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(72.91666666666667,113)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: ze Zlínska; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(218.74999999999997,113)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Karlovarska; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(260.4166666666667,113)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Klatovska; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(322.9166666666667,113)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Brněnska; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(302.0833333333333,113)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Vysočiny; co: dívka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(114.58333333333333,113)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: rodačka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,333)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Olomoucka; co: důchodce; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(239.58333333333331,313)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: důchodce; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,313)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: ze Šumperska; co: důchodce; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(177.08333333333331,313)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: ze Šumperska; co: senior; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(177.08333333333331,153)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Liberce; co: senior; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(385.4166666666667,153)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Vysočiny; co: senior; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(114.58333333333333,153)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Plzeňska; co: senior; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(135.41666666666666,153)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: senior; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,153)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: studentka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,273)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Karvinska; co: manželé; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(281.25,233)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Liberce; co: manželé; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(385.4166666666667,233)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: manželé; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,233)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Mostu; co: manželé; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(468.75,233)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Plzně; co: manželé; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(93.75,233)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Vysočiny; co: student; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(114.58333333333333,193)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Liberce; co: student; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(385.4166666666667,193)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Olomouce; co: student; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(72.91666666666667,193)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Mostu; co: student; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(468.75,193)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Liberce; co: vědec; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(385.4166666666667,93)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: ze Šumperska; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(177.08333333333331,173)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Klatovska; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(322.9166666666667,173)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Přerovska; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(156.24999999999997,173)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Plzně; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(93.75,173)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Brněnska; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(302.0833333333333,173)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Prostějova; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(364.5833333333333,173)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,173)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,173)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Olomoucka; co: seniorka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(239.58333333333331,173)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Náchodska; co: důchodkyně; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(427.0833333333333,353)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: důchodkyně; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,353)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Klatovska; co: školák; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(322.9166666666667,293)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Brna; co: školák; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(10.416666666666666,293)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Klatovska; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(322.9166666666667,133)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Brněnska; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(302.0833333333333,133)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Karlovarska; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(260.4166666666667,133)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Přerovska; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(156.24999999999997,133)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Olomoucka; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(239.58333333333331,133)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Prahy; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(31.25,133)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,133)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Liberecka; co: chlapec; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(447.9166666666667,133)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Olomouce; co: řidič; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(72.91666666666667,413)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: ze Zlínska; co: řidič; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(218.74999999999997,413)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Liberecka; co: řidič; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(447.9166666666667,413)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Ostravy; co: řidič; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(52.08333333333333,413)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Krnova; co: lékař; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(489.5833333333333,213)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Náchodska; co: lékař; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(427.0833333333333,213)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Plzně; co: lékařka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(93.75,393)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Plzeňska; co: lékařka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(135.41666666666666,393)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Krnova; co: lékařka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(489.5833333333333,393)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+              <ns1:text aria-label="mesto: z Náchodska; co: lékařka; den: 1" role="graphics-symbol" aria-roledescription="text mark" text-anchor="middle" transform="translate(427.0833333333333,393)" font-family="sans-serif" font-size="11px" fill="black">1</ns1:text>
+            </ns1:g>
+            <ns1:g class="mark-group role-title">
+              <ns1:g transform="translate(-55.63599395751953,-136.21810670156106)">
+                <ns1:path class="background" aria-hidden="true" d="M0,0h0v0h0Z" pointer-events="none"/>
+                <ns1:g>
+                  <ns1:g class="mark-text role-title-text" role="graphics-symbol" aria-roledescription="title" aria-label="Title text 'V kolika různých dnech se loni objevili v novém titulku na zpravodajských webech…'" pointer-events="none">
+                    <ns1:text text-anchor="start" transform="translate(0,-1)" font-family="Noticia Text" font-size="11.5px" font-weight="bolder" fill="#292829" opacity="1">V kolika různých dnech se loni objevili v novém titulku na zpravodajských webech…</ns1:text>
+                  </ns1:g>
+                  <ns1:g class="mark-text role-title-subtitle" role="graphics-symbol" aria-roledescription="subtitle" aria-label="Subtitle text 'Počítají se všechny pády jednotného i množného čísla. Sledované stránky: seznamzpravy.cz, blesk.cz, irozhlas.cz, denikn.cz, novinky.cz, denik.cz, idnes.cz, parlamentnilisty.cz, tn.nova.cz, aktualne.cz, lidovky.cz, echo24.cz, ceskenoviny.cz, extra.cz, forum24.cz, drbna.cz, zpravy.idnes.cz (pouze od 1. 7.), cnn.iprima.cz'" pointer-events="none">
+                    <ns1:text text-anchor="start" transform="translate(0,19.5)" font-family="Noticia Text" font-size="10px" fill="#292829" opacity="1">
+                      <ns1:tspan>Počítají se všechny pády jednotného i množného čísla.</ns1:tspan>
+                      <ns1:tspan x="0" dy="15">Sledované stránky: seznamzpravy.cz, blesk.cz, irozhlas.cz, denikn.cz, novinky.cz, denik.cz,</ns1:tspan>
+                      <ns1:tspan x="0" dy="15">idnes.cz, parlamentnilisty.cz, tn.nova.cz, aktualne.cz, lidovky.cz, echo24.cz, ceskenoviny.cz,</ns1:tspan>
+                      <ns1:tspan x="0" dy="15">extra.cz, forum24.cz, drbna.cz, zpravy.idnes.cz (pouze od 1. 7.), cnn.iprima.cz</ns1:tspan>
+                    </ns1:text>
+                  </ns1:g>
+                </ns1:g>
+                <ns1:path class="foreground" aria-hidden="true" d="" pointer-events="none" display="none"/>
+              </ns1:g>
+            </ns1:g>
+          </ns1:g>
+          <ns1:path class="foreground" aria-hidden="true" d="" display="none"/>
+        </ns1:g>
+      </ns1:g>
+    </ns1:g>
+  </g>
+  <g transform="translate(380,580)">
+    <ns0:rect xmlns:ns0="http://www.w3.org/2000/svg" width="200" height="17" fill="white"/>
+    <ns1:g xmlns:ns1="http://www.w3.org/2000/svg" fill="none" stroke-miterlimit="10" transform="translate(0,0)">
+      <ns1:g class="mark-group role-frame root" role="graphics-object" aria-roledescription="group mark container">
+        <ns1:g transform="translate(0,0)">
+          <ns1:path class="background" aria-hidden="true" d="M0.5,0.5h200v15h-200Z"/>
+          <ns1:g>
+            <ns1:g class="mark-text role-mark marks" role="graphics-object" aria-roledescription="text mark container">
+              <ns1:text aria-label="text: " role="graphics-symbol" aria-roledescription="text mark" text-anchor="end" transform="translate(195,14.5)" font-family="Asap" font-size="8px" fill="#292829"/>
+            </ns1:g>
+          </ns1:g>
+          <ns1:path class="foreground" aria-hidden="true" d="" display="none"/>
+        </ns1:g>
+      </ns1:g>
+    </ns1:g>
+  </g>
+</svg>
