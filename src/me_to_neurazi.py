@@ -5,7 +5,7 @@ import altair as alt
 from scour import scour
 
 def me_to_neurazi(
-    graf: alt.vegalite.v5.api.LayerChart, kredity: str, soubor: str, slozka="grafy", zvetseni=1.5, slozka_na_serveru="grafy"
+    graf, kredity: str, soubor: str, slozka="grafy", zvetseni=1.5, slozka_na_serveru="grafy"
 ):
 
     def concatenate_svg_vertically(image1_path, image2_path, output_path):

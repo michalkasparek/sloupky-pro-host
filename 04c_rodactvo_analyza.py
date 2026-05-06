@@ -115,6 +115,12 @@ def _(df):
     return
 
 
+@app.cell
+def _(df, pl):
+    df.filter(pl.col("name") == "Hans_Kelsen")
+    return
+
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
@@ -186,6 +192,28 @@ def _(df, hranice_znamosti, pl):
 @app.cell
 def _(ceska):
     vypis(ceska.head(15))
+    return
+
+
+@app.cell
+def _(ceska, pl):
+    vypis(ceska.explode("languages").filter(pl.col("languages") == "en").sort(by="cs_length",descending=True).head(15))
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Co k tomu má Gemini
+    """)
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    [Odsunutí Němci a zajímavé životy](https://gemini.google.com/share/4df1e10fadb5)
+    """)
     return
 
 

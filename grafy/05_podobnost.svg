@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 988 559" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+    @font-face {font-family: "Asap"; src: url("https://data.irozhlas.cz/fonty/Asap-VariableFont_wdth,wght.ttf") format("truetype-variations");} 
+    @font-face {font-family: "Noticia Text"; src: url("https://data.irozhlas.cz/fonty/NoticiaText-Regular.ttf") format("truetype-variations"); font-weight: normal; font-style: normal;}
+    @font-face {font-family: "Noticia Text"; src: url("https://data.irozhlas.cz/fonty/NoticiaText-Bold.ttf") format("truetype-variations"); font-weight: bold; font-style: normal;}
+    .role-axis, .role-mark, .role-axis-label, .role-legend {font-family: "Asap", sans-serif} 
+    .mark-group.role-title { font-family: "'Noticia Text'", "Noticia", serif}
+    </style>
+ <g transform="translate(0)">
+  <ns0:rect width="988" height="539" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(42,100)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0,0h800v400h-800Z" stroke="#ddd" stroke-width="0" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-group role-axis" aria-label="X-axis titled '&lt;-- anotace se více podobají anotaci Těl' for a linear scale with values from 0.0 to 0.4" aria-roledescription="axis" role="graphics-symbol">
+       <ns1:g transform="translate(.5 400)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-tick" stroke="white">
+          <ns1:line transform="translate(0)" x2="0" y2="5"/>
+          <ns1:line transform="translate(37)" x2="0" y2="5"/>
+          <ns1:line transform="translate(74)" x2="0" y2="5"/>
+          <ns1:line transform="translate(112)" x2="0" y2="5"/>
+          <ns1:line transform="translate(149)" x2="0" y2="5"/>
+          <ns1:line transform="translate(186)" x2="0" y2="5"/>
+          <ns1:line transform="translate(223)" x2="0" y2="5"/>
+          <ns1:line transform="translate(260)" x2="0" y2="5"/>
+          <ns1:line transform="translate(298)" x2="0" y2="5"/>
+          <ns1:line transform="translate(335)" x2="0" y2="5"/>
+          <ns1:line transform="translate(372)" x2="0" y2="5"/>
+          <ns1:line transform="translate(409)" x2="0" y2="5"/>
+          <ns1:line transform="translate(447)" x2="0" y2="5"/>
+          <ns1:line transform="translate(484)" x2="0" y2="5"/>
+          <ns1:line transform="translate(521)" x2="0" y2="5"/>
+          <ns1:line transform="translate(558)" x2="0" y2="5"/>
+          <ns1:line transform="translate(595)" x2="0" y2="5"/>
+          <ns1:line transform="translate(633)" x2="0" y2="5"/>
+          <ns1:line transform="translate(670)" x2="0" y2="5"/>
+          <ns1:line transform="translate(707)" x2="0" y2="5"/>
+          <ns1:line transform="translate(744)" x2="0" y2="5"/>
+          <ns1:line transform="translate(781)" x2="0" y2="5"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-axis-label" fill="white" font-family="Asap" font-size="9px">
+          <ns1:text transform="translate(0,14)">0.00</ns1:text>
+          <ns1:text transform="translate(37 14)" text-anchor="middle">0.02</ns1:text>
+          <ns1:text transform="translate(74 14)" text-anchor="middle">0.04</ns1:text>
+          <ns1:text transform="translate(112 14)" text-anchor="middle">0.06</ns1:text>
+          <ns1:text transform="translate(149 14)" text-anchor="middle">0.08</ns1:text>
+          <ns1:text transform="translate(186 14)" text-anchor="middle">0.10</ns1:text>
+          <ns1:text transform="translate(223 14)" text-anchor="middle">0.12</ns1:text>
+          <ns1:text transform="translate(260 14)" text-anchor="middle">0.14</ns1:text>
+          <ns1:text transform="translate(298 14)" text-anchor="middle">0.16</ns1:text>
+          <ns1:text transform="translate(335 14)" text-anchor="middle">0.18</ns1:text>
+          <ns1:text transform="translate(372 14)" text-anchor="middle">0.20</ns1:text>
+          <ns1:text transform="translate(409 14)" text-anchor="middle">0.22</ns1:text>
+          <ns1:text transform="translate(447 14)" text-anchor="middle">0.24</ns1:text>
+          <ns1:text transform="translate(484 14)" text-anchor="middle">0.26</ns1:text>
+          <ns1:text transform="translate(521 14)" text-anchor="middle">0.28</ns1:text>
+          <ns1:text transform="translate(558 14)" text-anchor="middle">0.30</ns1:text>
+          <ns1:text transform="translate(595 14)" text-anchor="middle">0.32</ns1:text>
+          <ns1:text transform="translate(633 14)" text-anchor="middle">0.34</ns1:text>
+          <ns1:text transform="translate(670 14)" text-anchor="middle">0.36</ns1:text>
+          <ns1:text transform="translate(707 14)" text-anchor="middle">0.38</ns1:text>
+          <ns1:text transform="translate(744 14)" text-anchor="middle">0.40</ns1:text>
+          <ns1:text transform="translate(781 14)" text-anchor="middle">0.42</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-rule role-axis-domain">
+          <ns1:line transform="translate(0)" x2="800" y2="0" stroke="white" stroke-opacity="0"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-axis-title">
+          <ns1:text transform="translate(400,32)" fill="#000" font-family="Asap" font-size="9px" font-weight="lighter" text-anchor="middle">&lt;-- anotace se více podobají anotaci Těl</ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-axis" aria-label="Y-axis titled '&lt;-- čtenářstvo si častěji půjčuje i Těla' for a linear scale with values from 0.0 to 1.0" aria-roledescription="axis" role="graphics-symbol">
+       <ns1:g transform="translate(.5 .5)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-tick" stroke="white">
+          <ns1:line transform="translate(0,400)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,360)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,320)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,280)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,240)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,200)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,160)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,120)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,80)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,40)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0)" x2="-5" y2="0"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-axis-label" fill="white" font-family="Asap" font-size="9px" text-anchor="end">
+          <ns1:text transform="translate(-7,403)">0.0</ns1:text>
+          <ns1:text transform="translate(-7,363)">0.1</ns1:text>
+          <ns1:text transform="translate(-7,323)">0.2</ns1:text>
+          <ns1:text transform="translate(-7,283)">0.3</ns1:text>
+          <ns1:text transform="translate(-7,243)">0.4</ns1:text>
+          <ns1:text transform="translate(-7,203)">0.5</ns1:text>
+          <ns1:text transform="translate(-7,163)">0.6</ns1:text>
+          <ns1:text transform="translate(-7 123)">0.7</ns1:text>
+          <ns1:text transform="translate(-7 83)">0.8</ns1:text>
+          <ns1:text transform="translate(-7 43)">0.9</ns1:text>
+          <ns1:text transform="translate(-7,3)">1.0</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-rule role-axis-domain">
+          <ns1:line transform="translate(0,400)" x2="0" y2="-400" stroke="white" stroke-opacity="0"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-axis-title">
+          <ns1:text transform="translate(-27 200) rotate(-90) translate(0 -2)" fill="#000" font-family="Asap" font-size="9px" font-weight="lighter" text-anchor="middle">&lt;-- čtenářstvo si častěji půjčuje i Těla</ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-symbol role-mark layer_0_marks" stroke-width="2" aria-roledescription="symbol mark container" role="graphics-object">
+       <ns1:path transform="translate(756 188)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.406261786013; r_vazeny: 0.528965759337; tela: false; DK_titul: Honzlová" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(425 212)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.228510145631; r_vazeny: 0.470772960729; tela: false; DK_titul: Zahrada" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(287 296)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.154199585971; r_vazeny: 0.260379497181; tela: false; DK_titul: Návrat" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(611 353)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.328256748417; r_vazeny: 0.117246207801; tela: false; DK_titul: Blízcí" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(701 296)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.376820673241; r_vazeny: 0.260379497181; tela: false; DK_titul: Flora" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(718 154)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.385904369091; r_vazeny: 0.613907430373; tela: false; DK_titul: Až uvidíš moře" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(775 198)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.416559060277; r_vazeny: 0.504737250849; tela: false; DK_titul: Když přišli psi" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(75 214)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.040246653521; r_vazeny: 0.465989533096; tela: false; DK_titul: Nikdo není sám" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(633 122)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.340281602434; r_vazeny: 0.695170782927; tela: false; DK_titul: Šepot z lesa" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(165 342)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.0888600242435; r_vazeny: 0.143903534082; tela: false; DK_titul: Tichý nájemník" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(791 152)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.425056953941; r_vazeny: 0.620328020171; tela: false; DK_titul: Třešně v rumu" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(640 69)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.343982050878; r_vazeny: 0.826808210756; tela: false; DK_titul: Listopád" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(567 336)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.304891254707; r_vazeny: 0.158952325472; tela: false; DK_titul: Nejhorší dcera" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(556 225)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.298811363577; r_vazeny: 0.437227229008; tela: false; DK_titul: Světlo z Pauliny" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(377 97)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.20286469108; r_vazeny: 0.756708443926; tela: false; DK_titul: Láska ve špičce italské boty" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(772 309)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.41515045408; r_vazeny: 0.227810582295; tela: false; DK_titul: Směna" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(565 303)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.30357947786; r_vazeny: 0.241797951284; tela: false; DK_titul: Poslední léto" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(572 168)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.307682840924; r_vazeny: 0.578814287136; tela: false; DK_titul: Dokonalé městečko" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(814 71)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.437726125062; r_vazeny: 0.822720168387; tela: false; DK_titul: Šikmý kostel" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(835 137)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.448927795202; r_vazeny: 0.658342451852; tela: false; DK_titul: Odbočka v lesích" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(430 168)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.231306540852; r_vazeny: 0.578814287136; tela: false; DK_titul: Přežít" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 284)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.209268630893; r_vazeny: 0.290259134522; tela: false; DK_titul: Těžké duše" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(802 87)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.431004723391; r_vazeny: 0.783247140734; tela: false; DK_titul: Mlsná huba" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(395 200)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.212048516436; r_vazeny: 0.499667669975; tela: false; DK_titul: Všechno nejlepší, Anno" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(319 349)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.171432101175; r_vazeny: 0.12799206827; tela: false; DK_titul: Pusťte světlo do tmavého večera" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(687 377)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.369010543497; r_vazeny: 0.0563073157085; tela: false; DK_titul: Křehká příměří" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 156)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.244101708112; r_vazeny: 0.609128414575; tela: false; DK_titul: Vrány" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(455 320)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.244354681132; r_vazeny: 0.199647988296; tela: false; DK_titul: Josefíně všichni lžou" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(439 281)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.235816397629; r_vazeny: 0.298487788282; tela: false; DK_titul: Třicátý kilometr" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(135 155)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.0725147101235; r_vazeny: 0.613108765135; tela: false; DK_titul: Někdo z nás" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(185 190)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.0992062202231; r_vazeny: 0.525095509557; tela: false; DK_titul: Samotářky" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(698 142)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.37517663693; r_vazeny: 0.644073784965; tela: false; DK_titul: Řecké štěstí" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(533 56)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.286510756778; r_vazeny: 0.859068301025; tela: false; DK_titul: Drak spí" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(800 38)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.430157397281; r_vazeny: 0.905547259113; tela: false; DK_titul: Prvok, Šampón, Tečka a Karel" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(103 147)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.055159410382; r_vazeny: 0.631698701696; tela: false; DK_titul: Božidara" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(736 99)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.395559329738; r_vazeny: 0.753385214473; tela: false; DK_titul: Kniha o tichu" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(20 348)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.010595176619; r_vazeny: 0.13039048917; tela: false; DK_titul: Mezi nimi" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(592 135)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.31839806065; r_vazeny: 0.661737785447; tela: false; DK_titul: Zítřek ti nikdo neslíbil" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(829 159)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.44546347574; r_vazeny: 0.602018045113; tela: false; DK_titul: Až na ten konec dobrý" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 140)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.263702968503; r_vazeny: 0.649917578303; tela: false; DK_titul: Ostrov" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(368 320)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.197844419075; r_vazeny: 0.201220011834; tela: false; DK_titul: Srpny" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(762 208)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.409455377846; r_vazeny: 0.481114483948; tela: false; DK_titul: Vypravěč" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(561 239)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.301403401147; r_vazeny: 0.402595457811; tela: false; DK_titul: Drak na polní cestě" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(580 325)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.311914909747; r_vazeny: 0.187733770962; tela: false; DK_titul: Ani minuta ticha" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(775 118)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.416420427698; r_vazeny: 0.705425942365; tela: false; DK_titul: Zápisník abstinentky" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(271 317)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.145399352906; r_vazeny: 0.206964981088; tela: false; DK_titul: Kolem dokola" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(640 201)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.343844773235; r_vazeny: 0.498658863393; tela: false; DK_titul: Čistý, skromný život" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(618 254)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.332232647012; r_vazeny: 0.364549855379; tela: false; DK_titul: Nejvyšší karta" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(441 177)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.236848796156; r_vazeny: 0.558572823884; tela: false; DK_titul: Divné děti a smutná kočka" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(28 222)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.0150886258032; r_vazeny: 0.445420741009; tela: false; DK_titul: Chalupa" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(646 187)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.347461481312; r_vazeny: 0.532149981777; tela: false; DK_titul: Tsunami" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(563 194)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.302496423491; r_vazeny: 0.515005072912; tela: false; DK_titul: Ester" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(492 350)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.264330566188; r_vazeny: 0.124041291489; tela: false; DK_titul: Co se stalo Veronice" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(439 311)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.235827490214; r_vazeny: 0.222956967188; tela: false; DK_titul: Svatá" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(267 277)" d="M2.739,0A2.739,2.739,0,1,1,-2.739,0A2.739,2.739,0,1,1,2.739,0" fill="#4c78a8" opacity=".7" aria-label="similarity_score: 0.143458013288; r_vazeny: 0.308482765228; tela: false; DK_titul: Símka" aria-roledescription="point" role="graphics-symbol"/>
+       <ns1:path transform="translate(0,400)" d="M-2.739,-2.739h5.477v5.477h-5.477Z" fill="#f58518" opacity=".7" aria-label="similarity_score: 0; r_vazeny: 0; tela: true; DK_titul: Těla" aria-roledescription="point" role="graphics-symbol"/>
+      </ns1:g>
+      <ns1:g class="mark-text role-mark layer_1_marks" font-family="sans-serif" font-size="10px" aria-roledescription="text mark container" role="graphics-object">
+       <ns1:text transform="translate(762 191)" fill="#4c78a8" aria-label="similarity_score: 0.406261786013; r_vazeny: 0.528965759337; tela: false; DK_titul: Honzlová" aria-roledescription="text mark" role="graphics-symbol">Honzlová</ns1:text>
+       <ns1:text transform="translate(431 215)" fill="#4c78a8" aria-label="similarity_score: 0.228510145631; r_vazeny: 0.470772960729; tela: false; DK_titul: Zahrada" aria-roledescription="text mark" role="graphics-symbol">Zahrada</ns1:text>
+       <ns1:text transform="translate(293 299)" fill="#4c78a8" aria-label="similarity_score: 0.154199585971; r_vazeny: 0.260379497181; tela: false; DK_titul: Návrat" aria-roledescription="text mark" role="graphics-symbol">Návrat</ns1:text>
+       <ns1:text transform="translate(617 356)" fill="#4c78a8" aria-label="similarity_score: 0.328256748417; r_vazeny: 0.117246207801; tela: false; DK_titul: Blízcí" aria-roledescription="text mark" role="graphics-symbol">Blízcí</ns1:text>
+       <ns1:text transform="translate(707 299)" fill="#4c78a8" aria-label="similarity_score: 0.376820673241; r_vazeny: 0.260379497181; tela: false; DK_titul: Flora" aria-roledescription="text mark" role="graphics-symbol">Flora</ns1:text>
+       <ns1:text transform="translate(724 157)" fill="#4c78a8" aria-label="similarity_score: 0.385904369091; r_vazeny: 0.613907430373; tela: false; DK_titul: Až uvidíš moře" aria-roledescription="text mark" role="graphics-symbol">Až uvidíš moře</ns1:text>
+       <ns1:text transform="translate(781 201)" fill="#4c78a8" aria-label="similarity_score: 0.416559060277; r_vazeny: 0.504737250849; tela: false; DK_titul: Když přišli psi" aria-roledescription="text mark" role="graphics-symbol">Když přišli psi</ns1:text>
+       <ns1:text transform="translate(81 217)" fill="#4c78a8" aria-label="similarity_score: 0.040246653521; r_vazeny: 0.465989533096; tela: false; DK_titul: Nikdo není sám" aria-roledescription="text mark" role="graphics-symbol">Nikdo není sám</ns1:text>
+       <ns1:text transform="translate(639 125)" fill="#4c78a8" aria-label="similarity_score: 0.340281602434; r_vazeny: 0.695170782927; tela: false; DK_titul: Šepot z lesa" aria-roledescription="text mark" role="graphics-symbol">Šepot z lesa</ns1:text>
+       <ns1:text transform="translate(171 345)" fill="#4c78a8" aria-label="similarity_score: 0.0888600242435; r_vazeny: 0.143903534082; tela: false; DK_titul: Tichý nájemník" aria-roledescription="text mark" role="graphics-symbol">Tichý nájemník</ns1:text>
+       <ns1:text transform="translate(797 155)" fill="#4c78a8" aria-label="similarity_score: 0.425056953941; r_vazeny: 0.620328020171; tela: false; DK_titul: Třešně v rumu" aria-roledescription="text mark" role="graphics-symbol">Třešně v rumu</ns1:text>
+       <ns1:text transform="translate(646 72)" fill="#4c78a8" aria-label="similarity_score: 0.343982050878; r_vazeny: 0.826808210756; tela: false; DK_titul: Listopád" aria-roledescription="text mark" role="graphics-symbol">Listopád</ns1:text>
+       <ns1:text transform="translate(573 339)" fill="#4c78a8" aria-label="similarity_score: 0.304891254707; r_vazeny: 0.158952325472; tela: false; DK_titul: Nejhorší dcera" aria-roledescription="text mark" role="graphics-symbol">Nejhorší dcera</ns1:text>
+       <ns1:text transform="translate(562 228)" fill="#4c78a8" aria-label="similarity_score: 0.298811363577; r_vazeny: 0.437227229008; tela: false; DK_titul: Světlo z Pauliny" aria-roledescription="text mark" role="graphics-symbol">Světlo z Pauliny</ns1:text>
+       <ns1:text transform="translate(383 100)" fill="#4c78a8" aria-label="similarity_score: 0.20286469108; r_vazeny: 0.756708443926; tela: false; DK_titul: Láska ve špičce italské boty" aria-roledescription="text mark" role="graphics-symbol">Láska ve špičce italské boty</ns1:text>
+       <ns1:text transform="translate(778 312)" fill="#4c78a8" aria-label="similarity_score: 0.41515045408; r_vazeny: 0.227810582295; tela: false; DK_titul: Směna" aria-roledescription="text mark" role="graphics-symbol">Směna</ns1:text>
+       <ns1:text transform="translate(571 306)" fill="#4c78a8" aria-label="similarity_score: 0.30357947786; r_vazeny: 0.241797951284; tela: false; DK_titul: Poslední léto" aria-roledescription="text mark" role="graphics-symbol">Poslední léto</ns1:text>
+       <ns1:text transform="translate(578 171)" fill="#4c78a8" aria-label="similarity_score: 0.307682840924; r_vazeny: 0.578814287136; tela: false; DK_titul: Dokonalé městečko" aria-roledescription="text mark" role="graphics-symbol">Dokonalé městečko</ns1:text>
+       <ns1:text transform="translate(820 74)" fill="#4c78a8" aria-label="similarity_score: 0.437726125062; r_vazeny: 0.822720168387; tela: false; DK_titul: Šikmý kostel" aria-roledescription="text mark" role="graphics-symbol">Šikmý kostel</ns1:text>
+       <ns1:text transform="translate(841 140)" fill="#4c78a8" aria-label="similarity_score: 0.448927795202; r_vazeny: 0.658342451852; tela: false; DK_titul: Odbočka v lesích" aria-roledescription="text mark" role="graphics-symbol">Odbočka v lesích</ns1:text>
+       <ns1:text transform="translate(436 171)" fill="#4c78a8" aria-label="similarity_score: 0.231306540852; r_vazeny: 0.578814287136; tela: false; DK_titul: Přežít" aria-roledescription="text mark" role="graphics-symbol">Přežít</ns1:text>
+       <ns1:text transform="translate(395 287)" fill="#4c78a8" aria-label="similarity_score: 0.209268630893; r_vazeny: 0.290259134522; tela: false; DK_titul: Těžké duše" aria-roledescription="text mark" role="graphics-symbol">Těžké duše</ns1:text>
+       <ns1:text transform="translate(808 90)" fill="#4c78a8" aria-label="similarity_score: 0.431004723391; r_vazeny: 0.783247140734; tela: false; DK_titul: Mlsná huba" aria-roledescription="text mark" role="graphics-symbol">Mlsná huba</ns1:text>
+       <ns1:text transform="translate(401 203)" fill="#4c78a8" aria-label="similarity_score: 0.212048516436; r_vazeny: 0.499667669975; tela: false; DK_titul: Všechno nejlepší, Anno" aria-roledescription="text mark" role="graphics-symbol">Všechno nejlepší, Anno</ns1:text>
+       <ns1:text transform="translate(325 352)" fill="#4c78a8" aria-label="similarity_score: 0.171432101175; r_vazeny: 0.12799206827; tela: false; DK_titul: Pusťte světlo do tmavého večera" aria-roledescription="text mark" role="graphics-symbol">Pusťte světlo do tmavého večera</ns1:text>
+       <ns1:text transform="translate(693 380)" fill="#4c78a8" aria-label="similarity_score: 0.369010543497; r_vazeny: 0.0563073157085; tela: false; DK_titul: Křehká příměří" aria-roledescription="text mark" role="graphics-symbol">Křehká příměří</ns1:text>
+       <ns1:text transform="translate(460 159)" fill="#4c78a8" aria-label="similarity_score: 0.244101708112; r_vazeny: 0.609128414575; tela: false; DK_titul: Vrány" aria-roledescription="text mark" role="graphics-symbol">Vrány</ns1:text>
+       <ns1:text transform="translate(461 323)" fill="#4c78a8" aria-label="similarity_score: 0.244354681132; r_vazeny: 0.199647988296; tela: false; DK_titul: Josefíně všichni lžou" aria-roledescription="text mark" role="graphics-symbol">Josefíně všichni lžou</ns1:text>
+       <ns1:text transform="translate(445 284)" fill="#4c78a8" aria-label="similarity_score: 0.235816397629; r_vazeny: 0.298487788282; tela: false; DK_titul: Třicátý kilometr" aria-roledescription="text mark" role="graphics-symbol">Třicátý kilometr</ns1:text>
+       <ns1:text transform="translate(141 158)" fill="#4c78a8" aria-label="similarity_score: 0.0725147101235; r_vazeny: 0.613108765135; tela: false; DK_titul: Někdo z nás" aria-roledescription="text mark" role="graphics-symbol">Někdo z nás</ns1:text>
+       <ns1:text transform="translate(191 193)" fill="#4c78a8" aria-label="similarity_score: 0.0992062202231; r_vazeny: 0.525095509557; tela: false; DK_titul: Samotářky" aria-roledescription="text mark" role="graphics-symbol">Samotářky</ns1:text>
+       <ns1:text transform="translate(704 145)" fill="#4c78a8" aria-label="similarity_score: 0.37517663693; r_vazeny: 0.644073784965; tela: false; DK_titul: Řecké štěstí" aria-roledescription="text mark" role="graphics-symbol">Řecké štěstí</ns1:text>
+       <ns1:text transform="translate(539 59)" fill="#4c78a8" aria-label="similarity_score: 0.286510756778; r_vazeny: 0.859068301025; tela: false; DK_titul: Drak spí" aria-roledescription="text mark" role="graphics-symbol">Drak spí</ns1:text>
+       <ns1:text transform="translate(806 41)" fill="#4c78a8" aria-label="similarity_score: 0.430157397281; r_vazeny: 0.905547259113; tela: false; DK_titul: Prvok, Šampón, Tečka a Karel" aria-roledescription="text mark" role="graphics-symbol">Prvok, Šampón, Tečka a Karel</ns1:text>
+       <ns1:text transform="translate(109 150)" fill="#4c78a8" aria-label="similarity_score: 0.055159410382; r_vazeny: 0.631698701696; tela: false; DK_titul: Božidara" aria-roledescription="text mark" role="graphics-symbol">Božidara</ns1:text>
+       <ns1:text transform="translate(742 102)" fill="#4c78a8" aria-label="similarity_score: 0.395559329738; r_vazeny: 0.753385214473; tela: false; DK_titul: Kniha o tichu" aria-roledescription="text mark" role="graphics-symbol">Kniha o tichu</ns1:text>
+       <ns1:text transform="translate(26 351)" fill="#4c78a8" aria-label="similarity_score: 0.010595176619; r_vazeny: 0.13039048917; tela: false; DK_titul: Mezi nimi" aria-roledescription="text mark" role="graphics-symbol">Mezi nimi</ns1:text>
+       <ns1:text transform="translate(598 138)" fill="#4c78a8" aria-label="similarity_score: 0.31839806065; r_vazeny: 0.661737785447; tela: false; DK_titul: Zítřek ti nikdo neslíbil" aria-roledescription="text mark" role="graphics-symbol">Zítřek ti nikdo neslíbil</ns1:text>
+       <ns1:text transform="translate(835 162)" fill="#4c78a8" aria-label="similarity_score: 0.44546347574; r_vazeny: 0.602018045113; tela: false; DK_titul: Až na ten konec dobrý" aria-roledescription="text mark" role="graphics-symbol">Až na ten konec dobrý</ns1:text>
+       <ns1:text transform="translate(497 143)" fill="#4c78a8" aria-label="similarity_score: 0.263702968503; r_vazeny: 0.649917578303; tela: false; DK_titul: Ostrov" aria-roledescription="text mark" role="graphics-symbol">Ostrov</ns1:text>
+       <ns1:text transform="translate(374 323)" fill="#4c78a8" aria-label="similarity_score: 0.197844419075; r_vazeny: 0.201220011834; tela: false; DK_titul: Srpny" aria-roledescription="text mark" role="graphics-symbol">Srpny</ns1:text>
+       <ns1:text transform="translate(768 211)" fill="#4c78a8" aria-label="similarity_score: 0.409455377846; r_vazeny: 0.481114483948; tela: false; DK_titul: Vypravěč" aria-roledescription="text mark" role="graphics-symbol">Vypravěč</ns1:text>
+       <ns1:text transform="translate(567 242)" fill="#4c78a8" aria-label="similarity_score: 0.301403401147; r_vazeny: 0.402595457811; tela: false; DK_titul: Drak na polní cestě" aria-roledescription="text mark" role="graphics-symbol">Drak na polní cestě</ns1:text>
+       <ns1:text transform="translate(586 328)" fill="#4c78a8" aria-label="similarity_score: 0.311914909747; r_vazeny: 0.187733770962; tela: false; DK_titul: Ani minuta ticha" aria-roledescription="text mark" role="graphics-symbol">Ani minuta ticha</ns1:text>
+       <ns1:text transform="translate(781 121)" fill="#4c78a8" aria-label="similarity_score: 0.416420427698; r_vazeny: 0.705425942365; tela: false; DK_titul: Zápisník abstinentky" aria-roledescription="text mark" role="graphics-symbol">Zápisník abstinentky</ns1:text>
+       <ns1:text transform="translate(277 320)" fill="#4c78a8" aria-label="similarity_score: 0.145399352906; r_vazeny: 0.206964981088; tela: false; DK_titul: Kolem dokola" aria-roledescription="text mark" role="graphics-symbol">Kolem dokola</ns1:text>
+       <ns1:text transform="translate(646 204)" fill="#4c78a8" aria-label="similarity_score: 0.343844773235; r_vazeny: 0.498658863393; tela: false; DK_titul: Čistý, skromný život" aria-roledescription="text mark" role="graphics-symbol">Čistý, skromný život</ns1:text>
+       <ns1:text transform="translate(624 257)" fill="#4c78a8" aria-label="similarity_score: 0.332232647012; r_vazeny: 0.364549855379; tela: false; DK_titul: Nejvyšší karta" aria-roledescription="text mark" role="graphics-symbol">Nejvyšší karta</ns1:text>
+       <ns1:text transform="translate(447 180)" fill="#4c78a8" aria-label="similarity_score: 0.236848796156; r_vazeny: 0.558572823884; tela: false; DK_titul: Divné děti a smutná kočka" aria-roledescription="text mark" role="graphics-symbol">Divné děti a smutná kočka</ns1:text>
+       <ns1:text transform="translate(34 225)" fill="#4c78a8" aria-label="similarity_score: 0.0150886258032; r_vazeny: 0.445420741009; tela: false; DK_titul: Chalupa" aria-roledescription="text mark" role="graphics-symbol">Chalupa</ns1:text>
+       <ns1:text transform="translate(652 190)" fill="#4c78a8" aria-label="similarity_score: 0.347461481312; r_vazeny: 0.532149981777; tela: false; DK_titul: Tsunami" aria-roledescription="text mark" role="graphics-symbol">Tsunami</ns1:text>
+       <ns1:text transform="translate(569 197)" fill="#4c78a8" aria-label="similarity_score: 0.302496423491; r_vazeny: 0.515005072912; tela: false; DK_titul: Ester" aria-roledescription="text mark" role="graphics-symbol">Ester</ns1:text>
+       <ns1:text transform="translate(498 353)" fill="#4c78a8" aria-label="similarity_score: 0.264330566188; r_vazeny: 0.124041291489; tela: false; DK_titul: Co se stalo Veronice" aria-roledescription="text mark" role="graphics-symbol">Co se stalo Veronice</ns1:text>
+       <ns1:text transform="translate(445 314)" fill="#4c78a8" aria-label="similarity_score: 0.235827490214; r_vazeny: 0.222956967188; tela: false; DK_titul: Svatá" aria-roledescription="text mark" role="graphics-symbol">Svatá</ns1:text>
+       <ns1:text transform="translate(273 280)" fill="#4c78a8" aria-label="similarity_score: 0.143458013288; r_vazeny: 0.308482765228; tela: false; DK_titul: Símka" aria-roledescription="text mark" role="graphics-symbol">Símka</ns1:text>
+       <ns1:text transform="translate(6,403)" fill="#f58518" aria-label="similarity_score: 0; r_vazeny: 0; tela: true; DK_titul: Těla" aria-roledescription="text mark" role="graphics-symbol">Těla</ns1:text>
+      </ns1:g>
+      <ns1:g class="mark-group role-title">
+       <ns1:g transform="translate(-36 -84)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-text role-title-text" aria-label="Title text 'Dva rozměry podobnosti Tělům'" aria-roledescription="title" role="graphics-symbol">
+          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="12px" font-weight="bold">Dva rozměry podobnosti Tělům</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Jak se mohou lišit seznamy „podobných“ knih podle pramene této podobnosti? Příkladem budiž román Kláry Vlasákové z roku 2023, Těla. Čtenáři a čtenářky si v Městské knihovně v Praze nejčastěji půjčují též Křehká příměří Michaely Štěchové, které však mají relativně odlišnou anotaci. Popiskem se Tělům blíží Chalupa Pavlíny Křivánkové nebo Nikdo není sám Petry Soukupové, jenže ty si zase tak často nepůjčují stejní lidé. Obě kritéria podobnosti nejlépe naplňuje Mezi nimi Veroniky González a nejhůř Prvok, Šampón, Tečka a Karel Patrika Hartla.'" aria-roledescription="subtitle" role="graphics-symbol">
+          <ns1:text transform="translate(0 20)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="10px">
+           <ns1:tspan>Jak se mohou lišit seznamy „podobných“ knih podle pramene této podobnosti? Příkladem budiž román Kláry Vlasákové z roku 2023, Těla.</ns1:tspan>
+           <ns1:tspan x="0" dy="15">Čtenáři a čtenářky si v Městské knihovně v Praze nejčastěji půjčují též Křehká příměří Michaely Štěchové, které však mají relativně odlišnou anotaci.</ns1:tspan>
+           <ns1:tspan x="0" dy="15">Popiskem se Tělům blíží Chalupa Pavlíny Křivánkové nebo Nikdo není sám Petry Soukupové, jenže ty si zase tak často nepůjčují stejní lidé.</ns1:tspan>
+           <ns1:tspan x="0" dy="15">Obě kritéria podobnosti nejlépe naplňuje Mezi nimi Veroniky González a nejhůř Prvok, Šampón, Tečka a Karel Patrika Hartla.</ns1:tspan>
+          </ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+ <g transform="translate(788,542)">
+  <ns0:rect width="200" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(0)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
+       <ns1:text transform="translate(195 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: zdroj dat: Městská knihovna v Praze a Databáze knih" aria-roledescription="text mark" role="graphics-symbol">zdroj dat: Městská knihovna v Praze a Databáze knih</ns1:text>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+</svg>
