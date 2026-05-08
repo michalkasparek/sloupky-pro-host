@@ -16,6 +16,7 @@ dependencies = [
     "pandas>=3.0.1",
     "polars>=1.38.1",
     "pyarrow>=23.0.1",
+    "python-dotenv>=1.2.2",
     "ruff>=0.15.9",
     "scikit-learn>=1.8.0",
     "scour>=0.38.2",
