@@ -45,8 +45,8 @@ def _(pl):
         .with_columns(
             (pl.col("100_a") + pl.lit(" | ") + pl.col("245_a")).alias("kniha")
         )
-        .rename({"020_a": "isbn"})
-        .select(pl.col(["isbn", "kniha"]))
+        .rename({"020_a": "isbn","100_a":"autorstvo"})
+        .select(pl.col(["isbn", "kniha","autorstvo"]))
         .drop_nulls()
     )
     return (nazvy,)
@@ -85,6 +85,44 @@ def _(ukazky_ceske_beletrie):
 
 
 @app.cell
+def _(ukazky_ceske_beletrie):
+    prvni_zminky = ukazky_ceske_beletrie.unique(subset="autorstvo",keep="first")
+    return (prvni_zminky,)
+
+
+@app.cell
+def _(pl, prvni_zminky, ukazky_ceske_beletrie):
+    druhe_zminky = ukazky_ceske_beletrie.filter(~pl.col("kniha").is_in(prvni_zminky.select("kniha").to_series().to_list())).unique(subset="autorstvo", keep="first")
+    return (druhe_zminky,)
+
+
+@app.cell
+def _(druhe_zminky, pl, prvni_zminky):
+    nejvys_dve_od_stejneho_cloveka = pl.concat(
+        [prvni_zminky,druhe_zminky]
+    )
+    return (nejvys_dve_od_stejneho_cloveka,)
+
+
+@app.cell
+def _(nejvys_dve_od_stejneho_cloveka):
+    len(nejvys_dve_od_stejneho_cloveka)
+    return
+
+
+@app.cell
+def _(nejvys_dve_od_stejneho_cloveka, pl):
+    print("\n".join(nejvys_dve_od_stejneho_cloveka.sort(by="kniha").select(pl.col("kniha")).drop_nulls().to_series().to_list()))
+    return
+
+
+@app.cell
+def _(nejvys_dve_od_stejneho_cloveka, pl):
+    nejvys_dve_od_stejneho_cloveka.select(pl.col("slov").sum())
+    return
+
+
+@app.cell
 def _(pl, ukazky_ceske_beletrie):
     ukazky_ceske_beletrie.filter(pl.col("isbn") == "9788026721659")
     return
@@ -92,7 +130,7 @@ def _(pl, ukazky_ceske_beletrie):
 
 @app.cell
 def _():
-    with open("006b_prompt.txt", "r", encoding="utf-8") as f:
+    with open("06b_prompt.txt", "r", encoding="utf-8") as f:
         prompt = f.read()
 
     print(prompt)
@@ -112,26 +150,16 @@ def _(kam, os):
 
 
 @app.cell
-def _(kam, os):
-    zanalyzovane = [os.listdir(kam)]
-    return (zanalyzovane,)
-
-
-@app.cell
-def _(zanalyzovane):
-    zanalyzovane
-    return
-
-
-@app.cell
 def _(GEMINI_API_KEY, genai):
     client = genai.Client(api_key=GEMINI_API_KEY)
     return (client,)
 
 
 @app.cell
-def _(client, kam, os, prompt, time, ukazky_ceske_beletrie, zanalyzovane):
-    for radek in ukazky_ceske_beletrie.sample(3).iter_rows(named=True):
+def _(client, kam, nejvys_dve_od_stejneho_cloveka, os, prompt, time):
+    zanalyzovane = [os.listdir(kam)]
+
+    for radek in nejvys_dve_od_stejneho_cloveka.iter_rows(named=True):
         soubor = radek['isbn'] + ".txt"
         if soubor not in zanalyzovane:
             try:
@@ -140,7 +168,7 @@ def _(client, kam, os, prompt, time, ukazky_ceske_beletrie, zanalyzovane):
                     model="gemini-3.1-flash-lite", contents=kompletni_prompt
                 )
                 with open(os.path.join(kam, soubor), 'w+', encoding="utf-8") as file:
-                    file.write(response.text)
+                    file.write(str(response.text))
             except Exception as e:
                 print(e)
                 time.sleep(20)

@@ -1,6 +1,7 @@
 Přikládám ukázku z beletrie. Chci po tobě analýzu jejího obsahu:
-- Které státy ukázka zmiňuje? (Může jít i o sporná území a o zmínky implicitní. Například "jeli jsme na Sicílii" je zmínka o Itálii. Může jít o zaniklé útvary, jako "Sovětský svaz". Musí však jít o zmínky zeměpisné, takže "uvařili jsme si čínu" pro naše účely nezmiňuje Čínu. Pokud z kontextu implicitně vyplývá, že se ukázka odehrává v Česku, zahrň do odpovědi Česko.) – Odpověz seznamem oficiálních názvů v prvních pádech.
+- Které státy ukázka zmiňuje? (Může jít i o sporná území a o zmínky implicitní. Například "jeli jsme na Sicílii" je zmínka o Itálii. Může jít o zaniklé útvary, jako "Sovětský svaz". Musí však jít o zmínky zeměpisné, takže „podej mi francouzský klíč“ nezmiňuje pro naše účely Francii. Pokud z kontextu implicitně vyplývá, že se ukázka odehrává v Česku, zahrň do odpovědi Česko.) – Odpověz seznamem oficiálních názvů v prvních pádech.
 - Které obce ukázka zmiňuje? – Odpověz seznamem v prvních pádech.
+- Které ulice, náměstí, silnice a dálnice ukázka zmiňuje? – Odpověz seznamem v prvních pádech.
 - Která vlastní jména lidí ukázka zmiňuje? – Odpověz seznamem v prvních pádech. Pokud tu samou postavu zmiňuje ukázka víckrát, pokus se odpovědět pouze jednou, a to nejkompletnější verzí jména. (Např. jméno + příjmení.)
 - Která zvířata ukázka zmiňuje? – Odpověz seznamem v prvních pádech.
 - Které druhy aktivního odpočinku ukázka zmiňuje. – Odpověz seznamem v prvních pádech. Jeden druh můžeš popsat dvěma výrazy, úžším i širším: např. "cyklistika", "sport".
@@ -9,9 +10,9 @@ Přikládám ukázku z beletrie. Chci po tobě analýzu jejího obsahu:
 - Obsahuje popis počasí? - Odpověz true / false.
 - Obsahuje zmínku o alkoholu? - Odpověz true / false.
 - Je děj zasazený alespoň částečně do Prahy? – Odpověz true / false.
-- Pokud je v ukázce ediční informace, např. "vydáno v České republice", ignoruj ji!
+Pokud je v ukázce ediční informace, např. "vydáno v České republice", ignoruj ji.
 Odpověz ve strojově čitelném formátu YAML, a to tak, aby šlo odpověď snadno parsovat, tedy bez průvodního textu. 
-Klíče: "staty", "obce", "jmena", "zvirata", "odpocinek", "sex", "nasili", "pocasi", "alkohol","praha". 
+Klíče: "staty", "obce", "ulice", "jmena", "zvirata", "odpocinek", "sex", "nasili", "pocasi", "alkohol","praha". 
 Pokud na otázku nemáš odpověď, vyplň null. 
 Pokud jsi si jistý, že nejde o ukázku beletrie (např. jde o kuchařku apod.), vyplň do yamlu pouze "beletrie":null. Beletrizované životopisy osobností apod. jsou v pohodě.
 
