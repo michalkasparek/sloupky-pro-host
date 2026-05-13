@@ -12,9 +12,11 @@ def _():
     import re
     import pycountry
     from pathlib import Path
+    import geopandas as gpd
     from vega_datasets import data
+    import marimo as mo
 
-    return Path, alt, pl, pycountry, re, yaml
+    return Path, alt, gpd, mo, pl, pycountry, re, yaml
 
 
 @app.cell
@@ -25,7 +27,7 @@ def _(alt):
     alt.themes.register("irozhlas", kristi_promin)
     alt.theme.enable("irozhlas")
     alt.data_transformers.disable_max_rows()
-    return
+    return (me_to_neurazi,)
 
 
 @app.cell
@@ -60,10 +62,21 @@ def _(Path, re, yaml):
                     if content is None:
                         continue
 
-                    # Flatten lists or append dictionaries
+                    # Extract the filename without the extension (e.g., 'book1' from 'book1.yaml')
+                    # Note: If you want the extension included, use `file_path.name` instead.
+                    isbn_value = file_path.stem
+
+                    # Flatten lists or append dictionaries, injecting the ISBN
                     if isinstance(content, list):
+                        # If it's a list of dictionaries, add the ISBN to each dictionary
+                        for item in content:
+                            if isinstance(item, dict):
+                                item["isbn"] = isbn_value
                         all_data.extend(content)
+
                     elif isinstance(content, dict):
+                        # Add the ISBN to the single dictionary
+                        content["isbn"] = isbn_value
                         all_data.append(content)
 
                 except yaml.YAMLError as e:
@@ -92,20 +105,75 @@ def _(pl):
 
 
 @app.cell
-def _(all_data):
-    filtered_data = ({"staty": d.get("staty")} for d in all_data)
-    return (filtered_data,)
+def _(all_data, datatypy, isbn_ceske_beletrie, nazvy, pl):
+    filtered_data = (
+        {
+            "staty": d.get("staty"),
+            "isbn": d.get("isbn"),
+            "nasili": d.get("nasili"),
+            "obce": d.get("obce"),
+            "ulice": d.get("ulice"),
+            "alkohol": d.get("alkohol"),
+            "sex": d.get("sex"),
+            "odpocinek": d.get("odpocinek"),
+        }
+        for d in all_data
+    )
 
-
-@app.cell
-def _(datatypy, filtered_data, pl):
-    df_cs = pl.DataFrame(filtered_data, strict=False, schema_overrides=datatypy)
+    df_cs = (
+        pl.DataFrame(filtered_data, strict=False, schema_overrides=datatypy)
+        .filter(pl.col("isbn").is_in(isbn_ceske_beletrie))
+        .join(nazvy, how="left", on="isbn")
+        .with_columns(pl.col("staty").list.len().alias("pocet_zemi"))
+        .sort(by="pocet_zemi", descending=True)
+        .unique(subset="autorstvo", keep="first")
+    )
     return (df_cs,)
 
 
 @app.cell
 def _(df_cs):
     df_cs
+    return
+
+
+@app.cell
+def _(df_cs):
+    df_cs.explode("obce").group_by("obce").len().sort(
+        by="len", descending=True
+    ).drop_nulls()
+    return
+
+
+@app.cell
+def _():
+    417 / 46
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _(df_cs):
+    df_cs.explode("ulice").group_by("ulice").len().sort(
+        by="len", descending=True
+    ).drop_nulls()
+    return
+
+
+@app.cell
+def _(df_cs):
+    df_cs.explode("odpocinek").group_by("odpocinek").len().sort(
+        by="len", descending=True
+    ).drop_nulls()
+    return
+
+
+@app.cell
+def _():
     return
 
 
@@ -153,7 +221,7 @@ def _():
         "Bosna a Hercegovina": "Bosnia and Herzegovina",
         "Brazílie": "Brazil",
         "Bulharsko": "Bulgaria",
-        "Byzanc": "Byzantine Empire",
+        "Byzanc": None,
         "Centrální impérium": None,
         "Chile": "Chile",
         "Chorvatsko": "Croatia",
@@ -174,7 +242,7 @@ def _():
         "Jemen": "Yemen",
         "Jihoafrická republika": "South Africa",
         "Jižní Korea": "South Korea",
-        "Jugoslávie": "Yugoslavia",
+        "Jugoslávie": None,
         "Kanada": "Canada",
         "Kazachstán": "Kazakhstan",
         "Kypr": "Cyprus",
@@ -201,7 +269,7 @@ def _():
         "Polsko": "Poland",
         "Portugalsko": "Portugal",
         "Rakousko": "Austria",
-        "Rakousko-Uhersko": "Austria-Hungary",
+        "Rakousko-Uhersko": None,
         "Rumunsko": "Romania",
         "Rusko": "Russia",
         "Rwanda": "Rwanda",
@@ -210,14 +278,14 @@ def _():
         "Singapur": "Singapore",
         "Skotsko": "Scotland",
         "Slovensko": "Slovakia",
-        "Sovětský svaz": "Soviet Union",
+        "Sovětský svaz": None,
         "Spojené království": "United Kingdom",
         "Spojené království Velké Británie a Irska": "United Kingdom of Great Britain and Ireland",
         "Spojené státy americké": "United States of America",
         "Srbsko": "Serbia",
         "Srí Lanka": "Sri Lanka",
         "Sunflowerlands": None,
-        "Svatá říše římská": "Holy Roman Empire",
+        "Svatá říše římská": None,
         "Sýrie": "Syria",
         "Tchaj-wan": "Taiwan",
         "Thajsko": "Thailand",
@@ -231,7 +299,7 @@ def _():
         "Uzbekistán": "Uzbekistan",
         "Vatikán": "Vatican City",
         "Velká Británie": "Great Britain",
-        "Velká Morava": "Great Moravia",
+        "Velká Morava": None,
         "Vietnam": "Vietnam",
         "Východofranská říše": "East Francia",
         "Země": None,
@@ -261,29 +329,55 @@ def _():
     prejmenovani_2 = {
         "Czechia": "Czech Republic",
         "Aden": None,
-        "Soviet Union": "Russian Federation",
+        "Soviet Union": None,
         "Rus": "Russian Federation",
-        "Austria-Hungary": "Austria",
-        "Czechoslovakia": "Czech Republic",
+        "Austria-Hungary": None,
+        "Czechoslovakia": None,
         "Anglie": "United Kingdom",
         "United Kingdom of Great Britain and Ireland": "United Kingdom",
-        "Kingdom of Hungary": "Hungary",
+        "Kingdom of Hungary": None,
         "Izrael": "Israel",
         "Nizozemsko": "Netherlands",
         "Estonsko": "Estonia",
-        'Turkey':'Türkiye',
-        "Island":"Iceland",
-        "Slovinsko":"Slovenia",
+        "Turkey": "Türkiye",
+        "Island": "Iceland",
+        "Slovinsko": "Slovenia",
         "Británie": "United Kingdom",
-        "Spojené království Velké Británie a Severního Irska":"United Kingdom",
-        "Great Britain":"United Kingdom",
+        "Spojené království Velké Británie a Severního Irska": "United Kingdom",
+        "Great Britain": "United Kingdom",
         "Scotland": "United Kingdom",
         "Černá Hora": "Montenegro",
-        "Russia":"Russian Federation",
-        "Rakouská republika":"Austria",
-        "Uhry":"Hungary",
-        "USA":"United States of America",
-        "People's Republic of China":"China"
+        "Russia": "Russian Federation",
+        "Rakouská republika": "Austria",
+        "Uhry": None,
+        "USA": "United States of America",
+        "People's Republic of China": "China",
+        "Monako": "Monaco",
+        "Rakouské císařství": None,
+        "Bavorsko": "Germany",
+        "Německá říše": None,
+        "North Macedonia": "Macedonia",
+        "Gruzie": "Georgia",
+        "Arménie": "Armenia",
+        "Rakouské vévodství": "Austria",
+        "Maroko": "Morocco",
+        "Prusko": None,
+        "Ázerbájdžán": "Azerbaijan",
+        "Pol": "Poland",
+        "Venkov": None,
+        "Ler": None,
+        "Západ": None,
+        "Wales": "United Kingdom",
+        "Spojené arabské emiráty": "United Arab Emirates",
+        "Bělorusko": "Belarus",
+        "Moldavsko": "Moldova",
+        "Jordánsko": "Jordan",
+        "Bosna": "Bosnia and Herzegovina",
+        "Nigérie": "Nigeria",
+        "Keňa": "Kenya",
+        "Severní Korea": "North Korea",
+        "Jižní Súdán": "South Sudan",
+        "Lichtenštejnsko": "liechtenstein",
     }
     return (prejmenovani_2,)
 
@@ -323,9 +417,12 @@ def _(df_cs, get_country_id, pl, prejmenovani, prejmenovani_2):
             pl.col("country_name").map_elements(get_country_id).alias("id")
         )
         .with_columns(pl.col("id").cast(str))
-        .with_columns(pl.col("id").str.pad_start(3,"0"))
+        .with_columns(pl.col("id").str.pad_start(3, "0"))
         .with_columns(
-            pl.when(pl.col("country_name") == "Kosovo").then(pl.lit("XK")).otherwise(pl.col('id')).alias('id')
+            pl.when(pl.col("country_name") == "Kosovo")
+            .then(pl.lit("296"))
+            .otherwise(pl.col("id"))
+            .alias("id")
         )
     )
     return (df,)
@@ -351,7 +448,15 @@ def _(df, pl):
 
 @app.cell
 def _(df, pl):
-    vickrat = df.group_by("id").len().filter(pl.col("len") > 1).drop_nulls().select(pl.col("id")).to_series().to_list()
+    vickrat = (
+        df.group_by("id")
+        .len()
+        .filter(pl.col("len") > 1)
+        .drop_nulls()
+        .select(pl.col("id"))
+        .to_series()
+        .to_list()
+    )
     df.filter(pl.col("id").is_in(vickrat))
     return
 
@@ -374,7 +479,106 @@ def _(alt, world_map):
 
 
 @app.cell
-def _(alt, df, world_map):
+def _(gpd, pl):
+    # 1. Read the dataset directly from Natural Earth's URL
+    url = "https://naturalearth.s3.amazonaws.com/110m_cultural/ne_110m_admin_0_countries.zip"
+    gdf = gpd.read_file(url)
+
+    # 2. Calculate the centroids for text placement
+    # (Using a projected CRS for accurate centroids is generally recommended,
+    # but for basic map visualization, doing it on the unprojected data often suffices)
+    gdf["lon"] = gdf.geometry.centroid.x
+    gdf["lat"] = gdf.geometry.centroid.y
+
+    # 3. Extract and format the numeric ID
+    # Convert to string and pad with zeros to ensure it's exactly 3 digits (e.g., "4" -> "004")
+    # We also replace '-99' (Natural Earth's placeholder for missing codes) with None/NaN if needed
+    gdf["numeric_id"] = gdf["ISO_N3"].astype(str).str.zfill(3)
+
+    print(gdf.columns.to_list())
+
+    gdf_pl = pl.from_pandas(gdf.drop(columns=["geometry"])).select(
+        pl.col(
+            ["ISO_N3", "ISO_A3", "ISO_A3_EH", "ISO_N3_EH", "lat", "lon", "NAME"]
+        )
+    )
+    return (gdf_pl,)
+
+
+@app.cell
+def _(gdf_pl, pl):
+    gdf_pl.filter(pl.col("NAME").str.contains("Franc"))
+    return
+
+
+@app.cell
+def _(df, df_cs, gdf_pl, pl):
+    do_grafu = (
+        df.join(gdf_pl, how="left", left_on="id", right_on="ISO_N3_EH")
+        .with_columns(
+            pl.when(pl.col("country_name") == "Kosovo")
+            .then(pl.lit(42.579367131816994))
+            .otherwise(pl.col("lat"))
+            .alias("lat"),
+            pl.when(pl.col("country_name") == "Kosovo")
+            .then(pl.lit(20.895355721342227))
+            .otherwise(pl.col("lon"))
+            .alias("lon"),
+        )
+        .with_columns(
+            ((pl.col("n") / pl.col("n").max()) * 100)
+            .round(1)
+            .alias("podil_z_maxima"),
+            ((pl.col("n") / len(df_cs)) * 100).round(1).alias("podil"),
+        )
+        .with_columns(pl.col("podil").sqrt().alias("podil_odmocnica"))
+    )
+    return (do_grafu,)
+
+
+@app.cell
+def _(do_grafu):
+    do_grafu.sort(by="podil", descending=True).with_row_index(offset=1)
+    return
+
+
+@app.cell
+def _(do_grafu, pl):
+    do_grafu.filter(pl.col("country_name").str.contains("Bela"))
+    return
+
+
+@app.cell
+def _(do_grafu, pl):
+    do_grafu.filter(pl.col("country_name").str.contains("Kosov"))
+    return
+
+
+@app.cell
+def _(do_grafu, pl):
+    do_grafu.filter(pl.col("country_name").str.contains("Kos"))
+    return
+
+
+@app.cell
+def _(world_map):
+    print(world_map)
+    return
+
+
+@app.cell
+def _(df_cs):
+    podtitul = [
+        f"Analýza tří milionů slov ukázek z {len(df_cs)} knih. Každý autor či autorka byli ve vzorku zastoupeni jen jednou.",
+        "Zmínky hledala AI. Muselo jít o zeměpisné zmínky zemí či jejich částí („jeli jsme na Sícilii“ je zmínka Itálie), ne o jiné významy („podej mi francouzský klíč“ není zmínka Francie).",
+        "Tato strojová práce prošla namátkovou lidskou kontrolou.",
+        "Kompletní kód analýzy i seznam knih je k nahlédnutí na github.com/michalkasparek/sloupky-pro-host.",
+    ]
+    return (podtitul,)
+
+
+@app.cell
+def _(alt, background, do_grafu, podtitul, world_map):
     choropleth = (
         alt.Chart(world_map)
         .mark_geoshape(
@@ -383,32 +587,69 @@ def _(alt, df, world_map):
             strokeWidth=0.5,
         )
         .transform_lookup(
-            lookup="id", from_=alt.LookupData(df, "id", ["n", "country_name"])
+            # Look up "podil_z_maxima" instead of "n"
+            lookup="id",
+            from_=alt.LookupData(do_grafu, "id", ["podil", "country_name"]),
         )
         .encode(
-            # Encode color dynamically based on column "n"
+            # Encode color dynamically based on column "podil_z_maxima"
             color=alt.Color(
-                "n:Q",
+                "podil:Q",
                 scale=alt.Scale(
-                    scheme="purples",  # Try "blues", "viridis", or "reds" depending on your preference
-                    domain=[0, 100]    # Adjust domain based on your actual min/max 'n'
+                    scheme="reds",
+                    type="symlog",  # Great for massive outliers, safe for zero
+                    constant=10,  # Adjust this if needed; dictates where the log curve starts
                 ),
-                title="Value"          # This adds a title to your color legend
+                title="Podíl",
             ),
             # Add hover tooltips
             tooltip=[
                 alt.Tooltip("country_name:N", title="Country"),
-                alt.Tooltip("n:Q", title="Value (n)"),
+                alt.Tooltip("podil:Q", title="Podíl"),
             ],
         )
     )
-    return (choropleth,)
 
+    # 2. Create the Text Layer
+    text_layer = (
+        alt.Chart(world_map)
+        .mark_text(
+            align="center",
+            baseline="middle",
+            color="black",  # Text color (adjust if your map is very dark)
+            fontSize=11,
+        )
+        .transform_lookup(
+            # Note: We need 'lat' and 'lon' from your dataframe to know where to place the text
+            lookup="id",
+            from_=alt.LookupData(
+                do_grafu, "id", ["podil", "country_name", "lat", "lon"]
+            ),
+        )
+        .transform_filter(
+            # Hide the label for countries that have no data (null values)
+            "isValid(datum.podil)"
+        )
+        .transform_calculate(
+            # Dynamically create the string format.
+            # You may want to change '×' to '%' depending on how you want to display the share.
+            # If it's a raw decimal (e.g., 0.5), you might want to format it: label="round(datum.podil_z_maxima * 100) + '%'"
+            label="datum.podil < 1 ? '<1 %' : replace(toString(datum.podil), '.', ',') + ' %'"
+        )
+        .encode(
+            longitude="lon:Q",  # X-coordinate for text
+            latitude="lat:Q",  # Y-coordinate for text
+            text="label:N",  # Display the calculated label
+            # Optional: Add the same tooltips so hover works over the text
+            tooltip=[
+                alt.Tooltip("country_name:N", title="Country"),
+                alt.Tooltip("podil:Q", title="Podíl"),
+            ],
+        )
+    )
 
-@app.cell
-def _(alt, background, choropleth):
     europe_map = (
-        (background + choropleth)
+        (background + choropleth + text_layer)
         .project(
             type="mercator",
             center=[15, 53],  # Longitude/Latitude center point for Europe
@@ -416,24 +657,451 @@ def _(alt, background, choropleth):
         )
         .properties(
             title=alt.Title(
-                "Zmínky o evropských zemích v české beletrii 20. let",
-                subtitle=[
-                    "Analýza čtyř milionů slov ukázek z 943 knih. Každý autor či autorka byli ve vzorku zastoupeni maximálně dvakrát.",
-                    "Zmínky hledala AI. Muselo jít o zeměpisné zmínky zemí či jejich částí („jeli jsme na Sícilii“ je zmínka Itálie), ne o jiné významy („podej mi francouzský klíč“ není zmínka Francie).",
-                    "Tato strojová práce prošla namátkovou lidskou kontrolou.",
-                ],
+                "Zmínky o evropských zemích v české beletrii této dekády",
+                subtitle=podtitul,
                 fontSize=20,
             ),
-            width=900,
-            height=530,
+            width=1000,
+            height=1000,
         )
     )
     return (europe_map,)
 
 
 @app.cell
+def _():
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
 def _(europe_map):
     europe_map
+    return
+
+
+@app.cell
+def _(europe_map, me_to_neurazi):
+    me_to_neurazi(graf=europe_map, kredity="", soubor="06_mapa_evropy")
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Fakt tak málo Slovenska?
+
+    TLDR: Není to stoprocentně přesné, ale reálně je ho málo.
+    """)
+    return
+
+
+@app.cell
+def _(pl):
+    isbn_ceske_beletrie = (
+        pl.read_csv("data/isbn_beletrie.csv")
+        .with_columns(pl.col("020_a").str.replace_all("-", ""))
+        .select(pl.col("020_a"))
+        .drop_nulls()
+        .to_series()
+        .to_list()
+    )
+    return (isbn_ceske_beletrie,)
+
+
+@app.cell
+def _(pl):
+    nazvy = (
+        pl.read_parquet("../knizni-peoplemetr/data/cnb_vyber.parquet")
+        .explode("020_a")
+        .with_columns(pl.col("020_a").str.replace_all("-", ""))
+        .with_columns(
+            (pl.col("100_a") + pl.lit(" | ") + pl.col("245_a")).alias("kniha")
+        )
+        .rename({"020_a": "isbn", "100_a": "autorstvo"})
+        .select(pl.col(["isbn", "kniha", "autorstvo"]))
+        .drop_nulls()
+    )
+    return (nazvy,)
+
+
+@app.cell
+def _(isbn_ceske_beletrie, nazvy, pl):
+    ukazky_ceske_beletrie = (
+        pl.read_parquet("../knizni-peoplemetr/data/ukazky_ebooku.parquet")
+        .filter(pl.col("isbn").is_in(isbn_ceske_beletrie))
+        .join(nazvy, how="left", on="isbn")
+        .with_columns(pl.col("text").str.split(" ").list.len().alias("slov"))
+        .unique(subset="kniha")
+        .filter(pl.col("slov") > 10)
+    )
+    return (ukazky_ceske_beletrie,)
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.filter(pl.col("text").str.contains("(?i) turec"))
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.filter(pl.col("text").str.contains("(?i) slovens"))
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.with_columns(
+        pl.col("text").str.split("Bratisl").list.slice(1, 1)
+    ).explode("text").filter(pl.col("text").str.len_bytes() > 5)
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.with_columns(
+        pl.col("text").str.split(" Košic").list.slice(1, 1)
+    ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
+        df_cs, how="left", on="isbn"
+    )
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.with_columns(
+        pl.col("text").str.split(" Bratisl").list.slice(1, 1)
+    ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
+        df_cs, how="left", on="isbn"
+    )
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.with_columns(
+        pl.col("text").str.split(" Tat[er]").list.slice(1, 1)
+    ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
+        df_cs, how="left", on="isbn"
+    )
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.with_columns(
+        pl.col("text").str.split(" Žilin").list.slice(1, 1)
+    ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
+        df_cs, how="left", on="isbn"
+    )
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.with_columns(
+        pl.col("text").str.split(" Slovens").list.slice(1, 1)
+    ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
+        df_cs, how="left", on="isbn"
+    )
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.with_columns(
+        pl.col("text").str.split(" Německ").list.slice(1, 1)
+    ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
+        df_cs, how="left", on="isbn"
+    )
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.filter(pl.col("kniha").str.contains("Fosilie")).join(
+        df_cs, how="left", on="isbn"
+    )
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.with_columns(
+        pl.col("text").str.split(" slovens").list.slice(1, 1)
+    ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
+        df_cs, how="left", on="isbn"
+    )
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    df_cs.join(ukazky_ceske_beletrie, how="left", on="isbn").select(
+        pl.col("slov").sum()
+    )
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.select(pl.col("slov").median())
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.join(df_cs, how="left", on="isbn").filter(
+        pl.col("text").str.contains("Horom")
+    )
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.join(df_cs, how="left", on="isbn").explode(
+        "obce"
+    ).filter(pl.col("obce") == "Horoměřice")
+    return
+
+
+@app.cell
+def _(df_cs, pl, ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie.with_columns(
+        pl.col("text").str.split("Slovens").list.slice(1, 1)
+    ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
+        df_cs, how="left", on="isbn"
+    )
+    return
+
+
+@app.cell
+def _(df_cs, pl, prejmenovani, prejmenovani_2, ukazky_ceske_beletrie):
+    kontrola = (
+        df_cs.join(ukazky_ceske_beletrie, how="left", on="isbn")
+        .drop(["text", "autorstvo", "slov"])
+        .sort(by="kniha")
+        .join(
+            df_cs.explode("staty")
+            .with_columns(pl.col("staty").replace(prejmenovani))
+            .with_columns(pl.col("staty").replace(prejmenovani_2))
+            .group_by("isbn")
+            .agg(pl.col("staty"))
+            .rename({"staty": "staty_ciste"}),
+            how="left",
+            on="isbn",
+        )
+    )
+
+    kontrola
+    return (kontrola,)
+
+
+@app.cell
+def _(kontrola):
+    kontrola.write_ndjson("data/06_kontrola_zminek_zemi_v_beletrii.json")
+    return
+
+
+@app.cell
+def _(ukazky_ceske_beletrie):
+    ukazky_ceske_beletrie
+    return
+
+
+@app.cell
+def _(df_cs, pl):
+    df_cs.select(pl.col(["kniha", "staty"])).with_columns(
+        pl.col("staty").list.join(", ")
+    ).sort(by="kniha").write_csv("06d_seznam_knih_a_statu.csv")
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Země versus témata
+    """)
+    return
+
+
+@app.cell
+def _(df_cs, pl, prejmenovani, prejmenovani_2):
+    def podily(sloupec):
+        return (
+            df_cs.explode("staty")
+            .with_columns(pl.col("staty").alias("country"))
+            .with_columns(pl.col("country").replace(prejmenovani))
+            .with_columns(pl.col("country").replace(prejmenovani_2))
+            .group_by(["country", sloupec])
+            .len()
+            .drop_nulls()
+            .pivot(index="country", on=sloupec, values="len")
+            .fill_null(1)
+            .with_columns(
+                (pl.col("true") / (pl.col("true") + pl.col("false"))).alias(
+                    "podil"
+                ),
+                (pl.col("true") + pl.col("false")).alias("celkem"),
+            )
+            .sort(by="podil")
+        )
+
+    return (podily,)
+
+
+@app.cell
+def _(pl, podily):
+    podily("sex").filter(pl.col("celkem") > 10)
+    return
+
+
+@app.cell
+def _(pl, podily):
+    podily("nasili").filter(pl.col("celkem") > 10)
+    return
+
+
+@app.cell
+def _(pl, podily):
+    podily("alkohol").filter(pl.col("celkem") > 10)
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Světové strany
+    """)
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"Západ[^n]")))
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    len(
+        ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"\w Západ[^no]"))
+    )
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"Východ[^n]")))
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    len(
+        ukazky_ceske_beletrie.filter(
+            pl.col("text").str.contains(r"\w Východ[^no]")
+        )
+    )
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"(?i)západn")))
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"(?i)východn")))
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"(?i)severn")))
+    return
+
+
+@app.cell
+def _(pl, ukazky_ceske_beletrie):
+    len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"(?i)jižn")))
+    return
+
+
+@app.cell
+def _():
+    136 / 117
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## Fulltext
+    """)
+    return
+
+
+@app.cell
+def _(pl, re, ukazky_ceske_beletrie):
+    def hledej(termin):
+        # Escape the term so special regex characters (like . or ?) don't break the pattern
+        escaped_termin = re.escape(termin)
+
+        # Build the regex pattern:
+        # (?s)        -> Dotall modifier (allows '.' to match newlines)
+        # ( ... )     -> Capture group 1 (this is what .extract will return)
+        # .{0,150}    -> Grabs up to 150 characters before the term
+        # .{0,150}    -> Grabs up to 150 characters after the term
+        pattern = rf"(?s)(.{{0,70}}{escaped_termin}.{{0,70}})"
+
+        return (
+            ukazky_ceske_beletrie
+            # Added literal=True to ensure it searches for the exact word, not a regex string
+            .filter(pl.col("text").str.contains(termin, literal=True))
+            .with_columns(
+                # Extract the matching pattern from the text column
+                pl.col("text").str.extract(pattern, 1).alias("text")
+            )
+            .select(pl.col(["text", "kniha"]))
+        )
+
+    return (hledej,)
+
+
+@app.cell
+def _(hledej):
+    hledej("Západ")
+    return
+
+
+@app.cell
+def _(hledej):
+    hledej("Polsk")
+    return
+
+
+@app.cell
+def _(hledej):
+    hledej(" saud")
+    return
+
+
+@app.cell
+def _(hledej):
+    hledej("Slovensk")
     return
 
 

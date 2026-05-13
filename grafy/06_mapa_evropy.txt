@@ -1,0 +1,5 @@
+<figure>
+    <a href="https://data.irozhlas.cz/grafy/06_mapa_evropy.svg" target="_blank">
+    <img src="https://data.irozhlas.cz/grafy/06_mapa_evropy.svg" width="100%" alt="Graf s titulkem „Zmínky o evropských zemích v české beletrii této dekády“. Další texty by měly být čitelné ze zdrojového souboru SVG." />
+    </a>
+    </figure>
