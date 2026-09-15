@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 676 542" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+    @font-face {font-family: "Asap"; src: url("https://data.irozhlas.cz/fonty/Asap-VariableFont_wdth,wght.ttf") format("truetype-variations");} 
+    @font-face {font-family: "Noticia Text"; src: url("https://data.irozhlas.cz/fonty/NoticiaText-Regular.ttf") format("truetype-variations"); font-weight: normal; font-style: normal;}
+    @font-face {font-family: "Noticia Text"; src: url("https://data.irozhlas.cz/fonty/NoticiaText-Bold.ttf") format("truetype-variations"); font-weight: bold; font-style: normal;}
+    .role-axis, .role-mark, .role-axis-label, .role-legend {font-family: "Asap", sans-serif} 
+    .mark-group.role-title { font-family: "'Noticia Text'", "Noticia", serif}
+    </style>
+ <g transform="translate(0)">
+  <ns0:rect width="676" height="522" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(121,81)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0,0h500v420h-500Z" stroke="#ddd" stroke-width="0" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-group role-axis" aria-hidden="true">
+       <ns1:g transform="translate(.5 420)">
+        <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+          <ns1:line transform="translate(9)" x2="0" y2="-420"/>
+          <ns1:line transform="translate(56)" x2="0" y2="-420"/>
+          <ns1:line transform="translate(102)" x2="0" y2="-420"/>
+          <ns1:line transform="translate(148)" x2="0" y2="-420"/>
+          <ns1:line transform="translate(194)" x2="0" y2="-420"/>
+          <ns1:line transform="translate(241)" x2="0" y2="-420"/>
+          <ns1:line transform="translate(287)" x2="0" y2="-420"/>
+          <ns1:line transform="translate(333)" x2="0" y2="-420"/>
+          <ns1:line transform="translate(380)" x2="0" y2="-420"/>
+          <ns1:line transform="translate(426)" x2="0" y2="-420"/>
+          <ns1:line transform="translate(472)" x2="0" y2="-420"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-axis" aria-hidden="true">
+       <ns1:g transform="translate(.5 .5)">
+        <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="lightgray" stroke-width=".5">
+          <ns1:line transform="translate(0,10)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,30)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,50)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,70)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,90)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,110)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,130)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,150)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,170)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,190)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,210)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,230)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,250)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,270)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,290)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,310)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,330)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,350)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,370)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,390)" x2="500" y2="0"/>
+          <ns1:line transform="translate(0,410)" x2="500" y2="0"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-axis" aria-label="X-axis for a linear scale with values from 1918 to 2026" aria-roledescription="axis" role="graphics-symbol">
+       <ns1:g transform="translate(.5 420)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+          <ns1:line transform="translate(9)" x2="0" y2="5"/>
+          <ns1:line transform="translate(56)" x2="0" y2="5"/>
+          <ns1:line transform="translate(102)" x2="0" y2="5"/>
+          <ns1:line transform="translate(148)" x2="0" y2="5"/>
+          <ns1:line transform="translate(194)" x2="0" y2="5"/>
+          <ns1:line transform="translate(241)" x2="0" y2="5"/>
+          <ns1:line transform="translate(287)" x2="0" y2="5"/>
+          <ns1:line transform="translate(333)" x2="0" y2="5"/>
+          <ns1:line transform="translate(380)" x2="0" y2="5"/>
+          <ns1:line transform="translate(426)" x2="0" y2="5"/>
+          <ns1:line transform="translate(472)" x2="0" y2="5"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="middle">
+          <ns1:text transform="translate(9.3 14)">1920</ns1:text>
+          <ns1:text transform="translate(56 14)">1930</ns1:text>
+          <ns1:text transform="translate(102 14)">1940</ns1:text>
+          <ns1:text transform="translate(148 14)">1950</ns1:text>
+          <ns1:text transform="translate(194 14)">1960</ns1:text>
+          <ns1:text transform="translate(241 14)">1970</ns1:text>
+          <ns1:text transform="translate(287 14)">1980</ns1:text>
+          <ns1:text transform="translate(333 14)">1990</ns1:text>
+          <ns1:text transform="translate(380 14)">2000</ns1:text>
+          <ns1:text transform="translate(426 14)">2010</ns1:text>
+          <ns1:text transform="translate(472 14)">2020</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-rule role-axis-domain">
+          <ns1:line transform="translate(0)" x2="500" y2="0" stroke="#888" stroke-opacity="0"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-axis" aria-label="Y-axis for a discrete scale with 21 values: Karl Marx, „v knize“, Bible, Niccolò Machiavelli, Božena Němcová, ending with Bratrstvo kočičí pracky" aria-roledescription="axis" role="graphics-symbol">
+       <ns1:g transform="translate(.5 .5)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+          <ns1:line transform="translate(0,10)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,30)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,50)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,70)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,90)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,110)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,130)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,150)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,170)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,190)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,210)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,230)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,250)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,270)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,290)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,310)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,330)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,350)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,370)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,390)" x2="-5" y2="0"/>
+          <ns1:line transform="translate(0,410)" x2="-5" y2="0"/>
+         </ns1:g>
+         <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+          <ns1:text transform="translate(-7,13)">Karl Marx</ns1:text>
+          <ns1:text transform="translate(-7,33)">„v knize“</ns1:text>
+          <ns1:text transform="translate(-7,53)">Bible</ns1:text>
+          <ns1:text transform="translate(-7,73)">Niccolò Machiavelli</ns1:text>
+          <ns1:text transform="translate(-7,93)">Božena Němcová</ns1:text>
+          <ns1:text transform="translate(-7,113)">Kocourkov</ns1:text>
+          <ns1:text transform="translate(-7,133)">Švejk</ns1:text>
+          <ns1:text transform="translate(-7,153)">Korán</ns1:text>
+          <ns1:text transform="translate(-7,173)">Karel Čapek</ns1:text>
+          <ns1:text transform="translate(-7,193)">Julius Fučík</ns1:text>
+          <ns1:text transform="translate(-7,213)">Mein Kampf</ns1:text>
+          <ns1:text transform="translate(-7,233)">Alenka v Říši divů</ns1:text>
+          <ns1:text transform="translate(-7,253)">Pandořina skříňka</ns1:text>
+          <ns1:text transform="translate(-7,273)">Rychlé šípy</ns1:text>
+          <ns1:text transform="translate(-7,293)">Franz Kafka, kafkovský</ns1:text>
+          <ns1:text transform="translate(-7,313)">„jak praví/říká/atp. klasik“</ns1:text>
+          <ns1:text transform="translate(-7,333)">George Orwell, orwellovský</ns1:text>
+          <ns1:text transform="translate(-7,353)">Pejsek a kočička</ns1:text>
+          <ns1:text transform="translate(-7,373)">Cimrman</ns1:text>
+          <ns1:text transform="translate(-7,393)">Harry Potter</ns1:text>
+          <ns1:text transform="translate(-7,413)">Bratrstvo kočičí pracky</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-rule role-axis-domain">
+          <ns1:line transform="translate(0)" x2="0" y2="420" stroke="#888" stroke-opacity="0"/>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-rect role-mark layer_0_marks" aria-roledescription="rect mark container" role="graphics-object">
+       <ns1:path d="M138.88888888888889,0h189.8148148148148v420h-189.8148148148148Z" fill="red" opacity=".2" aria-label="start: 1948; end: 1989" aria-roledescription="rect mark" role="graphics-symbol"/>
+      </ns1:g>
+      <ns1:g class="mark-rect role-mark layer_1_marks" aria-roledescription="rect mark container" role="graphics-object">
+       <ns1:path d="M97.22222222222223,0h23.148148148148138v420h-23.148148148148138Z" fill="gray" opacity=".3" aria-label="start: 1939; end: 1944" aria-roledescription="rect mark" role="graphics-symbol"/>
+      </ns1:g>
+      <ns1:g class="mark-symbol role-mark layer_2_marks" fill="#4c78a8" stroke-width="2" aria-roledescription="symbol mark container" role="graphics-object">
+       <ns1:path transform="translate(338 330)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1991; co: George Orwell, orwellovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 330)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1992; co: George Orwell, orwellovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(347 330)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1993; co: George Orwell, orwellovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(352 330)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1994; co: George Orwell, orwellovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(356 330)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1995; co: George Orwell, orwellovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 330)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1997; co: George Orwell, orwellovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,330)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1999; co: George Orwell, orwellovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 330)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2000; co: George Orwell, orwellovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 330)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2001; co: George Orwell, orwellovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 330)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2002; co: George Orwell, orwellovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 330)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2003; co: George Orwell, orwellovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 330)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2004; co: George Orwell, orwellovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 330)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2005; co: George Orwell, orwellovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 330)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2006; co: George Orwell, orwellovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 330)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2007; co: George Orwell, orwellovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 330)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2008; co: George Orwell, orwellovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 330)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2009; co: George Orwell, orwellovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(426 330)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2010; co: George Orwell, orwellovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 330)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2011; co: George Orwell, orwellovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 330)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2012; co: George Orwell, orwellovský; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 330)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2014; co: George Orwell, orwellovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 330)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2015; co: George Orwell, orwellovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 330)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2016; co: George Orwell, orwellovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(458 330)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2017; co: George Orwell, orwellovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 330)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2018; co: George Orwell, orwellovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 330)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 2019; co: George Orwell, orwellovský; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 330)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 2020; co: George Orwell, orwellovský; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 330)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2021; co: George Orwell, orwellovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 330)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 2022; co: George Orwell, orwellovský; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 330)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 2023; co: George Orwell, orwellovský; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 330)" d="M6.144,0A6.144,6.144,0,1,1,-6.144,0A6.144,6.144,0,1,1,6.144,0" opacity=".7" aria-label="rok: 2024; co: George Orwell, orwellovský; poslanců: 7" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 330)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2025; co: George Orwell, orwellovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,330)" d="M7.314,0A7.314,7.314,0,1,1,-7.314,0A7.314,7.314,0,1,1,7.314,0" opacity=".7" aria-label="rok: 2026; co: George Orwell, orwellovský; poslanců: 10" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 370)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1991; co: Cimrman; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 370)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1992; co: Cimrman; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(361 370)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1996; co: Cimrman; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 370)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1997; co: Cimrman; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 370)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1998; co: Cimrman; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,370)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1999; co: Cimrman; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 370)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2000; co: Cimrman; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 370)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2001; co: Cimrman; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 370)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2002; co: Cimrman; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 370)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2003; co: Cimrman; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 370)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2004; co: Cimrman; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 370)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2005; co: Cimrman; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 370)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2006; co: Cimrman; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 370)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2007; co: Cimrman; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 370)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2008; co: Cimrman; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 370)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2009; co: Cimrman; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(426 370)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2010; co: Cimrman; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 370)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2011; co: Cimrman; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 370)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 2012; co: Cimrman; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(440 370)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2013; co: Cimrman; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 370)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 2014; co: Cimrman; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 370)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2015; co: Cimrman; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 370)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2016; co: Cimrman; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 370)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2018; co: Cimrman; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 370)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2019; co: Cimrman; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 370)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2020; co: Cimrman; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 370)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2021; co: Cimrman; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 370)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2022; co: Cimrman; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 370)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2023; co: Cimrman; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 370)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2024; co: Cimrman; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 370)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2025; co: Cimrman; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,370)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2026; co: Cimrman; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(0,30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1918; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(4.6 30)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 1919; co: „v knize“; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(9.3 30)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1920; co: „v knize“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(14 30)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1921; co: „v knize“; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(19 30)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1922; co: „v knize“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(23 30)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1923; co: „v knize“; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(28 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1924; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(32 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1925; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(37 30)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1926; co: „v knize“; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(42 30)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1927; co: „v knize“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(46 30)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 1928; co: „v knize“; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(51 30)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1929; co: „v knize“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(56 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1930; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(60 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1931; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(65 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1932; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(69 30)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1933; co: „v knize“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(74 30)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 1934; co: „v knize“; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(79 30)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1935; co: „v knize“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(83 30)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1936; co: „v knize“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(88 30)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 1937; co: „v knize“; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(93 30)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1938; co: „v knize“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(130 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1946; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(134 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1947; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(139 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1948; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(144 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1949; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(148 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1950; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(153 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1951; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(218 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1965; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(236 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1969; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 30)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1991; co: „v knize“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 30)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1992; co: „v knize“; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(347 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1993; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(352 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1994; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(361 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1996; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 30)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1997; co: „v knize“; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1998; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1999; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2000; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2001; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2002; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2003; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2004; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2005; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2006; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 30)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2007; co: „v knize“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2008; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2009; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(426 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2010; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 30)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2011; co: „v knize“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2012; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(440 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2013; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2014; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2015; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(458 30)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2017; co: „v knize“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2018; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2019; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 30)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2020; co: „v knize“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 30)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2021; co: „v knize“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 30)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2023; co: „v knize“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 30)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2024; co: „v knize“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2025; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,30)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2026; co: „v knize“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 310)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1991; co: „jak praví/říká/atp. klasik“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1992; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(352 310)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1994; co: „jak praví/říká/atp. klasik“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(361 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1996; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1997; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 310)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1998; co: „jak praví/říká/atp. klasik“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1999; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 310)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2001; co: „jak praví/říká/atp. klasik“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 310)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2003; co: „jak praví/říká/atp. klasik“; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 310)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2004; co: „jak praví/říká/atp. klasik“; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2005; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 310)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2006; co: „jak praví/říká/atp. klasik“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 310)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2007; co: „jak praví/říká/atp. klasik“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 310)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 2008; co: „jak praví/říká/atp. klasik“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2009; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(426 310)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2010; co: „jak praví/říká/atp. klasik“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2011; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2012; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(440 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2013; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2014; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2015; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 310)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2016; co: „jak praví/říká/atp. klasik“; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(458 310)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 2017; co: „jak praví/říká/atp. klasik“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 310)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2018; co: „jak praví/říká/atp. klasik“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 310)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2019; co: „jak praví/říká/atp. klasik“; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 310)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2020; co: „jak praví/říká/atp. klasik“; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 310)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 2021; co: „jak praví/říká/atp. klasik“; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 310)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2022; co: „jak praví/říká/atp. klasik“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 310)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2023; co: „jak praví/říká/atp. klasik“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 310)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2025; co: „jak praví/říká/atp. klasik“; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,310)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2026; co: „jak praví/říká/atp. klasik“; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 390)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2006; co: Harry Potter; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 390)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2008; co: Harry Potter; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 390)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2009; co: Harry Potter; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 390)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2015; co: Harry Potter; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 390)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2018; co: Harry Potter; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 390)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2019; co: Harry Potter; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 390)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2020; co: Harry Potter; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 390)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2022; co: Harry Potter; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 390)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2023; co: Harry Potter; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 390)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2024; co: Harry Potter; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,390)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2026; co: Harry Potter; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(65 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1932; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(69 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1933; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(74 210)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1934; co: Mein Kampf; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(79 210)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1935; co: Mein Kampf; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(83 210)" d="M8.322,0A8.322,8.322,0,1,1,-8.322,0A8.322,8.322,0,1,1,8.322,0" opacity=".7" aria-label="rok: 1936; co: Mein Kampf; poslanců: 13" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(88 210)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1937; co: Mein Kampf; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(93 210)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1938; co: Mein Kampf; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(134 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1947; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(139 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1948; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(144 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1949; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(148 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1950; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(227 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1967; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(231 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1968; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(356 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1995; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 210)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2000; co: Mein Kampf; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 210)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2001; co: Mein Kampf; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2005; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 210)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2006; co: Mein Kampf; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2008; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2016; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2020; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 210)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2025; co: Mein Kampf; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(9.3 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1920; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(37 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1926; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(42 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1927; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(46 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1928; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(56 90)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1930; co: Božena Němcová; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(60 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1931; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(83 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1936; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(88 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1937; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(130 90)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1946; co: Božena Němcová; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(134 90)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1947; co: Božena Němcová; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(139 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1948; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(144 90)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1949; co: Božena Němcová; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(153 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1951; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(167 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1954; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(181 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1957; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(185 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1958; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(190 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1959; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(218 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1965; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(347 90)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1993; co: Božena Němcová; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1997; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1998; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,90)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1999; co: Božena Němcová; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2000; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2002; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2004; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2005; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 90)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2007; co: Božena Němcová; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2008; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2012; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2016; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 90)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2021; co: Božena Němcová; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(9.3 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1920; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(14 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1921; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(19 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1922; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(42 70)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1927; co: Niccolò Machiavelli; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(79 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1935; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(93 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1938; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(333 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1990; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 70)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1991; co: Niccolò Machiavelli; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1997; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2006; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2007; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2008; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2009; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 70)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2012; co: Niccolò Machiavelli; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 70)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2015; co: Niccolò Machiavelli; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 70)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2023; co: Niccolò Machiavelli; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(324 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1988; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1992; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(356 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1995; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(361 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1996; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1998; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1999; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2000; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2001; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 230)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2004; co: Alenka v Říši divů; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 230)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2009; co: Alenka v Říši divů; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(440 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2013; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2014; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 230)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2015; co: Alenka v Říši divů; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2021; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2023; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 230)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2025; co: Alenka v Říši divů; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,230)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2026; co: Alenka v Říši divů; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(426 410)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2010; co: Bratrstvo kočičí pracky; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 410)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2011; co: Bratrstvo kočičí pracky; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 410)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2022; co: Bratrstvo kočičí pracky; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 410)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2024; co: Bratrstvo kočičí pracky; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(14 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1921; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(19 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1922; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(23 110)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1923; co: Kocourkov; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(28 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1924; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(32 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1925; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(42 110)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 1927; co: Kocourkov; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(46 110)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1928; co: Kocourkov; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(51 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1929; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(56 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1930; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(65 110)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1932; co: Kocourkov; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(69 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1933; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(79 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1935; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(83 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1936; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(144 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1949; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(333 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1990; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 110)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1991; co: Kocourkov; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 110)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1992; co: Kocourkov; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(347 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1993; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(356 110)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1995; co: Kocourkov; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(361 110)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1996; co: Kocourkov; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 110)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 1997; co: Kocourkov; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 110)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1998; co: Kocourkov; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,110)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1999; co: Kocourkov; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 110)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 2000; co: Kocourkov; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 110)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 2001; co: Kocourkov; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 110)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 2002; co: Kocourkov; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 110)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 2003; co: Kocourkov; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 110)" d="M6.946,0A6.946,6.946,0,1,1,-6.946,0A6.946,6.946,0,1,1,6.946,0" opacity=".7" aria-label="rok: 2004; co: Kocourkov; poslanců: 9" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 110)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 2005; co: Kocourkov; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 110)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2006; co: Kocourkov; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 110)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2007; co: Kocourkov; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 110)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2008; co: Kocourkov; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2009; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(426 110)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 2010; co: Kocourkov; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 110)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 2011; co: Kocourkov; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 110)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2012; co: Kocourkov; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(440 110)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2013; co: Kocourkov; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 110)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2014; co: Kocourkov; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 110)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2015; co: Kocourkov; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2016; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(458 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2017; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2018; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 110)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2019; co: Kocourkov; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 110)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2020; co: Kocourkov; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 110)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2021; co: Kocourkov; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 110)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2022; co: Kocourkov; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 110)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2023; co: Kocourkov; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 110)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 2024; co: Kocourkov; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 110)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 2025; co: Kocourkov; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,110)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2026; co: Kocourkov; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 350)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1991; co: Pejsek a kočička; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 350)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1992; co: Pejsek a kočička; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 350)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1998; co: Pejsek a kočička; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 350)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2000; co: Pejsek a kočička; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 350)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2001; co: Pejsek a kočička; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 350)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2002; co: Pejsek a kočička; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 350)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2003; co: Pejsek a kočička; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 350)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2005; co: Pejsek a kočička; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 350)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2006; co: Pejsek a kočička; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 350)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2007; co: Pejsek a kočička; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(426 350)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2010; co: Pejsek a kočička; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 350)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2011; co: Pejsek a kočička; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 350)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2012; co: Pejsek a kočička; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 350)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2014; co: Pejsek a kočička; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(458 350)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2017; co: Pejsek a kočička; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 350)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2018; co: Pejsek a kočička; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 350)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2019; co: Pejsek a kočička; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 350)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2020; co: Pejsek a kočička; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 350)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2021; co: Pejsek a kočička; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 350)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2022; co: Pejsek a kočička; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 350)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2023; co: Pejsek a kočička; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 350)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2024; co: Pejsek a kočička; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 350)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2025; co: Pejsek a kočička; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,350)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2026; co: Pejsek a kočička; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(333 270)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1990; co: Rychlé šípy; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 270)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2001; co: Rychlé šípy; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 270)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2007; co: Rychlé šípy; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 270)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2009; co: Rychlé šípy; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 270)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2015; co: Rychlé šípy; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 270)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2018; co: Rychlé šípy; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 270)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2022; co: Rychlé šípy; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 270)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2023; co: Rychlé šípy; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 270)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2024; co: Rychlé šípy; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 270)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2025; co: Rychlé šípy; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(23 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1923; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(28 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1924; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(37 130)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1926; co: Švejk; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(42 130)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1927; co: Švejk; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(46 130)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1928; co: Švejk; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(51 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1929; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(65 130)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1932; co: Švejk; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(74 130)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1934; co: Švejk; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(79 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1935; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(83 130)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 1936; co: Švejk; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(88 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1937; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(273 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1977; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(324 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1988; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(333 130)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1990; co: Švejk; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 130)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1991; co: Švejk; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 130)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1992; co: Švejk; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(347 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1993; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(356 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1995; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 130)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1997; co: Švejk; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1998; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,130)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1999; co: Švejk; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2001; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 130)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2002; co: Švejk; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2003; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2004; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 130)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 2005; co: Švejk; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 130)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2006; co: Švejk; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 130)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2007; co: Švejk; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 130)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2008; co: Švejk; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 130)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2009; co: Švejk; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 130)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 2011; co: Švejk; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 130)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2012; co: Švejk; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(440 130)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2013; co: Švejk; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 130)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2014; co: Švejk; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 130)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2015; co: Švejk; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2016; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(458 130)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2017; co: Švejk; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 130)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2018; co: Švejk; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2021; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 130)" d="M6.144,0A6.144,6.144,0,1,1,-6.144,0A6.144,6.144,0,1,1,6.144,0" opacity=".7" aria-label="rok: 2022; co: Švejk; poslanců: 7" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 130)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2024; co: Švejk; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,130)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2026; co: Švejk; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(56 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1930; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(60 190)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1931; co: Julius Fučík; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(130 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1946; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(134 190)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1947; co: Julius Fučík; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(139 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1948; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(144 190)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1949; co: Julius Fučík; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(148 190)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1950; co: Julius Fučík; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(153 190)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1951; co: Julius Fučík; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(162 190)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1953; co: Julius Fučík; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(167 190)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1954; co: Julius Fučík; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(171 190)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1955; co: Julius Fučík; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(181 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1957; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(185 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1958; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(190 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1959; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(194 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1960; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(199 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1961; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(213 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1964; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(227 190)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1967; co: Julius Fučík; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(231 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1968; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(245 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1971; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(259 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1974; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(264 190)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1975; co: Julius Fučík; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(273 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1977; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(282 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1979; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(292 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1981; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(301 190)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1983; co: Julius Fučík; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(306 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1984; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(310 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1985; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(319 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1987; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(333 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1990; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1991; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(426 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2010; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2015; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 190)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2016; co: Julius Fučík; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 190)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2023; co: Julius Fučík; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(0,10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1918; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(9.3 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1920; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(14 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1921; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(19 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1922; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(23 10)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1923; co: Karl Marx; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(28 10)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1924; co: Karl Marx; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(32 10)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1925; co: Karl Marx; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(37 10)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 1926; co: Karl Marx; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(42 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1927; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(46 10)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1928; co: Karl Marx; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(51 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1929; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(56 10)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 1930; co: Karl Marx; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(60 10)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 1931; co: Karl Marx; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(65 10)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1932; co: Karl Marx; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(69 10)" d="M7.314,0A7.314,7.314,0,1,1,-7.314,0A7.314,7.314,0,1,1,7.314,0" opacity=".7" aria-label="rok: 1933; co: Karl Marx; poslanců: 10" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(74 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1934; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(134 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1947; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(139 10)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1948; co: Karl Marx; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(144 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1949; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(148 10)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1950; co: Karl Marx; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(153 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1951; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(162 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1953; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(181 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1957; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(185 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1958; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(190 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1959; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(194 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1960; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(218 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1965; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(222 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1966; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(236 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1969; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(241 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1970; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(245 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1971; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(264 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1975; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(278 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1978; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(287 10)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1980; co: Karl Marx; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(301 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1983; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1992; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(352 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1994; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1997; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1998; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1999; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2000; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2001; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2002; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2003; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2005; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2006; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2007; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 10)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2008; co: Karl Marx; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 10)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2009; co: Karl Marx; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2011; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2014; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 10)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2015; co: Karl Marx; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(458 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2017; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2018; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2019; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 10)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2020; co: Karl Marx; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(333 250)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1990; co: Pandořina skříňka; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 250)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1991; co: Pandořina skříňka; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 250)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1992; co: Pandořina skříňka; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(361 250)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1996; co: Pandořina skříňka; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 250)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1997; co: Pandořina skříňka; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 250)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1998; co: Pandořina skříňka; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 250)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2000; co: Pandořina skříňka; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 250)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 2001; co: Pandořina skříňka; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 250)" d="M5.22,0A5.22,5.22,0,1,1,-5.22,0A5.22,5.22,0,1,1,5.22,0" opacity=".7" aria-label="rok: 2002; co: Pandořina skříňka; poslanců: 5" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 250)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2003; co: Pandořina skříňka; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 250)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2004; co: Pandořina skříňka; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 250)" d="M6.144,0A6.144,6.144,0,1,1,-6.144,0A6.144,6.144,0,1,1,6.144,0" opacity=".7" aria-label="rok: 2005; co: Pandořina skříňka; poslanců: 7" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 250)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2006; co: Pandořina skříňka; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 250)" d="M6.144,0A6.144,6.144,0,1,1,-6.144,0A6.144,6.144,0,1,1,6.144,0" opacity=".7" aria-label="rok: 2007; co: Pandořina skříňka; poslanců: 7" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 250)" d="M6.946,0A6.946,6.946,0,1,1,-6.946,0A6.946,6.946,0,1,1,6.946,0" opacity=".7" aria-label="rok: 2008; co: Pandořina skříňka; poslanců: 9" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 250)" d="M7.665,0A7.665,7.665,0,1,1,-7.665,0A7.665,7.665,0,1,1,7.665,0" opacity=".7" aria-label="rok: 2009; co: Pandořina skříňka; poslanců: 11" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(426 250)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2010; co: Pandořina skříňka; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 250)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 2011; co: Pandořina skříňka; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 250)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 2012; co: Pandořina skříňka; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(440 250)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2013; co: Pandořina skříňka; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 250)" d="M6.144,0A6.144,6.144,0,1,1,-6.144,0A6.144,6.144,0,1,1,6.144,0" opacity=".7" aria-label="rok: 2014; co: Pandořina skříňka; poslanců: 7" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 250)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2015; co: Pandořina skříňka; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 250)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 2016; co: Pandořina skříňka; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(458 250)" d="M7.314,0A7.314,7.314,0,1,1,-7.314,0A7.314,7.314,0,1,1,7.314,0" opacity=".7" aria-label="rok: 2017; co: Pandořina skříňka; poslanců: 10" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 250)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 2018; co: Pandořina skříňka; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 250)" d="M7.665,0A7.665,7.665,0,1,1,-7.665,0A7.665,7.665,0,1,1,7.665,0" opacity=".7" aria-label="rok: 2019; co: Pandořina skříňka; poslanců: 11" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 250)" d="M8.631,0A8.631,8.631,0,1,1,-8.631,0A8.631,8.631,0,1,1,8.631,0" opacity=".7" aria-label="rok: 2020; co: Pandořina skříňka; poslanců: 14" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 250)" d="M6.144,0A6.144,6.144,0,1,1,-6.144,0A6.144,6.144,0,1,1,6.144,0" opacity=".7" aria-label="rok: 2021; co: Pandořina skříňka; poslanců: 7" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 250)" d="M6.144,0A6.144,6.144,0,1,1,-6.144,0A6.144,6.144,0,1,1,6.144,0" opacity=".7" aria-label="rok: 2022; co: Pandořina skříňka; poslanců: 7" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 250)" d="M7.314,0A7.314,7.314,0,1,1,-7.314,0A7.314,7.314,0,1,1,7.314,0" opacity=".7" aria-label="rok: 2023; co: Pandořina skříňka; poslanců: 10" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 250)" d="M9.5,0A9.5,9.5,0,1,1,-9.5,0A9.5,9.5,0,1,1,9.5,0" opacity=".7" aria-label="rok: 2024; co: Pandořina skříňka; poslanců: 17" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 250)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2025; co: Pandořina skříňka; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,250)" d="M7.665,0A7.665,7.665,0,1,1,-7.665,0A7.665,7.665,0,1,1,7.665,0" opacity=".7" aria-label="rok: 2026; co: Pandořina skříňka; poslanců: 11" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(32 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1925; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(69 170)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1933; co: Karel Čapek; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(74 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1934; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(83 170)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1936; co: Karel Čapek; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(88 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1937; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(139 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1948; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(144 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1949; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(162 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1953; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(167 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1954; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(181 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1957; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(227 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1967; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(269 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1976; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(301 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1983; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(329 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1989; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(333 170)" d="M6.557,0A6.557,6.557,0,1,1,-6.557,0A6.557,6.557,0,1,1,6.557,0" opacity=".7" aria-label="rok: 1990; co: Karel Čapek; poslanců: 8" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 170)" d="M6.144,0A6.144,6.144,0,1,1,-6.144,0A6.144,6.144,0,1,1,6.144,0" opacity=".7" aria-label="rok: 1991; co: Karel Čapek; poslanců: 7" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 170)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1992; co: Karel Čapek; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(347 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1993; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(356 170)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1995; co: Karel Čapek; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1997; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 170)" d="M8,0A8,8,0,1,1,-8,0A8,8,0,1,1,8,0" opacity=".7" aria-label="rok: 1998; co: Karel Čapek; poslanců: 12" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,170)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1999; co: Karel Čapek; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 170)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2000; co: Karel Čapek; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2001; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(389 170)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2002; co: Karel Čapek; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 170)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2003; co: Karel Čapek; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 170)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2004; co: Karel Čapek; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 170)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2005; co: Karel Čapek; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2006; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2007; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 170)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2009; co: Karel Čapek; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(426 170)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2010; co: Karel Čapek; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 170)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2012; co: Karel Čapek; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 170)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2018; co: Karel Čapek; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2019; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 170)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2020; co: Karel Čapek; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 170)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2024; co: Karel Čapek; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(500,170)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2026; co: Karel Čapek; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(28 150)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1924; co: Korán; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(56 150)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1930; co: Korán; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 150)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1991; co: Korán; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(347 150)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1993; co: Korán; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(361 150)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1996; co: Korán; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 150)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2012; co: Korán; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 150)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2015; co: Korán; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 150)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 2016; co: Korán; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(458 150)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2017; co: Korán; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 150)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2020; co: Korán; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 150)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2023; co: Korán; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 150)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2024; co: Korán; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 150)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2025; co: Korán; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(9.3 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1920; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(14 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1921; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(19 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1922; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(32 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1925; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(37 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1926; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(60 50)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1931; co: Bible; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(69 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1933; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(74 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1934; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(130 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1946; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(134 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1947; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(190 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1959; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(194 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1960; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(231 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1968; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(333 50)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1990; co: Bible; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 50)" d="M6.144,0A6.144,6.144,0,1,1,-6.144,0A6.144,6.144,0,1,1,6.144,0" opacity=".7" aria-label="rok: 1991; co: Bible; poslanců: 7" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 50)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1992; co: Bible; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(347 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1993; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(352 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1994; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1997; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1998; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2000; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2001; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(398 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2004; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 50)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2005; co: Bible; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2006; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 50)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2007; co: Bible; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(431 50)" d="M5.701,0A5.701,5.701,0,1,1,-5.701,0A5.701,5.701,0,1,1,5.701,0" opacity=".7" aria-label="rok: 2011; co: Bible; poslanců: 6" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 50)" d="M6.144,0A6.144,6.144,0,1,1,-6.144,0A6.144,6.144,0,1,1,6.144,0" opacity=".7" aria-label="rok: 2012; co: Bible; poslanců: 7" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2014; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 50)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2015; co: Bible; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(454 50)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2016; co: Bible; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(463 50)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2018; co: Bible; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 50)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2020; co: Bible; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(477 50)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2021; co: Bible; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(481 50)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2022; co: Bible; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(486 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2023; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2024; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(495 50)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2025; co: Bible; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(333 290)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1990; co: Franz Kafka, kafkovský; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(338 290)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 1991; co: Franz Kafka, kafkovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(343 290)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 1992; co: Franz Kafka, kafkovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(366 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1997; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(370 290)" d="M4.69,0A4.69,4.69,0,1,1,-4.69,0A4.69,4.69,0,1,1,4.69,0" opacity=".7" aria-label="rok: 1998; co: Franz Kafka, kafkovský; poslanců: 4" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(375,290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 1999; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(380 290)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2000; co: Franz Kafka, kafkovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(384 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2001; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(394 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2003; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(403 290)" d="M4.093,0A4.093,4.093,0,1,1,-4.093,0A4.093,4.093,0,1,1,4.093,0" opacity=".7" aria-label="rok: 2005; co: Franz Kafka, kafkovský; poslanců: 3" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(407 290)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2006; co: Franz Kafka, kafkovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(412 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2007; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(417 290)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2008; co: Franz Kafka, kafkovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(421 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2009; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(435 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2012; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(440 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2013; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(444 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2014; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(449 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2015; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(458 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2017; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(468 290)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2019; co: Franz Kafka, kafkovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(472 290)" d="M2.5,0A2.5,2.5,0,1,1,-2.5,0A2.5,2.5,0,1,1,2.5,0" opacity=".7" aria-label="rok: 2020; co: Franz Kafka, kafkovský; poslanců: 1" aria-roledescription="circle" role="graphics-symbol"/>
+       <ns1:path transform="translate(491 290)" d="M3.391,0A3.391,3.391,0,1,1,-3.391,0A3.391,3.391,0,1,1,3.391,0" opacity=".7" aria-label="rok: 2024; co: Franz Kafka, kafkovský; poslanců: 2" aria-roledescription="circle" role="graphics-symbol"/>
+      </ns1:g>
+      <ns1:g class="mark-group role-title">
+       <ns1:g transform="translate(-116 -66)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-text role-title-text" aria-label="Title text 'Literární reference v projevech poslanců a poslankyň'" aria-roledescription="title" role="graphics-symbol">
+          <ns1:text transform="translate(0,-1)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="12px" font-weight="bold">Literární reference v projevech poslanců a poslankyň</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Velikost kolečka odpovídá počtu jednotlivých mluvčích, kteří použili danou referenci, v rozsahu od 1 do 17. Šlo o reference v různých pádech, tedy např. „v Bibli“, ovšem ne reference formulované jinak; do Bible se tedy nepočítá „podle Nového Zákona“. Šedě je podbarvené období 2. světové války, kdy české zákonodárné sbory nezasedaly, červeně období vlády KSČ.'" aria-roledescription="subtitle" role="graphics-symbol">
+          <ns1:text transform="translate(0 20)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="10px">
+           <ns1:tspan>Velikost kolečka odpovídá počtu jednotlivých mluvčích, kteří použili danou referenci, v rozsahu od 1 do 17.</ns1:tspan>
+           <ns1:tspan x="0" dy="15">Šlo o reference v různých pádech, tedy např. „v Bibli“, ovšem ne reference formulované jinak; do Bible se tedy nepočítá „podle Nového Zákona“.</ns1:tspan>
+           <ns1:tspan x="0" dy="15">Šedě je podbarvené období 2. světové války, kdy české zákonodárné sbory nezasedaly, červeně období vlády KSČ.</ns1:tspan>
+          </ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+ <g transform="translate(476,525)">
+  <ns0:rect width="200" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(0)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
+       <ns1:text transform="translate(195 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: Zdroj dat: psp.cz" aria-roledescription="text mark" role="graphics-symbol">Zdroj dat: psp.cz</ns1:text>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+</svg>
