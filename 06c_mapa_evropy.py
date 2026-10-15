@@ -6,15 +6,15 @@ app = marimo.App(width="medium")
 
 @app.cell
 def _():
-    import polars as pl
-    import altair as alt
-    import yaml
     import re
-    import pycountry
     from pathlib import Path
+
+    import altair as alt
     import geopandas as gpd
-    from vega_datasets import data
     import marimo as mo
+    import polars as pl
+    import pycountry
+    import yaml
 
     return Path, alt, gpd, mo, pl, pycountry, re, yaml
 
@@ -134,7 +134,6 @@ def _(all_data, datatypy, isbn_ceske_beletrie, nazvy, pl):
 @app.cell
 def _(df_cs):
     df_cs
-    return
 
 
 @app.cell
@@ -142,13 +141,11 @@ def _(df_cs):
     df_cs.explode("obce").group_by("obce").len().sort(
         by="len", descending=True
     ).drop_nulls()
-    return
 
 
 @app.cell
 def _():
     417 / 46
-    return
 
 
 @app.cell
@@ -161,7 +158,6 @@ def _(df_cs):
     df_cs.explode("ulice").group_by("ulice").len().sort(
         by="len", descending=True
     ).drop_nulls()
-    return
 
 
 @app.cell
@@ -169,7 +165,6 @@ def _(df_cs):
     df_cs.explode("odpocinek").group_by("odpocinek").len().sort(
         by="len", descending=True
     ).drop_nulls()
-    return
 
 
 @app.cell
@@ -180,7 +175,6 @@ def _():
 @app.cell
 def _(df_cs, pl):
     df_cs.explode("staty").filter(pl.col("staty").str.contains("Slovens"))
-    return
 
 
 @app.cell
@@ -200,7 +194,6 @@ def _(df_cs, pl):
 @app.cell
 def _(staty):
     len(staty)
-    return
 
 
 @app.cell
@@ -413,9 +406,7 @@ def _(df_cs, get_country_id, pl, prejmenovani, prejmenovani_2):
         .sort(by="len", descending=True)
         .drop_nulls()
         .rename({"staty": "country_name", "len": "n"})
-        .with_columns(
-            pl.col("country_name").map_elements(get_country_id).alias("id")
-        )
+        .with_columns(pl.col("country_name").map_elements(get_country_id).alias("id"))
         .with_columns(pl.col("id").cast(str))
         .with_columns(pl.col("id").str.pad_start(3, "0"))
         .with_columns(
@@ -431,19 +422,16 @@ def _(df_cs, get_country_id, pl, prejmenovani, prejmenovani_2):
 @app.cell
 def _(df):
     df
-    return
 
 
 @app.cell
 def _(df, pl):
     df.filter(pl.col("id").is_null())
-    return
 
 
 @app.cell
 def _(df, pl):
     df.filter(pl.col("country_name").str.contains("Kosov"))
-    return
 
 
 @app.cell
@@ -458,14 +446,11 @@ def _(df, pl):
         .to_list()
     )
     df.filter(pl.col("id").is_in(vickrat))
-    return
 
 
 @app.cell
 def _(alt):
-    high_res_map_url = (
-        "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json"
-    )
+    high_res_map_url = "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-50m.json"
     world_map = alt.topo_feature(high_res_map_url, "countries")
     return (world_map,)
 
@@ -498,9 +483,7 @@ def _(gpd, pl):
     print(gdf.columns.to_list())
 
     gdf_pl = pl.from_pandas(gdf.drop(columns=["geometry"])).select(
-        pl.col(
-            ["ISO_N3", "ISO_A3", "ISO_A3_EH", "ISO_N3_EH", "lat", "lon", "NAME"]
-        )
+        pl.col(["ISO_N3", "ISO_A3", "ISO_A3_EH", "ISO_N3_EH", "lat", "lon", "NAME"])
     )
     return (gdf_pl,)
 
@@ -508,7 +491,6 @@ def _(gpd, pl):
 @app.cell
 def _(gdf_pl, pl):
     gdf_pl.filter(pl.col("NAME").str.contains("Franc"))
-    return
 
 
 @app.cell
@@ -526,9 +508,7 @@ def _(df, df_cs, gdf_pl, pl):
             .alias("lon"),
         )
         .with_columns(
-            ((pl.col("n") / pl.col("n").max()) * 100)
-            .round(1)
-            .alias("podil_z_maxima"),
+            ((pl.col("n") / pl.col("n").max()) * 100).round(1).alias("podil_z_maxima"),
             ((pl.col("n") / len(df_cs)) * 100).round(1).alias("podil"),
         )
         .with_columns(pl.col("podil").sqrt().alias("podil_odmocnica"))
@@ -539,31 +519,26 @@ def _(df, df_cs, gdf_pl, pl):
 @app.cell
 def _(do_grafu):
     do_grafu.sort(by="podil", descending=True).with_row_index(offset=1)
-    return
 
 
 @app.cell
 def _(do_grafu, pl):
     do_grafu.filter(pl.col("country_name").str.contains("Bela"))
-    return
 
 
 @app.cell
 def _(do_grafu, pl):
     do_grafu.filter(pl.col("country_name").str.contains("Kosov"))
-    return
 
 
 @app.cell
 def _(do_grafu, pl):
     do_grafu.filter(pl.col("country_name").str.contains("Kos"))
-    return
 
 
 @app.cell
 def _(world_map):
     print(world_map)
-    return
 
 
 @app.cell
@@ -681,13 +656,11 @@ def _():
 @app.cell
 def _(europe_map):
     europe_map
-    return
 
 
 @app.cell
 def _(europe_map, me_to_neurazi):
     me_to_neurazi(graf=europe_map, kredity="", soubor="06_mapa_evropy")
-    return
 
 
 @app.cell(hide_code=True)
@@ -697,7 +670,6 @@ def _(mo):
 
     TLDR: Není to stoprocentně přesné, ale reálně je ho málo.
     """)
-    return
 
 
 @app.cell
@@ -745,13 +717,11 @@ def _(isbn_ceske_beletrie, nazvy, pl):
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
     ukazky_ceske_beletrie.filter(pl.col("text").str.contains("(?i) turec"))
-    return
 
 
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
     ukazky_ceske_beletrie.filter(pl.col("text").str.contains("(?i) slovens"))
-    return
 
 
 @app.cell
@@ -759,7 +729,6 @@ def _(pl, ukazky_ceske_beletrie):
     ukazky_ceske_beletrie.with_columns(
         pl.col("text").str.split("Bratisl").list.slice(1, 1)
     ).explode("text").filter(pl.col("text").str.len_bytes() > 5)
-    return
 
 
 @app.cell
@@ -769,7 +738,6 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
         df_cs, how="left", on="isbn"
     )
-    return
 
 
 @app.cell
@@ -779,7 +747,6 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
         df_cs, how="left", on="isbn"
     )
-    return
 
 
 @app.cell
@@ -789,7 +756,6 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
         df_cs, how="left", on="isbn"
     )
-    return
 
 
 @app.cell
@@ -799,7 +765,6 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
         df_cs, how="left", on="isbn"
     )
-    return
 
 
 @app.cell
@@ -809,7 +774,6 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
         df_cs, how="left", on="isbn"
     )
-    return
 
 
 @app.cell
@@ -819,7 +783,6 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
         df_cs, how="left", on="isbn"
     )
-    return
 
 
 @app.cell
@@ -827,7 +790,6 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     ukazky_ceske_beletrie.filter(pl.col("kniha").str.contains("Fosilie")).join(
         df_cs, how="left", on="isbn"
     )
-    return
 
 
 @app.cell
@@ -842,7 +804,6 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
         df_cs, how="left", on="isbn"
     )
-    return
 
 
 @app.cell
@@ -850,13 +811,11 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     df_cs.join(ukazky_ceske_beletrie, how="left", on="isbn").select(
         pl.col("slov").sum()
     )
-    return
 
 
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
     ukazky_ceske_beletrie.select(pl.col("slov").median())
-    return
 
 
 @app.cell
@@ -864,15 +823,13 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     ukazky_ceske_beletrie.join(df_cs, how="left", on="isbn").filter(
         pl.col("text").str.contains("Horom")
     )
-    return
 
 
 @app.cell
 def _(df_cs, pl, ukazky_ceske_beletrie):
-    ukazky_ceske_beletrie.join(df_cs, how="left", on="isbn").explode(
-        "obce"
-    ).filter(pl.col("obce") == "Horoměřice")
-    return
+    ukazky_ceske_beletrie.join(df_cs, how="left", on="isbn").explode("obce").filter(
+        pl.col("obce") == "Horoměřice"
+    )
 
 
 @app.cell
@@ -882,7 +839,6 @@ def _(df_cs, pl, ukazky_ceske_beletrie):
     ).explode("text").filter(pl.col("text").str.len_bytes() > 5).join(
         df_cs, how="left", on="isbn"
     )
-    return
 
 
 @app.cell
@@ -910,13 +866,11 @@ def _(df_cs, pl, prejmenovani, prejmenovani_2, ukazky_ceske_beletrie):
 @app.cell
 def _(kontrola):
     kontrola.write_ndjson("data/06_kontrola_zminek_zemi_v_beletrii.json")
-    return
 
 
 @app.cell
 def _(ukazky_ceske_beletrie):
     ukazky_ceske_beletrie
-    return
 
 
 @app.cell
@@ -924,7 +878,6 @@ def _(df_cs, pl):
     df_cs.select(pl.col(["kniha", "staty"])).with_columns(
         pl.col("staty").list.join(", ")
     ).sort(by="kniha").write_csv("06d_seznam_knih_a_statu.csv")
-    return
 
 
 @app.cell(hide_code=True)
@@ -932,7 +885,6 @@ def _(mo):
     mo.md(r"""
     ## Země versus témata
     """)
-    return
 
 
 @app.cell
@@ -949,9 +901,7 @@ def _(df_cs, pl, prejmenovani, prejmenovani_2):
             .pivot(index="country", on=sloupec, values="len")
             .fill_null(1)
             .with_columns(
-                (pl.col("true") / (pl.col("true") + pl.col("false"))).alias(
-                    "podil"
-                ),
+                (pl.col("true") / (pl.col("true") + pl.col("false"))).alias("podil"),
                 (pl.col("true") + pl.col("false")).alias("celkem"),
             )
             .sort(by="podil")
@@ -963,19 +913,16 @@ def _(df_cs, pl, prejmenovani, prejmenovani_2):
 @app.cell
 def _(pl, podily):
     podily("sex").filter(pl.col("celkem") > 10)
-    return
 
 
 @app.cell
 def _(pl, podily):
     podily("nasili").filter(pl.col("celkem") > 10)
-    return
 
 
 @app.cell
 def _(pl, podily):
     podily("alkohol").filter(pl.col("celkem") > 10)
-    return
 
 
 @app.cell(hide_code=True)
@@ -983,67 +930,51 @@ def _(mo):
     mo.md(r"""
     ## Světové strany
     """)
-    return
 
 
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
     len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"Západ[^n]")))
-    return
 
 
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
-    len(
-        ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"\w Západ[^no]"))
-    )
-    return
+    len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"\w Západ[^no]")))
 
 
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
     len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"Východ[^n]")))
-    return
 
 
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
-    len(
-        ukazky_ceske_beletrie.filter(
-            pl.col("text").str.contains(r"\w Východ[^no]")
-        )
-    )
-    return
+    len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"\w Východ[^no]")))
 
 
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
     len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"(?i)západn")))
-    return
 
 
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
     len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"(?i)východn")))
-    return
 
 
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
     len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"(?i)severn")))
-    return
 
 
 @app.cell
 def _(pl, ukazky_ceske_beletrie):
     len(ukazky_ceske_beletrie.filter(pl.col("text").str.contains(r"(?i)jižn")))
-    return
 
 
 @app.cell
 def _():
     136 / 117
-    return
 
 
 @app.cell(hide_code=True)
@@ -1051,7 +982,6 @@ def _(mo):
     mo.md(r"""
     ## Fulltext
     """)
-    return
 
 
 @app.cell
@@ -1084,25 +1014,21 @@ def _(pl, re, ukazky_ceske_beletrie):
 @app.cell
 def _(hledej):
     hledej("Západ")
-    return
 
 
 @app.cell
 def _(hledej):
     hledej("Polsk")
-    return
 
 
 @app.cell
 def _(hledej):
     hledej(" saud")
-    return
 
 
 @app.cell
 def _(hledej):
     hledej("Slovensk")
-    return
 
 
 if __name__ == "__main__":

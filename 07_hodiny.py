@@ -7,8 +7,9 @@ app = marimo.App(width="medium")
 @app.cell
 def _():
     import json
-    import polars as pl
+
     import altair as alt
+    import polars as pl
 
     from src.kristi_promin import kristi_promin
     from src.me_to_neurazi import me_to_neurazi
@@ -17,8 +18,8 @@ def _():
     pl.Config.set_fmt_str_lengths(150)
     pl.Config.set_tbl_width_chars(200)
 
-    alt.themes.register('irozhlas', kristi_promin)
-    alt.theme.enable('irozhlas')
+    alt.themes.register("irozhlas", kristi_promin)
+    alt.theme.enable("irozhlas")
     alt.data_transformers.disable_max_rows()
     return alt, json, me_to_neurazi, pl
 
@@ -41,7 +42,6 @@ def _(cifernik):
 @app.cell
 def _(cifernik_seznam):
     cifernik_seznam
-    return
 
 
 @app.cell
@@ -74,7 +74,6 @@ def _(df, pl):
         .to_list()
     ):
         print(paral)
-    return
 
 
 @app.cell
@@ -87,13 +86,11 @@ def _(df, pl):
         .to_list()
     ):
         print(uryvek)
-    return
 
 
 @app.cell
 def _(df):
     len(" ".join(df.select("uryvek").to_series().to_list()))
-    return
 
 
 @app.cell
@@ -109,13 +106,11 @@ def _(df):
 def _(vypis):
     with open("07_hodiny_casy.txt", "w+", encoding="utf-8") as h:
         h.write(vypis)
-    return
 
 
 @app.cell
 def _(df):
     df
-    return
 
 
 @app.cell
@@ -129,7 +124,6 @@ def _(df):
 @app.cell
 def _(alt, cetnost_hodin):
     alt.Chart(cetnost_hodin).mark_bar().encode(alt.X("h:Q"), alt.Y("len:Q"))
-    return
 
 
 @app.cell
@@ -154,7 +148,6 @@ def _(alt, cetnost_minut):
     alt.Chart(cetnost_minut).mark_bar().encode(
         alt.X("m:Q"), alt.Y("len:Q"), alt.Color("fakt_malo:N")
     )
-    return
 
 
 @app.cell
@@ -170,9 +163,9 @@ def _(cifernik_seznam):
 def _(cas, cifernik_og):
     prehled = "Chybějící časy v české beletrii v Digitální knihovně\n\n-----↓0---↓5---↓10--↓15--↓20--↓25--½--35↓--40↓--45↓--50↓--55↓-min \n"
     nejsou_zanesene = []
-    for i in range(0, 24):
+    for i in range(24):
         radka = f"{i:02} h "
-        for m in range(0, 60):
+        for m in range(60):
             c = f"{i:02}:{m:02}"
             try:
                 blabla = cifernik_og[c]
@@ -188,11 +181,8 @@ def _(cas, cifernik_og):
                 nejsou_zanesene.append(f"{i} hodin {m:02}")
         prehled += radka + "  \n"
     print(prehled)
-    with open(
-        "07_hodiny_prehled_chybejicich.txt", "w+", encoding="utf-8"
-    ) as f_prehled:
+    with open("07_hodiny_prehled_chybejicich.txt", "w+", encoding="utf-8") as f_prehled:
         f_prehled.write(prehled)
-    return
 
 
 @app.cell(hide_code=True)
@@ -200,7 +190,6 @@ def _(mo):
     mo.md(r"""
     ## Pokus o překreslení grafu
     """)
-    return
 
 
 @app.cell
@@ -213,8 +202,8 @@ def _():
 @app.cell
 def _(cifernik_og, pl):
     do_grafu = []
-    for hodiny in range(0, 24):
-        for minuty in range(0, 60):
+    for hodiny in range(24):
+        for minuty in range(60):
             try:
                 if cifernik_og[f"{hodiny:02}:{minuty:02}"] == True:
                     do_grafu.append(
@@ -235,24 +224,34 @@ def _(cifernik_og, pl):
 @app.cell
 def _(do_grafu):
     do_grafu
-    return
 
 
 @app.cell
 def _(alt, do_grafu):
-    chart = alt.Chart(
-        do_grafu, 
-        title=alt.Title('Časy nezachycené v české beletrii v Digitální knihovně (šedé čtverce)')
-    ).mark_rect(
-        stroke='lightgray',   # This creates the "grid" lines around each rectangle
-        strokeWidth=1         # Thickness of the grid lines
-    ).encode(
-        x=alt.X("m:N", axis=alt.Axis(orient="top", domain=False, title='minuta', grid=False)), # Turn off actual axis grid
-        y=alt.Y("h:N", axis=alt.Axis(domain=False, title='hodina', grid=False)),               # Turn off actual axis grid
-        color=alt.Color(
-            "existuje:N",
-            scale=alt.Scale(domain=[True, False], range=["white", "darkgray"]),
-            legend=None
+    chart = (
+        alt.Chart(
+            do_grafu,
+            title=alt.Title(
+                "Časy nezachycené v české beletrii v Digitální knihovně (šedé čtverce)"
+            ),
+        )
+        .mark_rect(
+            stroke="lightgray",  # This creates the "grid" lines around each rectangle
+            strokeWidth=1,  # Thickness of the grid lines
+        )
+        .encode(
+            x=alt.X(
+                "m:N",
+                axis=alt.Axis(orient="top", domain=False, title="minuta", grid=False),
+            ),  # Turn off actual axis grid
+            y=alt.Y(
+                "h:N", axis=alt.Axis(domain=False, title="hodina", grid=False)
+            ),  # Turn off actual axis grid
+            color=alt.Color(
+                "existuje:N",
+                scale=alt.Scale(domain=[True, False], range=["white", "darkgray"]),
+                legend=None,
+            ),
         )
     )
 
@@ -263,13 +262,15 @@ def _(alt, do_grafu):
 @app.cell
 def _(me_to_neurazi):
     help(me_to_neurazi)
-    return
 
 
 @app.cell
 def _(chart, me_to_neurazi):
-    me_to_neurazi(chart, kredity="Hodiny zobrazující čas prostřednictvím ukázek z české beletrie běží na michalkasparek.cz/hodiny.html", soubor="07_hodiny")
-    return
+    me_to_neurazi(
+        chart,
+        kredity="Hodiny zobrazující čas prostřednictvím ukázek z české beletrie běží na michalkasparek.cz/hodiny.html",
+        soubor="07_hodiny",
+    )
 
 
 if __name__ == "__main__":

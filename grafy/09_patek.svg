@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1107 533" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style>
+    @font-face {font-family: "Asap"; src: url("https://data.irozhlas.cz/fonty/Asap-VariableFont_wdth,wght.ttf") format("truetype-variations");} 
+    @font-face {font-family: "Noticia Text"; src: url("https://data.irozhlas.cz/fonty/NoticiaText-Regular.ttf") format("truetype-variations"); font-weight: normal; font-style: normal;}
+    @font-face {font-family: "Noticia Text"; src: url("https://data.irozhlas.cz/fonty/NoticiaText-Bold.ttf") format("truetype-variations"); font-weight: bold; font-style: normal;}
+    .role-axis, .role-mark, .role-axis-label, .role-legend {font-family: "Asap", sans-serif} 
+    .mark-group.role-title { font-family: "'Noticia Text'", "Noticia", serif}
+    </style>
+ <g transform="translate(0)">
+  <ns0:rect width="1107" height="513" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(31,122)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-group role-scope concat_0_group" aria-roledescription="group mark container" role="graphics-object">
+       <ns1:g transform="translate(0)">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-scope concat_0_concat_0_group" aria-roledescription="group mark container" role="graphics-object">
+          <ns1:g transform="translate(0)">
+           <ns1:path class="background" d="M0,0h330v140h-330Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(.5 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,140)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,109)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,78)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,47)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,16)" x2="330" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="X-axis for a discrete scale with 7 values: po, út, st, čt, pá, so, ne" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 140)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(23)" x2="0" y2="5"/>
+                <ns1:line transform="translate(70)" x2="0" y2="5"/>
+                <ns1:line transform="translate(117)" x2="0" y2="5"/>
+                <ns1:line transform="translate(165)" x2="0" y2="5"/>
+                <ns1:line transform="translate(212)" x2="0" y2="5"/>
+                <ns1:line transform="translate(259)" x2="0" y2="5"/>
+                <ns1:line transform="translate(306)" x2="0" y2="5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(23 7) rotate(-90) translate(0 3)">po</ns1:text>
+                <ns1:text transform="translate(70 7) rotate(-90) translate(0 3)">út</ns1:text>
+                <ns1:text transform="translate(117 7) rotate(-90) translate(0 3)">st</ns1:text>
+                <ns1:text transform="translate(164 7) rotate(-90) translate(0 3)">čt</ns1:text>
+                <ns1:text transform="translate(212 7) rotate(-90) translate(0 3)">pá</ns1:text>
+                <ns1:text transform="translate(259 7) rotate(-90) translate(0 3)">so</ns1:text>
+                <ns1:text transform="translate(306 7) rotate(-90) translate(0 3)">ne</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0)" x2="330" y2="0" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0.0 to 0.5" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 .5)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(0,140)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,109)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,78)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,47)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,16)" x2="-5" y2="0"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(-7,143)">0 %</ns1:text>
+                <ns1:text transform="translate(-7 112)">10 %</ns1:text>
+                <ns1:text transform="translate(-7 81)">20 %</ns1:text>
+                <ns1:text transform="translate(-7 50)">30 %</ns1:text>
+                <ns1:text transform="translate(-7 19)">40 %</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,140)" x2="0" y2="-140" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-rect role-mark concat_0_concat_0_marks" aria-roledescription="rect mark container" role="graphics-object">
+             <ns1:path d="M2.357142857142833,56.67161650312346h42.42857142857143v83.32838349687654h-42.42857142857143Z" fill="#6498b1" aria-label="d: po; n: 0.267841232669; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M49.49999999999998,55.807660296095605h42.42857142857143v84.1923397039044h-42.42857142857143Z" fill="#6498b1" aria-label="d: út; n: 0.270618234763; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M96.64285714285712,51.198409282197225h42.42857142857143v88.80159071780278h-42.42857142857143Z" fill="#6498b1" aria-label="d: st; n: 0.28543368445; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M143.78571428571428,52.3066407794065h42.42857142857143v87.69335922059349h-42.42857142857143Z" fill="#6498b1" aria-label="d: čt; n: 0.28187151178; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M190.92857142857142,21.02116802423534h42.42857142857143v118.97883197576466h-42.42857142857143Z" fill="#e57439" aria-label="d: pá; n: 0.382431959922; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M238.07142857142856,5.968865537839603h42.42857142857143v134.0311344621604h-42.42857142857143Z" fill="#e57439" aria-label="d: so; n: 0.430814360771; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M285.2142857142857,3.505682245075852h42.42857142857143v136.49431775492414h-42.42857142857143Z" fill="#6498b1" aria-label="d: ne; n: 0.438731735641; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+            </ns1:g>
+            <ns1:g class="mark-group role-title">
+             <ns1:g transform="translate(-25 -36)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-text role-title-text" aria-label="Title text 'Podíl restaurací s řízkem na poledním menu'" aria-roledescription="title" role="graphics-symbol">
+                <ns1:text transform="translate(0,-1)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="12px" font-weight="bold">Podíl restaurací s řízkem na poledním menu</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text '(z restaurací zveřeňujících nabídku na menicka.cz)'" aria-roledescription="subtitle" role="graphics-symbol">
+                <ns1:text transform="translate(0 20)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="10px">(z restaurací zveřeňujících nabídku na menicka.cz)</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-scope concat_0_concat_1_group" aria-roledescription="group mark container" role="graphics-object">
+          <ns1:g transform="translate(362)">
+           <ns1:path class="background" d="M0,0h330v140h-330Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(.5 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,140)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,100)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,60)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,20)" x2="330" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="X-axis for a discrete scale with 7 values: po, út, st, čt, pá, so, ne" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 140)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(23)" x2="0" y2="5"/>
+                <ns1:line transform="translate(70)" x2="0" y2="5"/>
+                <ns1:line transform="translate(117)" x2="0" y2="5"/>
+                <ns1:line transform="translate(165)" x2="0" y2="5"/>
+                <ns1:line transform="translate(212)" x2="0" y2="5"/>
+                <ns1:line transform="translate(259)" x2="0" y2="5"/>
+                <ns1:line transform="translate(306)" x2="0" y2="5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(23 7) rotate(-90) translate(0 3)">po</ns1:text>
+                <ns1:text transform="translate(70 7) rotate(-90) translate(0 3)">út</ns1:text>
+                <ns1:text transform="translate(117 7) rotate(-90) translate(0 3)">st</ns1:text>
+                <ns1:text transform="translate(164 7) rotate(-90) translate(0 3)">čt</ns1:text>
+                <ns1:text transform="translate(212 7) rotate(-90) translate(0 3)">pá</ns1:text>
+                <ns1:text transform="translate(259 7) rotate(-90) translate(0 3)">so</ns1:text>
+                <ns1:text transform="translate(306 7) rotate(-90) translate(0 3)">ne</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0)" x2="330" y2="0" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0.0 to 3.5" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 .5)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(0,140)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,100)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,60)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,20)" x2="-5" y2="0"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(-7,143)">0</ns1:text>
+                <ns1:text transform="translate(-7,103)">1</ns1:text>
+                <ns1:text transform="translate(-7 63)">2</ns1:text>
+                <ns1:text transform="translate(-7 23)">3</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,140)" x2="0" y2="-140" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-rect role-mark concat_0_concat_1_marks" aria-roledescription="rect mark container" role="graphics-object">
+             <ns1:path d="M2.357142857142833,68.35509138381201h42.42857142857143v71.64490861618799h-42.42857142857143Z" fill="#6498b1" aria-label="d: po; n: 1.7911227154; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M49.49999999999998,61.19555935098207h42.42857142857143v78.80444064901792h-42.42857142857143Z" fill="#6498b1" aria-label="d: út; n: 1.97011101623; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M96.64285714285712,53.73653686826843h42.42857142857143v86.26346313173157h-42.42857142857143Z" fill="#6498b1" aria-label="d: st; n: 2.15658657829; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M143.78571428571428,34.983050847457626h42.42857142857143v105.01694915254237h-42.42857142857143Z" fill="#e57439" aria-label="d: čt; n: 2.62542372881; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M190.92857142857142,15.025380710659906h42.42857142857143v124.9746192893401h-42.42857142857143Z" fill="#e57439" aria-label="d: pá; n: 3.12436548223; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M238.07142857142856,82.47491638795987h42.42857142857143v57.525083612040135h-42.42857142857143Z" fill="#6498b1" aria-label="d: so; n: 1.4381270903; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M285.2142857142857,85.64784053156146h42.42857142857143v54.35215946843854h-42.42857142857143Z" fill="#6498b1" aria-label="d: ne; n: 1.35880398671; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+            </ns1:g>
+            <ns1:g class="mark-group role-title">
+             <ns1:g transform="translate(-12 -36)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-text role-title-text" aria-label="Title text 'Odpolední dopravní situace na D1 u Rohlenky'" aria-roledescription="title" role="graphics-symbol">
+                <ns1:text transform="translate(0,-1)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="12px" font-weight="bold">Odpolední dopravní situace na D1 u Rohlenky</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text '(škála od 0-plynulá, po 5-neprůjezdná, zdroj: doprava-brno.cz)'" aria-roledescription="subtitle" role="graphics-symbol">
+                <ns1:text transform="translate(0 20)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="10px">(škála od 0-plynulá, po 5-neprůjezdná, zdroj: doprava-brno.cz)</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-scope concat_0_concat_2_group" aria-roledescription="group mark container" role="graphics-object">
+          <ns1:g transform="translate(741)">
+           <ns1:path class="background" d="M0,0h330v140h-330Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(.5 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,140)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,101)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,62)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,23)" x2="330" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="X-axis for a discrete scale with 7 values: po, út, st, čt, pá, so, ne" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 140)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(23)" x2="0" y2="5"/>
+                <ns1:line transform="translate(70)" x2="0" y2="5"/>
+                <ns1:line transform="translate(117)" x2="0" y2="5"/>
+                <ns1:line transform="translate(165)" x2="0" y2="5"/>
+                <ns1:line transform="translate(212)" x2="0" y2="5"/>
+                <ns1:line transform="translate(259)" x2="0" y2="5"/>
+                <ns1:line transform="translate(306)" x2="0" y2="5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(23 7) rotate(-90) translate(0 3)">po</ns1:text>
+                <ns1:text transform="translate(70 7) rotate(-90) translate(0 3)">út</ns1:text>
+                <ns1:text transform="translate(117 7) rotate(-90) translate(0 3)">st</ns1:text>
+                <ns1:text transform="translate(164 7) rotate(-90) translate(0 3)">čt</ns1:text>
+                <ns1:text transform="translate(212 7) rotate(-90) translate(0 3)">pá</ns1:text>
+                <ns1:text transform="translate(259 7) rotate(-90) translate(0 3)">so</ns1:text>
+                <ns1:text transform="translate(306 7) rotate(-90) translate(0 3)">ne</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0)" x2="330" y2="0" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 1,800" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 .5)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(0,140)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,101)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,62)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,23)" x2="-5" y2="0"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(-7,143)">0</ns1:text>
+                <ns1:text transform="translate(-7 104)">500</ns1:text>
+                <ns1:text transform="translate(-7 65)">1 000</ns1:text>
+                <ns1:text transform="translate(-7 26)">1 500</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,140)" x2="0" y2="-140" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-rect role-mark concat_0_concat_2_marks" aria-roledescription="rect mark container" role="graphics-object">
+             <ns1:path d="M2.357142857142833,26.644243156199686h42.42857142857143v113.35575684380032h-42.42857142857143Z" fill="#6498b1" aria-label="d: po; n: 1457.43115942; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M49.49999999999998,28.96013581852334h42.42857142857143v111.03986418147666h-42.42857142857143Z" fill="#6498b1" aria-label="d: út; n: 1427.65539662; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M96.64285714285712,29.503830947511933h42.42857142857143v110.49616905248807h-42.42857142857143Z" fill="#6498b1" aria-label="d: st; n: 1420.66503067; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M143.78571428571428,20.008136482939623h42.42857142857143v119.99186351706038h-42.42857142857143Z" fill="#6498b1" aria-label="d: čt; n: 1542.75253093; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M190.92857142857142,12.64035728786033h42.42857142857143v127.35964271213967h-42.42857142857143Z" fill="#e57439" aria-label="d: pá; n: 1637.48112058; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M238.07142857142856,15.600685871056228h42.42857142857143v124.39931412894377h-42.42857142857143Z" fill="#e57439" aria-label="d: so; n: 1599.41975309; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M285.2142857142857,23.842198581560275h42.42857142857143v116.15780141843973h-42.42857142857143Z" fill="#6498b1" aria-label="d: ne; n: 1493.45744681; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+            </ns1:g>
+            <ns1:g class="mark-group role-title">
+             <ns1:g transform="translate(-28 -36)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-text role-title-text" aria-label="Title text 'Cena za dvojlůžkový pokoj v Beskydech'" aria-roledescription="title" role="graphics-symbol">
+                <ns1:text transform="translate(0,-1)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="12px" font-weight="bold">Cena za dvojlůžkový pokoj v Beskydech</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text '(v korunách, zdroj: airbnb.com)'" aria-roledescription="subtitle" role="graphics-symbol">
+                <ns1:text transform="translate(0 20)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="10px">(v korunách, zdroj: airbnb.com)</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-scope concat_1_group" aria-roledescription="group mark container" role="graphics-object">
+       <ns1:g transform="translate(0,228)">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-group role-scope concat_1_concat_0_group" aria-roledescription="group mark container" role="graphics-object">
+          <ns1:g transform="translate(0)">
+           <ns1:path class="background" d="M0,0h330v140h-330Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(.5 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,140)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,105)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,70)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,35)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0)" x2="330" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="X-axis for a discrete scale with 7 values: po, út, st, čt, pá, so, ne" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 140)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(23)" x2="0" y2="5"/>
+                <ns1:line transform="translate(70)" x2="0" y2="5"/>
+                <ns1:line transform="translate(117)" x2="0" y2="5"/>
+                <ns1:line transform="translate(165)" x2="0" y2="5"/>
+                <ns1:line transform="translate(212)" x2="0" y2="5"/>
+                <ns1:line transform="translate(259)" x2="0" y2="5"/>
+                <ns1:line transform="translate(306)" x2="0" y2="5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(23 7) rotate(-90) translate(0 3)">po</ns1:text>
+                <ns1:text transform="translate(70 7) rotate(-90) translate(0 3)">út</ns1:text>
+                <ns1:text transform="translate(117 7) rotate(-90) translate(0 3)">st</ns1:text>
+                <ns1:text transform="translate(164 7) rotate(-90) translate(0 3)">čt</ns1:text>
+                <ns1:text transform="translate(212 7) rotate(-90) translate(0 3)">pá</ns1:text>
+                <ns1:text transform="translate(259 7) rotate(-90) translate(0 3)">so</ns1:text>
+                <ns1:text transform="translate(306 7) rotate(-90) translate(0 3)">ne</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0)" x2="330" y2="0" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 80" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 .5)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(0,140)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,105)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,70)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,35)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0)" x2="-5" y2="0"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(-7,143)">0</ns1:text>
+                <ns1:text transform="translate(-7,108)">20</ns1:text>
+                <ns1:text transform="translate(-7,73)">40</ns1:text>
+                <ns1:text transform="translate(-7,38)">60</ns1:text>
+                <ns1:text transform="translate(-7,3)">80</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,140)" x2="0" y2="-140" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-rect role-mark concat_1_concat_0_marks" aria-roledescription="rect mark container" role="graphics-object">
+             <ns1:path d="M2.357142857142833,87.13541666666667h42.42857142857143v52.86458333333333h-42.42857142857143Z" fill="#6498b1" aria-label="d: po; n: 30.2083333333; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M49.49999999999998,84.20052083333333h42.42857142857143v55.79947916666667h-42.42857142857143Z" fill="#6498b1" aria-label="d: út; n: 31.8854166667; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M96.64285714285712,79.75260416666666h42.42857142857143v60.24739583333334h-42.42857142857143Z" fill="#6498b1" aria-label="d: st; n: 34.4270833333; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M143.78571428571428,73.609375h42.42857142857143v66.390625h-42.42857142857143Z" fill="#e57439" aria-label="d: čt; n: 37.9375; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M190.92857142857142,49.966145833333336h42.42857142857143v90.03385416666666h-42.42857142857143Z" fill="#e57439" aria-label="d: pá; n: 51.4479166667; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M238.07142857142856,8.55357142857142h42.42857142857143v131.44642857142858h-42.42857142857143Z" fill="#6498b1" aria-label="d: so; n: 75.112244898; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M285.2142857142857,11.62499999999999h42.42857142857143v128.375h-42.42857142857143Z" fill="#6498b1" aria-label="d: ne; n: 73.3571428571; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+            </ns1:g>
+            <ns1:g class="mark-group role-title">
+             <ns1:g transform="translate(-17 -40)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-text role-title-text" aria-label="Title text 'Hledání receptů na bábovku'" aria-roledescription="title" role="graphics-symbol">
+                <ns1:text transform="translate(0,-1)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="12px" font-weight="bold">Hledání receptů na bábovku</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text '(zdroj: seznam.cz)'" aria-roledescription="subtitle" role="graphics-symbol">
+                <ns1:text transform="translate(0 20)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="10px">(zdroj: seznam.cz)</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-scope concat_1_concat_1_group" aria-roledescription="group mark container" role="graphics-object">
+          <ns1:g transform="translate(367)">
+           <ns1:path class="background" d="M0,0h330v140h-330Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(.5 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,140)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,96)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,53)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,9)" x2="330" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="X-axis for a discrete scale with 7 values: po, út, st, čt, pá, so, ne" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 140)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(23)" x2="0" y2="5"/>
+                <ns1:line transform="translate(70)" x2="0" y2="5"/>
+                <ns1:line transform="translate(117)" x2="0" y2="5"/>
+                <ns1:line transform="translate(165)" x2="0" y2="5"/>
+                <ns1:line transform="translate(212)" x2="0" y2="5"/>
+                <ns1:line transform="translate(259)" x2="0" y2="5"/>
+                <ns1:line transform="translate(306)" x2="0" y2="5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(23 7) rotate(-90) translate(0 3)">po</ns1:text>
+                <ns1:text transform="translate(70 7) rotate(-90) translate(0 3)">út</ns1:text>
+                <ns1:text transform="translate(117 7) rotate(-90) translate(0 3)">st</ns1:text>
+                <ns1:text transform="translate(164 7) rotate(-90) translate(0 3)">čt</ns1:text>
+                <ns1:text transform="translate(212 7) rotate(-90) translate(0 3)">pá</ns1:text>
+                <ns1:text transform="translate(259 7) rotate(-90) translate(0 3)">so</ns1:text>
+                <ns1:text transform="translate(306 7) rotate(-90) translate(0 3)">ne</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0)" x2="330" y2="0" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 16" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 .5)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(0,140)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,96)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,53)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,9)" x2="-5" y2="0"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(-7,143)">0</ns1:text>
+                <ns1:text transform="translate(-7 99)">5</ns1:text>
+                <ns1:text transform="translate(-7 56)">10</ns1:text>
+                <ns1:text transform="translate(-7 12)">15</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,140)" x2="0" y2="-140" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-rect role-mark concat_1_concat_1_marks" aria-roledescription="rect mark container" role="graphics-object">
+             <ns1:path d="M2.357142857142833,100.625h42.42857142857143v39.375h-42.42857142857143Z" fill="#6498b1" aria-label="d: po; n: 4.5; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M49.49999999999998,104.05092592592594h42.42857142857143v35.94907407407406h-42.42857142857143Z" fill="#6498b1" aria-label="d: út; n: 4.10846560847; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M96.64285714285712,106.89583333333333h42.42857142857143v33.10416666666667h-42.42857142857143Z" fill="#6498b1" aria-label="d: st; n: 3.78333333333; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M143.78571428571428,98.80208333333334h42.42857142857143v41.19791666666666h-42.42857142857143Z" fill="#e57439" aria-label="d: čt; n: 4.70833333333; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M190.92857142857142,77.51041666666667h42.42857142857143v62.48958333333333h-42.42857142857143Z" fill="#e57439" aria-label="d: pá; n: 7.14166666667; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M238.07142857142856,5.845286885245895h42.42857142857143v134.15471311475412h-42.42857142857143Z" fill="#6498b1" aria-label="d: so; n: 15.3319672131; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M285.2142857142857,29.216101694915263h42.42857142857143v110.78389830508473h-42.42857142857143Z" fill="#6498b1" aria-label="d: ne; n: 12.6610169492; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+            </ns1:g>
+            <ns1:g class="mark-group role-title">
+             <ns1:g transform="translate(-17 -36)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-text role-title-text" aria-label="Title text 'Cyklovýjezdy na Klínovec'" aria-roledescription="title" role="graphics-symbol">
+                <ns1:text transform="translate(0,-1)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="12px" font-weight="bold">Cyklovýjezdy na Klínovec</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text '(bez závodu v sobotu 19. 7. 2025, zdroj. strava.com)'" aria-roledescription="subtitle" role="graphics-symbol">
+                <ns1:text transform="translate(0 20)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="10px">(bez závodu v sobotu 19. 7. 2025, zdroj. strava.com)</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+         <ns1:g class="mark-group role-scope concat_1_concat_2_group" aria-roledescription="group mark container" role="graphics-object">
+          <ns1:g transform="translate(739)">
+           <ns1:path class="background" d="M0,0h330v140h-330Z" aria-hidden="true"/>
+           <ns1:g>
+            <ns1:g class="mark-group role-axis" aria-hidden="true">
+             <ns1:g transform="translate(.5 .5)">
+              <ns1:path class="background" d="M0,0h0v0h0Z" pointer-events="none" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-grid" pointer-events="none" stroke="#ddd">
+                <ns1:line transform="translate(0,140)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,101)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,62)" x2="330" y2="0"/>
+                <ns1:line transform="translate(0,23)" x2="330" y2="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" pointer-events="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="X-axis for a discrete scale with 7 values: po, út, st, čt, pá, so, ne" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 140)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(23)" x2="0" y2="5"/>
+                <ns1:line transform="translate(70)" x2="0" y2="5"/>
+                <ns1:line transform="translate(117)" x2="0" y2="5"/>
+                <ns1:line transform="translate(165)" x2="0" y2="5"/>
+                <ns1:line transform="translate(212)" x2="0" y2="5"/>
+                <ns1:line transform="translate(259)" x2="0" y2="5"/>
+                <ns1:line transform="translate(306)" x2="0" y2="5"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(23 7) rotate(-90) translate(0 3)">po</ns1:text>
+                <ns1:text transform="translate(70 7) rotate(-90) translate(0 3)">út</ns1:text>
+                <ns1:text transform="translate(117 7) rotate(-90) translate(0 3)">st</ns1:text>
+                <ns1:text transform="translate(164 7) rotate(-90) translate(0 3)">čt</ns1:text>
+                <ns1:text transform="translate(212 7) rotate(-90) translate(0 3)">pá</ns1:text>
+                <ns1:text transform="translate(259 7) rotate(-90) translate(0 3)">so</ns1:text>
+                <ns1:text transform="translate(306 7) rotate(-90) translate(0 3)">ne</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0)" x2="330" y2="0" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-group role-axis" aria-label="Y-axis for a linear scale with values from 0 to 180" aria-roledescription="axis" role="graphics-symbol">
+             <ns1:g transform="translate(.5 .5)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-rule role-axis-tick" stroke="#DCDDD6">
+                <ns1:line transform="translate(0,140)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,101)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,62)" x2="-5" y2="0"/>
+                <ns1:line transform="translate(0,23)" x2="-5" y2="0"/>
+               </ns1:g>
+               <ns1:g class="mark-text role-axis-label" fill="#292829" font-family="Asap" font-size="9px" text-anchor="end">
+                <ns1:text transform="translate(-7,143)">0</ns1:text>
+                <ns1:text transform="translate(-7 104)">50</ns1:text>
+                <ns1:text transform="translate(-7 65)">100</ns1:text>
+                <ns1:text transform="translate(-7 26)">150</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-rule role-axis-domain">
+                <ns1:line transform="translate(0,140)" x2="0" y2="-140" stroke="#888" stroke-opacity="0"/>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+            <ns1:g class="mark-rect role-mark concat_1_concat_2_marks" aria-roledescription="rect mark container" role="graphics-object">
+             <ns1:path d="M2.357142857142833,24.636768182450297h42.42857142857143v115.3632318175497h-42.42857142857143Z" fill="#6498b1" aria-label="d: po; n: 148.324155194; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M49.49999999999998,26.454154529060894h42.42857142857143v113.5458454709391h-42.42857142857143Z" fill="#6498b1" aria-label="d: út; n: 145.987515605; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M96.64285714285712,49.60406091370558h42.42857142857143v90.39593908629442h-42.42857142857143Z" fill="#6498b1" aria-label="d: st; n: 116.223350254; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M143.78571428571428,79.2072621641249h42.42857142857143v60.7927378358751h-42.42857142857143Z" fill="#6498b1" aria-label="d: čt; n: 78.1620915033; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M190.92857142857142,107.47216793340571h42.42857142857143v32.527832066594286h-42.42857142857143Z" fill="#e57439" aria-label="d: pá; n: 41.8214983713; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M238.07142857142856,15.218423551756882h42.42857142857143v124.78157644824311h-42.42857142857143Z" fill="#6498b1" aria-label="d: so; n: 160.433455433; blizko: false" aria-roledescription="bar" role="graphics-symbol"/>
+             <ns1:path d="M285.2142857142857,116.90686274509804h42.42857142857143v23.09313725490196h-42.42857142857143Z" fill="#e57439" aria-label="d: ne; n: 29.6911764706; blizko: true" aria-roledescription="bar" role="graphics-symbol"/>
+            </ns1:g>
+            <ns1:g class="mark-group role-title">
+             <ns1:g transform="translate(-21 -36)" pointer-events="none">
+              <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+              <ns1:g>
+               <ns1:g class="mark-text role-title-text" aria-label="Title text 'Volná místa v regiojetech mezi Prahou a Ostravou'" aria-roledescription="title" role="graphics-symbol">
+                <ns1:text transform="translate(0,-1)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="12px" font-weight="bold">Volná místa v regiojetech mezi Prahou a Ostravou</ns1:text>
+               </ns1:g>
+               <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text '(počet míst v prům. odpoledním vlaku v den nákupu, zdroj: regiojet.cz)'" aria-roledescription="subtitle" role="graphics-symbol">
+                <ns1:text transform="translate(0 20)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="10px">(počet míst v prům. odpoledním vlaku v den nákupu, zdroj: regiojet.cz)</ns1:text>
+               </ns1:g>
+              </ns1:g>
+              <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+             </ns1:g>
+            </ns1:g>
+           </ns1:g>
+           <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+          </ns1:g>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+      <ns1:g class="mark-group role-title">
+       <ns1:g transform="translate(-25 -106)" pointer-events="none">
+        <ns1:path class="background" d="M0,0h0v0h0Z" aria-hidden="true"/>
+        <ns1:g>
+         <ns1:g class="mark-text role-title-text" aria-label="Title text 'Ke kterému dni má pátek nejblíž'" aria-roledescription="title" role="graphics-symbol">
+          <ns1:text transform="translate(0,4)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="18px" font-weight="bold">Ke kterému dni má pátek nejblíž</ns1:text>
+         </ns1:g>
+         <ns1:g class="mark-text role-title-subtitle" aria-label="Subtitle text 'Pátek a den s hodnotou nejbližší té páteční jsou zvýrazněny stejnou barvou. Sledovány jsou průměry v „normálních“ týdnech (bez svátků apod.) v posledním roce až dvou – podle zdroje dat.'" aria-roledescription="subtitle" role="graphics-symbol">
+          <ns1:text transform="translate(0,29)" fill="#292829" font-family="'Noticia Text', Noticia, serif" font-size="14px">
+           <ns1:tspan>Pátek a den s hodnotou nejbližší té páteční jsou zvýrazněny stejnou barvou. Sledovány jsou průměry</ns1:tspan>
+           <ns1:tspan x="0" dy="15">v „normálních“ týdnech (bez svátků apod.) v posledním roce až dvou – podle zdroje dat.</ns1:tspan>
+          </ns1:text>
+         </ns1:g>
+        </ns1:g>
+        <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+       </ns1:g>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+ <g transform="translate(907,516)">
+  <ns0:rect width="200" height="17" fill="white" xmlns:ns0="http://www.w3.org/2000/svg"/>
+  <ns1:g transform="translate(0)" fill="none" stroke-miterlimit="10" xmlns:ns1="http://www.w3.org/2000/svg">
+   <ns1:g class="mark-group role-frame root" aria-roledescription="group mark container" role="graphics-object">
+    <ns1:g transform="translate(0)">
+     <ns1:path class="background" d="M0.5,0.5h200v15h-200Z" aria-hidden="true"/>
+     <ns1:g>
+      <ns1:g class="mark-text role-mark marks" aria-roledescription="text mark container" role="graphics-object">
+       <ns1:text transform="translate(195 14)" fill="#292829" font-family="Asap" font-size="8px" text-anchor="end" aria-label="text: " aria-roledescription="text mark" role="graphics-symbol"/>
+      </ns1:g>
+     </ns1:g>
+     <ns1:path class="foreground" d="" display="none" aria-hidden="true"/>
+    </ns1:g>
+   </ns1:g>
+  </ns1:g>
+ </g>
+</svg>

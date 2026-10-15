@@ -6,19 +6,18 @@ app = marimo.App(width="medium")
 
 @app.cell
 def _():
-    import os
-    import sys
-    import time
     import datetime
-    import json
+    import os
+    import time
+
+    import polars as pl
     import requests
     from bs4 import BeautifulSoup
-    import polars as pl
 
     def scrape_dk(isbn):
 
         try:
-            isbn = isbn.replace("-","")
+            isbn = isbn.replace("-", "")
         except:
             pass
 
@@ -42,7 +41,7 @@ def _():
         try:
             r = requests.get(url)
             soup = BeautifulSoup(r.text, "html.parser")
-        except Exception as e:
+        except Exception:
             try:
                 time.sleep(120)
                 r = requests.get(url)
@@ -62,7 +61,7 @@ def _():
             for span in detail_description.find_all("span"):
                 if len(span.text.strip()) == 4:
                     kniha["DK_vyslo"] = int(span.text.strip())
-        except Exception as E:
+        except Exception:
             pass
 
         try:
@@ -78,10 +77,11 @@ def _():
             kurzivy = soup.find_all("i")
             for k in kurzivy:
                 if "hodnocení" in k.text:
-                    kniha["DK_ratings_count"] = int(k.text.split(" hodnocení")[0].strip())
+                    kniha["DK_ratings_count"] = int(
+                        k.text.split(" hodnocení")[0].strip()
+                    )
         except:
             pass
-
 
         try:
             kniha["DK_autorstvo"] = soup.find(class_="author").text.strip()
@@ -92,8 +92,17 @@ def _():
 
         try:
             for potencialni_popisek in soup.find_all(class_="new2 odtop"):
-                if (potencialni_popisek.text.strip() != "Chci vypnout reklamy") and ("Nebo se staňte členem DK Premium a využijte" not in potencialni_popisek.text.strip()) and (potencialni_popisek.text.strip() != "Zobrazit vše"):
-                    kniha['anotace'] = potencialni_popisek.text.replace('... celý text','').strip()
+                if (
+                    (potencialni_popisek.text.strip() != "Chci vypnout reklamy")
+                    and (
+                        "Nebo se staňte členem DK Premium a využijte"
+                        not in potencialni_popisek.text.strip()
+                    )
+                    and (potencialni_popisek.text.strip() != "Zobrazit vše")
+                ):
+                    kniha["anotace"] = potencialni_popisek.text.replace(
+                        "... celý text", ""
+                    ).strip()
         except:
             pass
 
@@ -102,9 +111,12 @@ def _():
             for tr in tabulka.find_all("tr"):
                 try:
                     kniha[
-                        f"""DK_{tr.find_all('td')[0].text.strip().replace(" ","_")}"""
+                        f"""DK_{tr.find_all("td")[0].text.strip().replace(" ", "_")}"""
                     ] = int(
-                        tr.find_all("td")[1].text.replace("x", "").replace(" ", "").strip()
+                        tr.find_all("td")[1]
+                        .text.replace("x", "")
+                        .replace(" ", "")
+                        .strip()
                     )
                 except:
                     pass
@@ -119,7 +131,6 @@ def _():
 @app.cell
 def _(scrape_dk):
     scrape_dk("9788076375031")
-    return
 
 
 @app.cell
@@ -159,7 +170,7 @@ def _(pl):
 def _(pl, schema):
     isbns_scraped = set(
         pl.scan_parquet(
-            f"data/databazeknih/*/*.parquet",
+            "data/databazeknih/*/*.parquet",
             schema=schema,
             missing_columns="insert",
             cast_options=pl.ScanCastOptions(integer_cast="upcast"),
@@ -175,32 +186,34 @@ def _(pl, schema):
 @app.cell
 def _(isbns_scraped):
     isbns_scraped
-    return
 
 
 @app.cell
 def _(isbns_scraped, pl):
-    isbns_pre = [x for x in pl.read_csv('data/isbn_beletrie.csv').to_series().to_list() if x != None]
-    isbns = [x.replace('-','') for x in isbns_pre if x.replace('-','') not in isbns_scraped]
+    isbns_pre = [
+        x
+        for x in pl.read_csv("data/isbn_beletrie.csv").to_series().to_list()
+        if x != None
+    ]
+    isbns = [
+        x.replace("-", "") for x in isbns_pre if x.replace("-", "") not in isbns_scraped
+    ]
     return isbns, isbns_pre
 
 
 @app.cell
 def _(isbns_pre):
     len(isbns_pre)
-    return
 
 
 @app.cell
 def _(isbns):
     len(isbns)
-    return
 
 
 @app.cell
 def _(isbns):
     isbns[0:10]
-    return
 
 
 @app.cell
@@ -237,7 +250,6 @@ def _(date_string, datetime, isbns, os, pl, scrape_dk, slozka):
         )
     )
     print("Hotovo.")
-    return
 
 
 @app.cell
@@ -249,14 +261,11 @@ def _(date_string, os, pl, schema, slozka):
         cast_options=pl.ScanCastOptions(integer_cast="upcast"),
     ).filter(~pl.col("DK_titul").str.contains("Vyhledávání knih")).sort(
         by="DK_date", descending=True
-    ).unique(subset=["ISBN"]).rename(
-        {'anotace':'DK_anotace'}
-    ).with_columns(
-        pl.col("DK_vyslo").cast(pl.Int64,strict=False)
+    ).unique(subset=["ISBN"]).rename({"anotace": "DK_anotace"}).with_columns(
+        pl.col("DK_vyslo").cast(pl.Int64, strict=False)
     ).sink_parquet(
         os.path.join("data/databazeknih", f"databaze_knih_{date_string}.parquet")
     )
-    return
 
 
 if __name__ == "__main__":

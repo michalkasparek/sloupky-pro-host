@@ -15,7 +15,6 @@ def _():
 def _():
     import polars as pl
     from sentence_transformers import SentenceTransformer
-    from sklearn.decomposition import PCA
     from sklearn.metrics.pairwise import cosine_similarity
 
     return SentenceTransformer, cosine_similarity, pl
@@ -39,13 +38,11 @@ def _(pl):
 @app.cell
 def _(df):
     df
-    return
 
 
 @app.cell
 def _(df):
     df.explode("DK_tags").group_by("DK_tags").len().sort(by="len", descending=True)
-    return
 
 
 @app.cell
@@ -70,13 +67,11 @@ def _(SentenceTransformer, df, pl):
 @app.cell
 def _(df_emb, pl):
     df_emb.filter(pl.col("DK_titul") == "Fosilie")
-    return
 
 
 @app.cell
 def _(df_emb):
     df_emb.write_parquet("data/databazeknih_embeddings.parquet")
-    return
 
 
 @app.cell
@@ -99,9 +94,9 @@ def _(anotace_embeddings, cosine_similarity, df, pl):
         similarities = cosine_similarity(target_embedding, embeddings).flatten()
 
         # 3. Format and return results
-        result_df = df.with_columns(
-            pl.Series("similarity_score", similarities)
-        ).sort("similarity_score", descending=True)
+        result_df = df.with_columns(pl.Series("similarity_score", similarities)).sort(
+            "similarity_score", descending=True
+        )
 
         # Return top_n, skipping the first result (which is the book itself)
         return (
@@ -109,7 +104,6 @@ def _(anotace_embeddings, cosine_similarity, df, pl):
             .tail(top_n)
             .select(["DK_titul", "DK_autorstvo", "similarity_score", "DK_anotace"])
         )
-
 
     # --- Example Usage ---
     results = find_similar_by_name(
@@ -125,8 +119,7 @@ def _(anotace_embeddings, cosine_similarity, df, pl):
 
 @app.cell
 def _(os):
-    os.makedirs("data/podobnost/",exist_ok=True)
-    return
+    os.makedirs("data/podobnost/", exist_ok=True)
 
 
 @app.cell
@@ -136,33 +129,22 @@ def _(anotace_embeddings, df, find_similar_by_name):
         anotace_embeddings,
         title="Šikmý kostel",
         author="Karin Lednická",
-        top_n=5000
+        top_n=5000,
     ).write_json("data/podobnost/sikmy_kostel_embeddings.json")
-    return
 
 
 @app.cell
 def _(anotace_embeddings, df, find_similar_by_name):
     find_similar_by_name(
-        df,
-        anotace_embeddings,
-        title="Těla",
-        author="Klára Vlasáková",
-        top_n=5000
+        df, anotace_embeddings, title="Těla", author="Klára Vlasáková", top_n=5000
     ).write_json("data/podobnost/tela_embeddings.json")
-    return
 
 
 @app.cell
 def _(anotace_embeddings, df, find_similar_by_name):
     find_similar_by_name(
-        df,
-        anotace_embeddings,
-        title="Těla",
-        author="Klára Vlasáková",
-        top_n=5000
+        df, anotace_embeddings, title="Těla", author="Klára Vlasáková", top_n=5000
     ).write_json("data/podobnost/tela_embeddings.json")
-    return
 
 
 if __name__ == "__main__":
